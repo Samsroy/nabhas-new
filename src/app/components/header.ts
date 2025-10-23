@@ -1,15 +1,20 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { RouterLink, RouterLinkActive } from "@angular/router";
 
 @Component({
-  selector: 'app-header',
+  selector: "app-header",
   standalone: true,
   imports: [CommonModule, RouterLink, RouterLinkActive],
   template: `
     <header class="bg-white shadow-md">
-      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a routerLink="/" class="flex items-center gap-3 hover:opacity-80 transition">
+      <nav
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a
+          routerLink="/"
+          class="flex items-center gap-3 hover:opacity-80 transition"
+        >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800"
             alt="Nabhas Logo"
@@ -38,6 +43,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
       </nav>
     </header>
   `,
-  styles: []
+  styles: [],
 })
 export class HeaderComponent {}
