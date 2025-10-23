@@ -8,27 +8,29 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   imports: [CommonModule, RouterLink, RouterLinkActive],
   template: `
     <header class="bg-white shadow-md">
-      <nav class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div class="flex items-center gap-2">
-          <div class="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center">
-            <span class="text-white font-bold text-lg">N</span>
-          </div>
-          <span class="text-2xl font-bold text-gray-900">Nabhas</span>
-        </div>
-        
+      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a routerLink="/" class="flex items-center gap-3 hover:opacity-80 transition">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800"
+            alt="Nabhas Logo"
+            class="h-12 w-12 object-contain"
+          />
+          <span class="text-2xl font-bold text-[#1a2a5e]">Nabhas</span>
+        </a>
+
         <div class="flex gap-8">
-          <a 
-            routerLink="/" 
-            routerLinkActive="text-green-600 border-b-2 border-green-600"
+          <a
+            routerLink="/"
+            routerLinkActive="text-[#1a2a5e] border-b-2 border-[#1a2a5e]"
             [routerLinkActiveOptions]="{ exact: true }"
-            class="text-gray-700 hover:text-green-600 transition font-medium py-2"
+            class="text-gray-700 hover:text-[#1a2a5e] transition font-medium py-2"
           >
             Home
           </a>
-          <a 
-            routerLink="/about" 
-            routerLinkActive="text-green-600 border-b-2 border-green-600"
-            class="text-gray-700 hover:text-green-600 transition font-medium py-2"
+          <a
+            routerLink="/about"
+            routerLinkActive="text-[#1a2a5e] border-b-2 border-[#1a2a5e]"
+            class="text-gray-700 hover:text-[#1a2a5e] transition font-medium py-2"
           >
             About Us
           </a>
