@@ -64,15 +64,15 @@ import { CommonModule } from '@angular/common';
                   <span><strong>Sustainability</strong> - Protecting our planet for future generations</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="text-blue-600 font-bold mt-1">✓</span>
+                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
                   <span><strong>Quality</strong> - Excellence in every product we manufacture</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="text-blue-600 font-bold mt-1">✓</span>
+                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
                   <span><strong>Integrity</strong> - Honest business practices and transparency</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="text-blue-600 font-bold mt-1">✓</span>
+                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
                   <span><strong>Innovation</strong> - Continuously improving our products and processes</span>
                 </li>
               </ul>
