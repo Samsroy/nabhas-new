@@ -67,7 +67,7 @@ import { CommonModule } from "@angular/common";
 
             <!-- Paper Cups -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -87,7 +87,7 @@ import { CommonModule } from "@angular/common";
 
             <!-- Paper Glasses -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -109,7 +109,7 @@ import { CommonModule } from "@angular/common";
 
             <!-- Paper Napkins -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -131,7 +131,7 @@ import { CommonModule } from "@angular/common";
 
             <!-- Paper Tissue Rolls -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -153,7 +153,7 @@ import { CommonModule } from "@angular/common";
 
             <!-- Wooden Cutlery -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
