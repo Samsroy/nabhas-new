@@ -12,7 +12,7 @@ import { CommonModule } from "@angular/common";
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-20"
       >
         <div class="container mx-auto px-4">
-          <div class="max-w-3xl">
+          <div class="max-w-3xl animate-fade-in">
             <h1 class="text-5xl font-bold mb-4">
               Eco-Friendly Packaging Solutions
             </h1>
@@ -22,7 +22,7 @@ import { CommonModule } from "@angular/common";
               quality and the environment.
             </p>
             <button
-              class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+              class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition transform hover:scale-105"
             >
               Explore Our Products
             </button>
@@ -45,7 +45,7 @@ import { CommonModule } from "@angular/common";
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Paper Plates -->
             <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
