@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
 
 @Component({
-  selector: 'app-contact',
+  selector: "app-contact",
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
@@ -238,34 +238,41 @@ import { FormsModule } from '@angular/forms';
       </section>
     </div>
   `,
-  styles: []
+  styles: [],
 })
 export class ContactComponent {
   formSubmitted = false;
-  
+
   formData = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-    agree: false
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+    agree: false,
   };
 
   submitForm(): void {
-    if (this.formData.firstName && this.formData.lastName && this.formData.email && this.formData.subject && this.formData.message && this.formData.agree) {
+    if (
+      this.formData.firstName &&
+      this.formData.lastName &&
+      this.formData.email &&
+      this.formData.subject &&
+      this.formData.message &&
+      this.formData.agree
+    ) {
       this.formSubmitted = true;
-      
+
       // Reset form
       this.formData = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        agree: false
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+        agree: false,
       };
 
       // Hide success message after 5 seconds

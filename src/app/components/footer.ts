@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-footer',
+  selector: "app-footer",
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
@@ -102,6 +102,6 @@ import { RouterLink } from '@angular/router';
       </div>
     </footer>
   `,
-  styles: []
+  styles: [],
 })
 export class FooterComponent {}
