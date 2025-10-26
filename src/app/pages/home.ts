@@ -1,5 +1,10 @@
-import { Component } from "@angular/core";
+import { Component, OnInit, OnDestroy } from "@angular/core";
 import { CommonModule } from "@angular/common";
+
+interface Banner {
+  heading: string;
+  description: string;
+}
 
 @Component({
   selector: "app-home",
