@@ -23,54 +23,84 @@ interface Banner {
         <div class="container mx-auto px-4 relative z-10">
           <div class="max-w-3xl">
             <div class="mb-8 h-24 flex items-center">
-              <div *ngIf="currentSlide === 0" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 0"
+                class="animate-banner-fade-in w-full"
+              >
                 <h1 class="text-5xl font-bold">
                   {{ banners[0].heading }}
                 </h1>
               </div>
-              <div *ngIf="currentSlide === 1" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 1"
+                class="animate-banner-fade-in w-full"
+              >
                 <h1 class="text-5xl font-bold">
                   {{ banners[1].heading }}
                 </h1>
               </div>
-              <div *ngIf="currentSlide === 2" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 2"
+                class="animate-banner-fade-in w-full"
+              >
                 <h1 class="text-5xl font-bold">
                   {{ banners[2].heading }}
                 </h1>
               </div>
-              <div *ngIf="currentSlide === 3" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 3"
+                class="animate-banner-fade-in w-full"
+              >
                 <h1 class="text-5xl font-bold">
                   {{ banners[3].heading }}
                 </h1>
               </div>
-              <div *ngIf="currentSlide === 4" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 4"
+                class="animate-banner-fade-in w-full"
+              >
                 <h1 class="text-5xl font-bold">
                   {{ banners[4].heading }}
                 </h1>
               </div>
             </div>
             <div class="mb-8 h-24 flex items-center">
-              <div *ngIf="currentSlide === 0" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 0"
+                class="animate-banner-fade-in w-full"
+              >
                 <p class="text-xl text-blue-50">
                   {{ banners[0].description }}
                 </p>
               </div>
-              <div *ngIf="currentSlide === 1" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 1"
+                class="animate-banner-fade-in w-full"
+              >
                 <p class="text-xl text-blue-50">
                   {{ banners[1].description }}
                 </p>
               </div>
-              <div *ngIf="currentSlide === 2" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 2"
+                class="animate-banner-fade-in w-full"
+              >
                 <p class="text-xl text-blue-50">
                   {{ banners[2].description }}
                 </p>
               </div>
-              <div *ngIf="currentSlide === 3" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 3"
+                class="animate-banner-fade-in w-full"
+              >
                 <p class="text-xl text-blue-50">
                   {{ banners[3].description }}
                 </p>
               </div>
-              <div *ngIf="currentSlide === 4" class="animate-banner-fade-in w-full">
+              <div
+                *ngIf="currentSlide === 4"
+                class="animate-banner-fade-in w-full"
+              >
                 <p class="text-xl text-blue-50">
                   {{ banners[4].description }}
                 </p>
@@ -366,31 +396,36 @@ export class HomeComponent implements OnInit, OnDestroy {
       heading: "Nabhas disposables – paper cutleries",
       description:
         "Premium sustainable disposable products designed for your everyday needs with quality and environmental responsibility.",
-      imageUrl: "https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg",
+      imageUrl:
+        "https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg",
     },
     {
       heading: "Nabhas Retail – grocery store supplies",
       description:
         "Comprehensive range of eco-friendly retail solutions for grocery stores and supermarkets.",
-      imageUrl: "https://images.pexels.com/photos/8422668/pexels-photo-8422668.jpeg",
+      imageUrl:
+        "https://images.pexels.com/photos/8422668/pexels-photo-8422668.jpeg",
     },
     {
       heading: "Nabhas automobiles – two- and four-wheel servicing",
       description:
         "Professional automotive servicing solutions with sustainable and eco-friendly practices.",
-      imageUrl: "https://images.pexels.com/photos/7019598/pexels-photo-7019598.jpeg",
+      imageUrl:
+        "https://images.pexels.com/photos/7019598/pexels-photo-7019598.jpeg",
     },
     {
       heading: "Nabhas technologies – Website development",
       description:
         "Digital solutions and website development services powered by cutting-edge technology.",
-      imageUrl: "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg",
+      imageUrl:
+        "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg",
     },
     {
       heading: "Nabhas healthcare – supplies on stands etc.",
       description:
         "Healthcare supplies and medical equipment designed with quality and safety standards.",
-      imageUrl: "https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg",
+      imageUrl:
+        "https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg",
     },
   ];
 
@@ -401,7 +436,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.bannerIndices = Array.from(
       { length: this.banners.length },
-      (_, i) => i
+      (_, i) => i,
     );
     this.startAutoSlide();
   }
