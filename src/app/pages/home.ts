@@ -363,26 +363,31 @@ export class HomeComponent implements OnInit, OnDestroy {
       heading: "Nabhas disposables – paper cutleries",
       description:
         "Premium sustainable disposable products designed for your everyday needs with quality and environmental responsibility.",
+      imageUrl: "https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg",
     },
     {
       heading: "Nabhas Retail – grocery store supplies",
       description:
         "Comprehensive range of eco-friendly retail solutions for grocery stores and supermarkets.",
+      imageUrl: "https://images.pexels.com/photos/8422668/pexels-photo-8422668.jpeg",
     },
     {
       heading: "Nabhas automobiles – two- and four-wheel servicing",
       description:
         "Professional automotive servicing solutions with sustainable and eco-friendly practices.",
+      imageUrl: "https://images.pexels.com/photos/7019598/pexels-photo-7019598.jpeg",
     },
     {
       heading: "Nabhas technologies – Website development",
       description:
         "Digital solutions and website development services powered by cutting-edge technology.",
+      imageUrl: "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg",
     },
     {
       heading: "Nabhas healthcare – supplies on stands etc.",
       description:
         "Healthcare supplies and medical equipment designed with quality and safety standards.",
+      imageUrl: "https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg",
     },
   ];
 
