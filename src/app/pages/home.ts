@@ -19,22 +19,56 @@ interface Banner {
         <div class="container mx-auto px-4 relative z-10">
           <div class="max-w-3xl">
             <div class="mb-8 h-24 flex items-center">
-              <div
-                [key]="currentSlide"
-                class="animate-banner-fade-in w-full"
-              >
+              <div *ngIf="currentSlide === 0" class="animate-banner-fade-in w-full">
                 <h1 class="text-5xl font-bold">
-                  {{ banners[currentSlide].heading }}
+                  {{ banners[0].heading }}
+                </h1>
+              </div>
+              <div *ngIf="currentSlide === 1" class="animate-banner-fade-in w-full">
+                <h1 class="text-5xl font-bold">
+                  {{ banners[1].heading }}
+                </h1>
+              </div>
+              <div *ngIf="currentSlide === 2" class="animate-banner-fade-in w-full">
+                <h1 class="text-5xl font-bold">
+                  {{ banners[2].heading }}
+                </h1>
+              </div>
+              <div *ngIf="currentSlide === 3" class="animate-banner-fade-in w-full">
+                <h1 class="text-5xl font-bold">
+                  {{ banners[3].heading }}
+                </h1>
+              </div>
+              <div *ngIf="currentSlide === 4" class="animate-banner-fade-in w-full">
+                <h1 class="text-5xl font-bold">
+                  {{ banners[4].heading }}
                 </h1>
               </div>
             </div>
             <div class="mb-8 h-24 flex items-center">
-              <div
-                [key]="'desc-' + currentSlide"
-                class="animate-banner-fade-in w-full"
-              >
+              <div *ngIf="currentSlide === 0" class="animate-banner-fade-in w-full">
                 <p class="text-xl text-blue-50">
-                  {{ banners[currentSlide].description }}
+                  {{ banners[0].description }}
+                </p>
+              </div>
+              <div *ngIf="currentSlide === 1" class="animate-banner-fade-in w-full">
+                <p class="text-xl text-blue-50">
+                  {{ banners[1].description }}
+                </p>
+              </div>
+              <div *ngIf="currentSlide === 2" class="animate-banner-fade-in w-full">
+                <p class="text-xl text-blue-50">
+                  {{ banners[2].description }}
+                </p>
+              </div>
+              <div *ngIf="currentSlide === 3" class="animate-banner-fade-in w-full">
+                <p class="text-xl text-blue-50">
+                  {{ banners[3].description }}
+                </p>
+              </div>
+              <div *ngIf="currentSlide === 4" class="animate-banner-fade-in w-full">
+                <p class="text-xl text-blue-50">
+                  {{ banners[4].description }}
                 </p>
               </div>
             </div>
