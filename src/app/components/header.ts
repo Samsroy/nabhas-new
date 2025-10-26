@@ -23,7 +23,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
           <span class="text-2xl font-bold text-[#1a2a5e]">Nabhas</span>
         </a>
 
-        <div class="flex gap-8">
+        <div class="flex gap-8 items-center">
           <a
             routerLink="/"
             routerLinkActive="text-[#1a2a5e] border-b-2 border-[#1a2a5e]"
@@ -39,6 +39,51 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
           >
             Products
           </a>
+
+          <!-- Services Dropdown Menu -->
+          <div class="relative group">
+            <button
+              class="text-gray-700 hover:text-[#1a2a5e] transition font-medium py-2 flex items-center gap-1"
+            >
+              Services
+              <span class="text-xs">▼</span>
+            </button>
+            <div
+              class="absolute left-0 mt-0 w-56 bg-white shadow-lg rounded-md py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+            >
+              <a
+                routerLink="/services/disposables"
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
+              >
+                Nabhas Disposables
+              </a>
+              <a
+                routerLink="/services/retail"
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
+              >
+                Nabhas Retail
+              </a>
+              <a
+                routerLink="/services/automobiles"
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
+              >
+                Nabhas Automobiles
+              </a>
+              <a
+                routerLink="/services/technologies"
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
+              >
+                Nabhas Technologies
+              </a>
+              <a
+                routerLink="/services/healthcare"
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
+              >
+                Nabhas Healthcare
+              </a>
+            </div>
+          </div>
+
           <a
             routerLink="/about"
             routerLinkActive="text-[#1a2a5e] border-b-2 border-[#1a2a5e]"
