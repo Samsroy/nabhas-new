@@ -14,7 +14,8 @@ import { CommonModule } from "@angular/common";
         <div class="container mx-auto px-4">
           <h1 class="text-5xl font-bold mb-4">Nabhas Technologies</h1>
           <p class="text-xl text-blue-50">
-            Website development and digital solutions powered by cutting-edge technology
+            Website development and digital solutions powered by cutting-edge
+            technology
           </p>
         </div>
       </section>
@@ -23,12 +24,21 @@ import { CommonModule } from "@angular/common";
       <section class="py-16 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">About Nabhas Technologies</h2>
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+              About Nabhas Technologies
+            </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas Technologies specializes in creating innovative digital solutions tailored to your business needs. Our expert team of developers, designers, and digital strategists work collaboratively to transform your vision into reality.
+              Nabhas Technologies specializes in creating innovative digital
+              solutions tailored to your business needs. Our expert team of
+              developers, designers, and digital strategists work
+              collaboratively to transform your vision into reality.
             </p>
             <p class="text-lg text-gray-700">
-              From responsive websites to custom web applications, we leverage the latest technologies and best practices to deliver solutions that drive results. Our approach combines technical excellence with user-centered design to ensure your digital presence stands out.
+              From responsive websites to custom web applications, we leverage
+              the latest technologies and best practices to deliver solutions
+              that drive results. Our approach combines technical excellence
+              with user-centered design to ensure your digital presence stands
+              out.
             </p>
           </div>
         </div>
@@ -41,10 +51,15 @@ import { CommonModule } from "@angular/common";
             Our Technology Services
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Website Development</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Website Development
+              </h3>
               <p class="text-gray-700 mb-4">
-                Custom websites built with modern technologies for optimal performance.
+                Custom websites built with modern technologies for optimal
+                performance.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Responsive design</li>
@@ -55,8 +70,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">E-Commerce Solutions</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                E-Commerce Solutions
+              </h3>
               <p class="text-gray-700 mb-4">
                 Full-featured e-commerce platforms to grow your online business.
               </p>
@@ -69,8 +88,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Web Applications</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Web Applications
+              </h3>
               <p class="text-gray-700 mb-4">
                 Scalable web applications tailored to your business processes.
               </p>
@@ -83,8 +106,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">UI/UX Design</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                UI/UX Design
+              </h3>
               <p class="text-gray-700 mb-4">
                 Beautiful and intuitive designs that enhance user experience.
               </p>
@@ -97,10 +124,15 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Digital Marketing</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Digital Marketing
+              </h3>
               <p class="text-gray-700 mb-4">
-                Comprehensive digital strategies to maximize your online visibility.
+                Comprehensive digital strategies to maximize your online
+                visibility.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ SEO optimization</li>
@@ -111,8 +143,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Maintenance & Support</h3>
+            <div
+              class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Maintenance & Support
+              </h3>
               <p class="text-gray-700 mb-4">
                 Ongoing support to keep your digital solutions running smoothly.
               </p>
@@ -171,7 +207,9 @@ import { CommonModule } from "@angular/common";
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 💡
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation</h3>
@@ -181,7 +219,9 @@ import { CommonModule } from "@angular/common";
             </div>
 
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 👥
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
@@ -191,10 +231,14 @@ import { CommonModule } from "@angular/common";
             </div>
 
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 🎯
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Results-Driven</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Results-Driven
+              </h3>
               <p class="text-gray-700">
                 Focused on delivering measurable results and ROI.
               </p>
@@ -208,9 +252,12 @@ import { CommonModule } from "@angular/common";
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
         <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Transform Your Digital Presence</h2>
+          <h2 class="text-4xl font-bold mb-4">
+            Transform Your Digital Presence
+          </h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Let's build something amazing together with our technology solutions.
+            Let's build something amazing together with our technology
+            solutions.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"

@@ -14,7 +14,8 @@ import { CommonModule } from "@angular/common";
         <div class="container mx-auto px-4">
           <h1 class="text-5xl font-bold mb-4">Nabhas Healthcare</h1>
           <p class="text-xl text-blue-50">
-            Healthcare supplies and medical equipment designed with quality and safety standards
+            Healthcare supplies and medical equipment designed with quality and
+            safety standards
           </p>
         </div>
       </section>
@@ -23,12 +24,21 @@ import { CommonModule } from "@angular/common";
       <section class="py-16 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">About Nabhas Healthcare</h2>
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+              About Nabhas Healthcare
+            </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas Healthcare is committed to providing high-quality medical supplies and healthcare products that meet the highest international standards. Our comprehensive range of products serves hospitals, clinics, nursing homes, and individual healthcare providers.
+              Nabhas Healthcare is committed to providing high-quality medical
+              supplies and healthcare products that meet the highest
+              international standards. Our comprehensive range of products
+              serves hospitals, clinics, nursing homes, and individual
+              healthcare providers.
             </p>
             <p class="text-lg text-gray-700">
-              With a focus on safety, reliability, and innovation, we ensure that every product in our portfolio contributes to better healthcare outcomes. Our team understands the critical nature of healthcare supplies and maintains strict quality control measures.
+              With a focus on safety, reliability, and innovation, we ensure
+              that every product in our portfolio contributes to better
+              healthcare outcomes. Our team understands the critical nature of
+              healthcare supplies and maintains strict quality control measures.
             </p>
           </div>
         </div>
@@ -41,10 +51,15 @@ import { CommonModule } from "@angular/common";
             Our Healthcare Products
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Medical Supplies</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Medical Supplies
+              </h3>
               <p class="text-gray-700 mb-4">
-                Essential medical supplies for hospitals and healthcare facilities.
+                Essential medical supplies for hospitals and healthcare
+                facilities.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Sterile gloves</li>
@@ -55,8 +70,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Diagnostic Equipment</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Diagnostic Equipment
+              </h3>
               <p class="text-gray-700 mb-4">
                 Modern diagnostic tools for accurate patient assessment.
               </p>
@@ -69,8 +88,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Mobility Aids</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Mobility Aids
+              </h3>
               <p class="text-gray-700 mb-4">
                 Assistive devices to improve patient mobility and independence.
               </p>
@@ -83,8 +106,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Patient Care Products</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Patient Care Products
+              </h3>
               <p class="text-gray-700 mb-4">
                 Comfortable and hygienic products for patient care and comfort.
               </p>
@@ -97,10 +124,15 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Hygiene & Safety</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Hygiene & Safety
+              </h3>
               <p class="text-gray-700 mb-4">
-                Products ensuring hygiene standards and safety in healthcare settings.
+                Products ensuring hygiene standards and safety in healthcare
+                settings.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Hand sanitizers</li>
@@ -111,8 +143,12 @@ import { CommonModule } from "@angular/common";
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]">
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Therapeutic Equipment</h3>
+            <div
+              class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Therapeutic Equipment
+              </h3>
               <p class="text-gray-700 mb-4">
                 Equipment supporting rehabilitation and therapy programs.
               </p>
@@ -136,30 +172,43 @@ import { CommonModule } from "@angular/common";
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 ✓
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">ISO Certified</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                ISO Certified
+              </h3>
               <p class="text-gray-700">
                 All products meet ISO quality standards for safety and efficacy.
               </p>
             </div>
 
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 📋
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Regulatory Approval</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Regulatory Approval
+              </h3>
               <p class="text-gray-700">
-                Approved by relevant healthcare regulatory bodies and authorities.
+                Approved by relevant healthcare regulatory bodies and
+                authorities.
               </p>
             </div>
 
             <div class="text-center">
-              <div class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 🔬
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Clinical Testing</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Clinical Testing
+              </h3>
               <p class="text-gray-700">
                 Rigorous testing ensuring effectiveness and safety for patients.
               </p>
@@ -175,29 +224,46 @@ import { CommonModule } from "@angular/common";
             Why Choose Nabhas Healthcare?
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg">
-              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">Comprehensive Range</h3>
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+            >
+              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
+                Comprehensive Range
+              </h3>
               <p class="text-gray-700">
-                Complete selection of healthcare products for all facility needs.
+                Complete selection of healthcare products for all facility
+                needs.
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg">
-              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">Reliable Quality</h3>
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+            >
+              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
+                Reliable Quality
+              </h3>
               <p class="text-gray-700">
                 Consistent quality and reliability you can depend on.
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg">
-              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">Expert Support</h3>
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+            >
+              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
+                Expert Support
+              </h3>
               <p class="text-gray-700">
                 Knowledgeable team providing guidance on product selection.
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg">
-              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">Competitive Pricing</h3>
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+            >
+              <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
+                Competitive Pricing
+              </h3>
               <p class="text-gray-700">
                 Value for money without compromising on quality.
               </p>
@@ -213,7 +279,8 @@ import { CommonModule } from "@angular/common";
         <div class="container mx-auto text-center">
           <h2 class="text-4xl font-bold mb-4">Improve Healthcare Quality</h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Partner with Nabhas Healthcare for reliable medical supplies and equipment.
+            Partner with Nabhas Healthcare for reliable medical supplies and
+            equipment.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"

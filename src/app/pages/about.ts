@@ -23,12 +23,23 @@ import { CommonModule } from "@angular/common";
       <section class="py-16 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">The Meaning of Nabhas</h2>
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+              The Meaning of Nabhas
+            </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas holds significant meaning across multiple ancient cultures and philosophies. The term appears in Buddhism, Pali, Hinduism, Sanskrit, Jainism, and Prakrit traditions. In Jainism, Nabhas (नभस्) refers to the "atmosphere," a concept described in the 11th century Jñānārṇava, a treatise on Jain Yoga. According to this ancient wisdom, the cosmos is envisioned as the shape of a palm tree filled with the three worlds, surrounded by the three winds.
+              Nabhas holds significant meaning across multiple ancient cultures
+              and philosophies. The term appears in Buddhism, Pali, Hinduism,
+              Sanskrit, Jainism, and Prakrit traditions. In Jainism, Nabhas
+              (नभस्) refers to the "atmosphere," a concept described in the 11th
+              century Jñānārṇava, a treatise on Jain Yoga. According to this
+              ancient wisdom, the cosmos is envisioned as the shape of a palm
+              tree filled with the three worlds, surrounded by the three winds.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              This profound meaning—encompassing the atmosphere and the cosmos—reflects our commitment to environmental stewardship and global responsibility. Our name embodies the essence of sustainability and the interconnectedness of all living things.
+              This profound meaning—encompassing the atmosphere and the
+              cosmos—reflects our commitment to environmental stewardship and
+              global responsibility. Our name embodies the essence of
+              sustainability and the interconnectedness of all living things.
             </p>
           </div>
         </div>
@@ -38,15 +49,26 @@ import { CommonModule } from "@angular/common";
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">About M/S NABHAS</h2>
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+              About M/S NABHAS
+            </h2>
             <p class="text-lg text-gray-700 mb-4">
-              M/S NABHAS is a sole proprietorship firm headquartered in Ahmadabad, Gujarat, India. The company originally started in Kolkata, India, trading in handicrafts such as lamps and gift items before expanding operations across the globe.
+              M/S NABHAS is a sole proprietorship firm headquartered in
+              Ahmadabad, Gujarat, India. The company originally started in
+              Kolkata, India, trading in handicrafts such as lamps and gift
+              items before expanding operations across the globe.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              Founded by a visionary women entrepreneur, M/S NABHAS is built on a strong foundation of consumer goods distribution, food retail, digital channels, technology-driven marketing tools, garments and apparel, and e-commerce expertise.
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on
+              a strong foundation of consumer goods distribution, food retail,
+              digital channels, technology-driven marketing tools, garments and
+              apparel, and e-commerce expertise.
             </p>
             <p class="text-lg text-gray-700">
-              Today, Nabhas operates across five primary business divisions, each designed to meet diverse market needs while maintaining our core commitment to quality, sustainability, and customer satisfaction.
+              Today, Nabhas operates across five primary business divisions,
+              each designed to meet diverse market needs while maintaining our
+              core commitment to quality, sustainability, and customer
+              satisfaction.
             </p>
           </div>
         </div>
@@ -66,7 +88,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Disposables
               </h3>
               <p class="text-gray-700 text-lg">
-                Premium paper cutleries and disposable products designed for sustainability and convenience.
+                Premium paper cutleries and disposable products designed for
+                sustainability and convenience.
               </p>
             </div>
 
@@ -77,7 +100,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Retail
               </h3>
               <p class="text-gray-700 text-lg">
-                Comprehensive grocery store supplies catering to retail businesses and supermarkets.
+                Comprehensive grocery store supplies catering to retail
+                businesses and supermarkets.
               </p>
             </div>
 
@@ -88,7 +112,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Automobiles
               </h3>
               <p class="text-gray-700 text-lg">
-                Professional two- and four-wheel servicing solutions with sustainable practices.
+                Professional two- and four-wheel servicing solutions with
+                sustainable practices.
               </p>
             </div>
 
@@ -99,7 +124,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Technologies
               </h3>
               <p class="text-gray-700 text-lg">
-                Website development and digital solutions powered by cutting-edge technology.
+                Website development and digital solutions powered by
+                cutting-edge technology.
               </p>
             </div>
 
@@ -110,7 +136,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Healthcare
               </h3>
               <p class="text-gray-700 text-lg">
-                Healthcare supplies and medical equipment designed with quality and safety standards at the forefront.
+                Healthcare supplies and medical equipment designed with quality
+                and safety standards at the forefront.
               </p>
             </div>
           </div>
