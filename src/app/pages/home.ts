@@ -12,20 +12,32 @@ interface Banner {
   imports: [CommonModule],
   template: `
     <div class="bg-gray-50">
-      <!-- Hero Section -->
+      <!-- Sliding Banner Section -->
       <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-20"
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-20 relative overflow-hidden"
       >
-        <div class="container mx-auto px-4">
-          <div class="max-w-3xl animate-fade-in">
-            <h1 class="text-5xl font-bold mb-4">
-              Eco-Friendly Packaging Solutions
-            </h1>
-            <p class="text-xl text-blue-50 mb-8">
-              Nabhas manufactures premium sustainable products for your everyday
-              needs. From paper plates to wooden cutlery, we're committed to
-              quality and the environment.
-            </p>
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="max-w-3xl">
+            <div class="mb-8 h-24 flex items-center">
+              <div
+                [key]="currentSlide"
+                class="animate-banner-fade-in w-full"
+              >
+                <h1 class="text-5xl font-bold">
+                  {{ banners[currentSlide].heading }}
+                </h1>
+              </div>
+            </div>
+            <div class="mb-8 h-24 flex items-center">
+              <div
+                [key]="'desc-' + currentSlide"
+                class="animate-banner-fade-in w-full"
+              >
+                <p class="text-xl text-blue-50">
+                  {{ banners[currentSlide].description }}
+                </p>
+              </div>
+            </div>
             <button
               class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition transform hover:scale-105"
             >
@@ -33,6 +45,35 @@ interface Banner {
             </button>
           </div>
         </div>
+
+        <!-- Navigation Dots -->
+        <div
+          class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3 z-20"
+        >
+          <button
+            *ngFor="let i of bannerIndices"
+            (click)="goToSlide(i)"
+            [class.bg-white]="i === currentSlide"
+            [class.bg-blue-200]="i !== currentSlide"
+            class="w-3 h-3 rounded-full transition-all duration-300"
+          ></button>
+        </div>
+
+        <!-- Previous Button -->
+        <button
+          (click)="previousSlide()"
+          class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
+        >
+          &#10094;
+        </button>
+
+        <!-- Next Button -->
+        <button
+          (click)="nextSlide()"
+          class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
+        >
+          &#10095;
+        </button>
       </section>
 
       <!-- Product Categories -->
