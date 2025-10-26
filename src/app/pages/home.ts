@@ -4,6 +4,7 @@ import { CommonModule } from "@angular/common";
 interface Banner {
   heading: string;
   description: string;
+  imageUrl: string;
 }
 
 @Component({
