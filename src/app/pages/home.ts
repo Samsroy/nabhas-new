@@ -15,8 +15,11 @@ interface Banner {
     <div class="bg-gray-50">
       <!-- Sliding Banner Section -->
       <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-20 relative overflow-hidden"
+        class="text-white py-20 relative overflow-hidden bg-cover bg-center bg-no-repeat"
+        [style.backgroundImage]="'url(' + banners[currentSlide].imageUrl + ')'"
       >
+        <!-- Dark overlay for text readability -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
         <div class="container mx-auto px-4 relative z-10">
           <div class="max-w-3xl">
             <div class="mb-8 h-24 flex items-center">
