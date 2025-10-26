@@ -322,4 +322,77 @@ interface Banner {
   `,
   styles: [],
 })
-export class HomeComponent {}
+export class HomeComponent implements OnInit, OnDestroy {
+  banners: Banner[] = [
+    {
+      heading: "Nabhas disposables – paper cutleries",
+      description:
+        "Premium sustainable disposable products designed for your everyday needs with quality and environmental responsibility.",
+    },
+    {
+      heading: "Nabhas Retail – grocery store supplies",
+      description:
+        "Comprehensive range of eco-friendly retail solutions for grocery stores and supermarkets.",
+    },
+    {
+      heading: "Nabhas automobiles – two- and four-wheel servicing",
+      description:
+        "Professional automotive servicing solutions with sustainable and eco-friendly practices.",
+    },
+    {
+      heading: "Nabhas technologies – Website development",
+      description:
+        "Digital solutions and website development services powered by cutting-edge technology.",
+    },
+    {
+      heading: "Nabhas healthcare – supplies on stands etc.",
+      description:
+        "Healthcare supplies and medical equipment designed with quality and safety standards.",
+    },
+  ];
+
+  currentSlide: number = 0;
+  bannerIndices: number[] = [];
+  private autoSlideInterval: any;
+
+  ngOnInit() {
+    this.bannerIndices = Array.from(
+      { length: this.banners.length },
+      (_, i) => i
+    );
+    this.startAutoSlide();
+  }
+
+  ngOnDestroy() {
+    if (this.autoSlideInterval) {
+      clearInterval(this.autoSlideInterval);
+    }
+  }
+
+  nextSlide() {
+    this.currentSlide = (this.currentSlide + 1) % this.banners.length;
+    this.resetAutoSlide();
+  }
+
+  previousSlide() {
+    this.currentSlide =
+      (this.currentSlide - 1 + this.banners.length) % this.banners.length;
+    this.resetAutoSlide();
+  }
+
+  goToSlide(index: number) {
+    this.currentSlide = index;
+    this.resetAutoSlide();
+  }
+
+  private startAutoSlide() {
+    this.autoSlideInterval = setInterval(() => {
+      this.currentSlide = (this.currentSlide + 1) % this.banners.length;
+    }, 5000);
+  }
+
+  private resetAutoSlide() {
+    clearInterval(this.autoSlideInterval);
+    this.startAutoSlide();
+  }
+}
