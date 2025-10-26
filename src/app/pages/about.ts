@@ -52,61 +52,66 @@ import { CommonModule } from "@angular/common";
         </div>
       </section>
 
-      <!-- Mission & Values Section -->
-      <section class="bg-white py-16 px-4">
+      <!-- Business Divisions Section -->
+      <section class="py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Mission & Values
+            Our Business Divisions
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Our Mission
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
+                Nabhas Disposables
               </h3>
-              <p class="text-gray-700 text-lg leading-relaxed">
-                To manufacture and distribute premium, sustainable packaging and
-                disposable products that empower businesses and consumers to
-                make environmentally responsible choices without sacrificing
-                quality, affordability, or convenience.
+              <p class="text-gray-700 text-lg">
+                Premium paper cutleries and disposable products designed for sustainability and convenience.
               </p>
             </div>
 
             <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Our Values</h3>
-              <ul class="text-gray-700 text-lg space-y-3">
-                <li class="flex items-start gap-3">
-                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
-                  <span
-                    ><strong>Sustainability</strong> - Protecting our planet for
-                    future generations</span
-                  >
-                </li>
-                <li class="flex items-start gap-3">
-                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
-                  <span
-                    ><strong>Quality</strong> - Excellence in every product we
-                    manufacture</span
-                  >
-                </li>
-                <li class="flex items-start gap-3">
-                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
-                  <span
-                    ><strong>Integrity</strong> - Honest business practices and
-                    transparency</span
-                  >
-                </li>
-                <li class="flex items-start gap-3">
-                  <span class="text-[#1a2a5e] font-bold mt-1">✓</span>
-                  <span
-                    ><strong>Innovation</strong> - Continuously improving our
-                    products and processes</span
-                  >
-                </li>
-              </ul>
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
+                Nabhas Retail
+              </h3>
+              <p class="text-gray-700 text-lg">
+                Comprehensive grocery store supplies catering to retail businesses and supermarkets.
+              </p>
+            </div>
+
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
+                Nabhas Automobiles
+              </h3>
+              <p class="text-gray-700 text-lg">
+                Professional two- and four-wheel servicing solutions with sustainable practices.
+              </p>
+            </div>
+
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
+                Nabhas Technologies
+              </h3>
+              <p class="text-gray-700 text-lg">
+                Website development and digital solutions powered by cutting-edge technology.
+              </p>
+            </div>
+
+            <div
+              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e] md:col-span-2"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
+                Nabhas Healthcare
+              </h3>
+              <p class="text-gray-700 text-lg">
+                Healthcare supplies and medical equipment designed with quality and safety standards at the forefront.
+              </p>
             </div>
           </div>
         </div>
