@@ -104,4 +104,10 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
   `,
   styles: [],
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  isServicesOpen = false;
+
+  toggleServices() {
+    this.isServicesOpen = !this.isServicesOpen;
+  }
+}
