@@ -19,29 +19,34 @@ import { CommonModule } from "@angular/common";
         </div>
       </section>
 
-      <!-- Our Story Section -->
+      <!-- About the Name Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">The Meaning of Nabhas</h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas was founded with a simple yet powerful mission: to provide
-              high-quality, eco-friendly alternatives to single-use plastics. In
-              a world where environmental consciousness is no longer optional,
-              we believe businesses and consumers deserve sustainable choices
-              without compromising on quality or affordability.
+              Nabhas holds significant meaning across multiple ancient cultures and philosophies. The term appears in Buddhism, Pali, Hinduism, Sanskrit, Jainism, and Prakrit traditions. In Jainism, Nabhas (नभस्) refers to the "atmosphere," a concept described in the 11th century Jñānārṇava, a treatise on Jain Yoga. According to this ancient wisdom, the cosmos is envisioned as the shape of a palm tree filled with the three worlds, surrounded by the three winds.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              Our name, "Nabhas," reflects our commitment to the sky and
-              earth—both of which we're dedicated to protecting. Each product in
-              our portfolio has been carefully designed and tested to meet the
-              highest standards while minimizing environmental impact.
+              This profound meaning—encompassing the atmosphere and the cosmos—reflects our commitment to environmental stewardship and global responsibility. Our name embodies the essence of sustainability and the interconnectedness of all living things.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Company Section -->
+      <section class="bg-white py-16 px-4">
+        <div class="container mx-auto">
+          <div class="max-w-3xl">
+            <h2 class="text-4xl font-bold mb-6 text-gray-900">About M/S NABHAS</h2>
+            <p class="text-lg text-gray-700 mb-4">
+              M/S NABHAS is a sole proprietorship firm headquartered in Ahmadabad, Gujarat, India. The company originally started in Kolkata, India, trading in handicrafts such as lamps and gift items before expanding operations across the globe.
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on a strong foundation of consumer goods distribution, food retail, digital channels, technology-driven marketing tools, garments and apparel, and e-commerce expertise.
             </p>
             <p class="text-lg text-gray-700">
-              Today, Nabhas serves thousands of satisfied customers across
-              multiple industries, from food service and restaurants to events
-              and households. We continue to innovate and expand our product
-              line, always keeping sustainability at the forefront.
+              Today, Nabhas operates across five primary business divisions, each designed to meet diverse market needs while maintaining our core commitment to quality, sustainability, and customer satisfaction.
             </p>
           </div>
         </div>
