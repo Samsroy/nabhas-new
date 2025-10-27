@@ -425,6 +425,8 @@ interface Banner {
   styles: [],
 })
 export class HomeComponent implements OnInit, OnDestroy {
+  @ViewChild('servicesCarousel') servicesCarousel!: ElementRef;
+
   banners: Banner[] = [
     {
       heading: "Nabhas disposables – paper cutleries",
