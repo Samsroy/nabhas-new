@@ -266,15 +266,14 @@ import { CommonModule } from "@angular/common";
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
         <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Improve Healthcare Quality</h2>
+          <h2 class="text-4xl font-bold mb-4">Ready to Establish Your Pharmacy?</h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Partner with Nabhas Healthcare for reliable medical supplies and
-            equipment.
+            Partner with Nabhas Healthcare for comprehensive pharmacy setup, pharmaceutical supplies, and operational support.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
           >
-            Request a Catalog
+            Get in Touch Today
           </button>
         </div>
       </section>
