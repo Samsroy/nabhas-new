@@ -156,7 +156,13 @@ interface Banner {
             professional services tailored to meet all your business needs.
           </p>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="relative">
+            <!-- Carousel Container -->
+            <div
+              #servicesCarousel
+              class="flex gap-8 overflow-x-auto scroll-smooth scrollbar-hide"
+              style="scroll-behavior: smooth;"
+            >
             <!-- Disposables Service -->
             <div
               class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
