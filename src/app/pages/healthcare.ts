@@ -41,25 +41,24 @@ import { CommonModule } from "@angular/common";
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Healthcare Products
+            Our Pharmacy Services & Offerings
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Medical Supplies
+                Pharmaceutical Supplies
               </h3>
               <p class="text-gray-700 mb-4">
-                Essential medical supplies for hospitals and healthcare
-                facilities.
+                Complete pharmaceutical products and medicines for retail pharmacy operations.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Sterile gloves</li>
-                <li>✓ Medical masks</li>
-                <li>✓ Bandages & dressings</li>
-                <li>✓ Syringes & needles</li>
-                <li>✓ IV sets</li>
+                <li>✓ Quality pharmaceuticals</li>
+                <li>✓ Generic medicines</li>
+                <li>✓ Brand medicines</li>
+                <li>✓ Low-cost medicine options</li>
+                <li>✓ Reliable vendor partnerships</li>
               </ul>
             </div>
 
@@ -67,17 +66,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Diagnostic Equipment
+                Pharmacy Setup & Design
               </h3>
               <p class="text-gray-700 mb-4">
-                Modern diagnostic tools for accurate patient assessment.
+                Complete assistance in establishing new pharmacy stores with professional planning.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Blood pressure monitors</li>
-                <li>✓ Thermometers</li>
-                <li>✓ Glucose meters</li>
-                <li>✓ Pulse oximeters</li>
-                <li>✓ Stethoscopes</li>
+                <li>✓ Interior design & setup</li>
+                <li>✓ Decor planning</li>
+                <li>✓ Layout optimization</li>
+                <li>✓ Equipment installation</li>
+                <li>✓ Professional consultation</li>
               </ul>
             </div>
 
@@ -85,17 +84,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Mobility Aids
+                Supplier & Vendor Management
               </h3>
               <p class="text-gray-700 mb-4">
-                Assistive devices to improve patient mobility and independence.
+                Strategic vendor partnerships and supplier selection for optimal operations.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Wheelchairs</li>
-                <li>✓ Walkers</li>
-                <li>✓ Crutches</li>
-                <li>✓ Canes</li>
-                <li>✓ Walking frames</li>
+                <li>✓ Supplier identification</li>
+                <li>✓ Vendor partnerships</li>
+                <li>✓ Department selection</li>
+                <li>✓ Negotiated pricing</li>
+                <li>✓ Quality assurance</li>
               </ul>
             </div>
 
@@ -103,17 +102,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Patient Care Products
+                Inventory & Stock Management
               </h3>
               <p class="text-gray-700 mb-4">
-                Comfortable and hygienic products for patient care and comfort.
+                Complete stock management including returns and exchanges.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Patient gowns</li>
-                <li>✓ Incontinence products</li>
-                <li>✓ Bed pans</li>
-                <li>✓ Urinals</li>
-                <li>✓ Bedside commodes</li>
+                <li>✓ Inventory planning</li>
+                <li>✓ Stock management systems</li>
+                <li>✓ Returns handling</li>
+                <li>✓ Exchange management</li>
+                <li>✓ Expiry tracking</li>
               </ul>
             </div>
 
@@ -121,18 +120,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Hygiene & Safety
+                Accessories & Equipment
               </h3>
               <p class="text-gray-700 mb-4">
-                Products ensuring hygiene standards and safety in healthcare
-                settings.
+                Pharmacy equipment and accessories for professional operations.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Hand sanitizers</li>
-                <li>✓ Disinfectants</li>
-                <li>✓ Protective eyewear</li>
-                <li>✓ Protective aprons</li>
-                <li>✓ Surface cleaning products</li>
+                <li>✓ Display stands</li>
+                <li>✓ Shelving systems</li>
+                <li>✓ Pharmacy counters</li>
+                <li>✓ Cooling equipment</li>
+                <li>✓ Interior accessories</li>
               </ul>
             </div>
 
@@ -140,17 +138,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Therapeutic Equipment
+                Operational Support
               </h3>
               <p class="text-gray-700 mb-4">
-                Equipment supporting rehabilitation and therapy programs.
+                Ongoing support and consultation for pharmacy operations and growth.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Physical therapy tools</li>
-                <li>✓ Hot & cold packs</li>
-                <li>✓ Compression bandages</li>
-                <li>✓ TENS machines</li>
-                <li>✓ Massage devices</li>
+                <li>✓ Business consultation</li>
+                <li>✓ Operational guidance</li>
+                <li>✓ Staff training support</li>
+                <li>✓ Regulatory compliance</li>
+                <li>✓ Performance optimization</li>
               </ul>
             </div>
           </div>
