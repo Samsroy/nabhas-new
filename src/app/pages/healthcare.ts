@@ -211,18 +211,17 @@ import { CommonModule } from "@angular/common";
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Why Choose Nabhas Healthcare?
+            Why Partner with Nabhas Healthcare?
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
             >
               <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
-                Comprehensive Range
+                End-to-End Setup Support
               </h3>
               <p class="text-gray-700">
-                Complete selection of healthcare products for all facility
-                needs.
+                Complete assistance from design and interiors to inventory management and operations for new pharmacies.
               </p>
             </div>
 
@@ -230,10 +229,10 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
             >
               <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
-                Reliable Quality
+                Quality Pharmaceutical Supply
               </h3>
               <p class="text-gray-700">
-                Consistent quality and reliability you can depend on.
+                Access to quality medicines and low-cost alternatives through established vendor partnerships.
               </p>
             </div>
 
@@ -241,10 +240,10 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
             >
               <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
-                Expert Support
+                Expert Consultation
               </h3>
               <p class="text-gray-700">
-                Knowledgeable team providing guidance on product selection.
+                Guidance on supplier selection, department planning, and business optimization from experienced professionals.
               </p>
             </div>
 
@@ -252,10 +251,10 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg"
             >
               <h3 class="text-xl font-bold text-[#1a2a5e] mb-3">
-                Competitive Pricing
+                Pan-India Network
               </h3>
               <p class="text-gray-700">
-                Value for money without compromising on quality.
+                Growing presence across multiple cities with established operations and proven business models.
               </p>
             </div>
           </div>
