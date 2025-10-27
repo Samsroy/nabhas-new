@@ -28,13 +28,27 @@ import { CommonModule } from "@angular/common";
               About Nabhas Automobiles
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas is focusing on two-wheeler sales in specific areas like Navi Mumbai. Currently offering TVS and Bajaj brands, with plans to add more brands and types including bikes, scooters, mopeds, and cycles with gears and battery. Nabhas is committed to focusing on luxury segments at affordable prices, expanding market presence on a continuous basis.
+              Nabhas is focusing on two-wheeler sales in specific areas like
+              Navi Mumbai. Currently offering TVS and Bajaj brands, with plans
+              to add more brands and types including bikes, scooters, mopeds,
+              and cycles with gears and battery. Nabhas is committed to focusing
+              on luxury segments at affordable prices, expanding market presence
+              on a continuous basis.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              For four-wheelers, Nabhas deals with reputed dealers on commission basis for Maruti, Hyundai, and Toyota. We plan to add four-wheel brands in the future with own dealerships and showrooms to provide direct access to customers seeking luxury vehicles at affordable prices.
+              For four-wheelers, Nabhas deals with reputed dealers on commission
+              basis for Maruti, Hyundai, and Toyota. We plan to add four-wheel
+              brands in the future with own dealerships and showrooms to provide
+              direct access to customers seeking luxury vehicles at affordable
+              prices.
             </p>
             <p class="text-lg text-gray-700">
-              On the services side, Nabhas team is providing manpower to clients for car repairs and services through a network of partnered garages currently in Mumbai and Kolkata. We are expanding rapidly to Delhi, Bangalore, Chandigarh, Chennai, Hyderabad, and Indore. Nabhas operates on a commission-based model for both sales and repair services in the automobile segment.
+              On the services side, Nabhas team is providing manpower to clients
+              for car repairs and services through a network of partnered
+              garages currently in Mumbai and Kolkata. We are expanding rapidly
+              to Delhi, Bangalore, Chandigarh, Chennai, Hyderabad, and Indore.
+              Nabhas operates on a commission-based model for both sales and
+              repair services in the automobile segment.
             </p>
           </div>
         </div>
@@ -54,7 +68,8 @@ import { CommonModule } from "@angular/common";
                 Two-Wheeler Sales
               </h3>
               <p class="text-gray-700 mb-4">
-                Authorized dealer for premium two-wheeler brands with focus on affordable luxury.
+                Authorized dealer for premium two-wheeler brands with focus on
+                affordable luxury.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ TVS motorcycles & scooters</li>
@@ -72,7 +87,8 @@ import { CommonModule } from "@angular/common";
                 Four-Wheeler Sales & Dealerships
               </h3>
               <p class="text-gray-700 mb-4">
-                Commission-based partnerships with leading automobile brands and future owned dealerships.
+                Commission-based partnerships with leading automobile brands and
+                future owned dealerships.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Maruti vehicles</li>
@@ -90,7 +106,8 @@ import { CommonModule } from "@angular/common";
                 Automobile Repair & Services
               </h3>
               <p class="text-gray-700 mb-4">
-                Professional repair and servicing manpower deployed through partnered garages.
+                Professional repair and servicing manpower deployed through
+                partnered garages.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Regular maintenance</li>
@@ -108,7 +125,8 @@ import { CommonModule } from "@angular/common";
                 Service Network Expansion
               </h3>
               <p class="text-gray-700 mb-4">
-                Growing presence across major Indian cities with partnered garage networks.
+                Growing presence across major Indian cities with partnered
+                garage networks.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Currently in Mumbai & Kolkata</li>
@@ -139,7 +157,8 @@ import { CommonModule } from "@angular/common";
                 Multiple Brands
               </h3>
               <p class="text-gray-700">
-                Access to premium two and four-wheeler brands at affordable prices.
+                Access to premium two and four-wheeler brands at affordable
+                prices.
               </p>
             </div>
 
@@ -153,7 +172,8 @@ import { CommonModule } from "@angular/common";
                 Expert Service Network
               </h3>
               <p class="text-gray-700">
-                Professional repair and servicing across major Indian cities through partnered garages.
+                Professional repair and servicing across major Indian cities
+                through partnered garages.
               </p>
             </div>
 
@@ -167,7 +187,8 @@ import { CommonModule } from "@angular/common";
                 Expanding Presence
               </h3>
               <p class="text-gray-700">
-                Growing coverage across India with continuous expansion to new cities and markets.
+                Growing coverage across India with continuous expansion to new
+                cities and markets.
               </p>
             </div>
           </div>
@@ -183,7 +204,8 @@ import { CommonModule } from "@angular/common";
             Ready to Drive Your Dream Vehicle?
           </h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Explore our range of two and four-wheeler vehicles or schedule a service appointment with Nabhas Automobiles.
+            Explore our range of two and four-wheeler vehicles or schedule a
+            service appointment with Nabhas Automobiles.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"

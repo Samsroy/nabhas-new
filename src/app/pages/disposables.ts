@@ -28,10 +28,21 @@ import { CommonModule } from "@angular/common";
               Nabhas Disposables
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              It includes biodegradable plates, biodegradable spoons and cutlery, high GSM kitchen rolls, higher GSM NABHAS paper range expands its product line as well as sales footprint on continuous basis with core focus on best quality, best price, and best possible customer experience. Our teams are working on launching single ply variations and combinations on paper napkins, 2 ply and 3 ply paper towels / napkins for export, single / double coated cups, toilet rolls, higher GSM M Fold Napkins and more.
+              It includes biodegradable plates, biodegradable spoons and
+              cutlery, high GSM kitchen rolls, higher GSM NABHAS paper range
+              expands its product line as well as sales footprint on continuous
+              basis with core focus on best quality, best price, and best
+              possible customer experience. Our teams are working on launching
+              single ply variations and combinations on paper napkins, 2 ply and
+              3 ply paper towels / napkins for export, single / double coated
+              cups, toilet rolls, higher GSM M Fold Napkins and more.
             </p>
             <p class="text-lg text-gray-700">
-              Nabhas disposable is supplying their products to reputed companies and intends to add more customers on a regular basis. Nabhas team is relentlessly working on a goal to be a supplier of choice for reputed stores across India. Nabhas believes to extend the best products at best prices.
+              Nabhas disposable is supplying their products to reputed companies
+              and intends to add more customers on a regular basis. Nabhas team
+              is relentlessly working on a goal to be a supplier of choice for
+              reputed stores across India. Nabhas believes to extend the best
+              products at best prices.
             </p>
           </div>
         </div>
