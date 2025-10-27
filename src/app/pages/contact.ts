@@ -221,6 +221,61 @@ import { FormsModule } from "@angular/forms";
         </div>
       </section>
 
+      <!-- Global Presence Section -->
+      <section class="py-16 px-4">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Our Global Presence</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Current Operations</h3>
+              <p class="text-gray-700 mb-4">Nabhas operates across multiple continents with established offices and partnerships in:</p>
+              <div class="grid grid-cols-2 gap-3">
+                <p class="text-gray-600">• India (Mumbai, Delhi, Kolkata, Bangalore, Jabalpur)</p>
+                <p class="text-gray-600">• United Kingdom</p>
+                <p class="text-gray-600">• Europe (Basel, Germany)</p>
+                <p class="text-gray-600">• Middle East (Dubai)</p>
+                <p class="text-gray-600">• Australia (Sydney)</p>
+                <p class="text-gray-600">• USA (New Jersey)</p>
+                <p class="text-gray-600">• Far East</p>
+                <p class="text-gray-600">• And more regions</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Expansion Plans</h3>
+              <p class="text-gray-700 mb-4">We're adding international offices in strategic locations:</p>
+              <ul class="space-y-3">
+                <li class="flex items-center gap-3">
+                  <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  <span class="text-gray-600">Melbourne, Australia</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  <span class="text-gray-600">Bahrain, Middle East</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  <span class="text-gray-600">San Francisco, USA</span>
+                </li>
+              </ul>
+              <p class="text-gray-600 text-sm mt-4">+ Many more locations with partner networks</p>
+            </div>
+          </div>
+
+          <div class="bg-blue-50 p-8 rounded-lg text-center">
+            <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">Customer Presence</h3>
+            <p class="text-gray-700 mb-4">Nabhas serves customers across major cities and regions worldwide, including Mumbai, Kolkata, Bangalore, Chennai, Hyderabad, Dubai, London, Basel, Germany, New Jersey, Sydney, and more.</p>
+            <p class="text-gray-600 text-sm">With our pan-global network, we're positioned to serve your business wherever you are.</p>
+          </div>
+        </div>
+      </section>
+
       <!-- Why Contact Us Section -->
       <section class="bg-blue-50 py-16 px-4">
         <div class="container mx-auto">
@@ -233,7 +288,7 @@ import { FormsModule } from "@angular/forms";
                 </svg>
               </div>
               <h3 class="text-xl font-bold mb-2 text-gray-900">Expert Advice</h3>
-              <p class="text-gray-600">Get personalized recommendations for your specific packaging needs</p>
+              <p class="text-gray-600">Get personalized recommendations for your specific needs from our global team</p>
             </div>
 
             <div class="text-center">
@@ -252,8 +307,8 @@ import { FormsModule } from "@angular/forms";
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-2 text-gray-900">Custom Solutions</h3>
-              <p class="text-gray-600">We'll work with you to create tailored packaging solutions</p>
+              <h3 class="text-xl font-bold mb-2 text-gray-900">Global Support</h3>
+              <p class="text-gray-600">Access to local support across multiple countries and time zones</p>
             </div>
           </div>
         </div>
