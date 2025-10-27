@@ -427,7 +427,8 @@ interface Banner {
         <div class="container mx-auto text-center">
           <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses and consumers who are transforming their operations with Nabhas products and services.
+            Join thousands of businesses and consumers who are transforming
+            their operations with Nabhas products and services.
           </p>
           <a
             routerLink="/contact"
