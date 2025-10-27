@@ -44,25 +44,24 @@ import { CommonModule } from "@angular/common";
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Automotive Services
+            Our Offerings
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div
               class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Two-Wheeler Services
+                Two-Wheeler Sales
               </h3>
               <p class="text-gray-700 mb-4">
-                Expert servicing for motorcycles, scooters, and other
-                two-wheeled vehicles.
+                Authorized dealer for premium two-wheeler brands with focus on affordable luxury.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Regular maintenance</li>
-                <li>✓ Engine repairs</li>
-                <li>✓ Brake & clutch service</li>
-                <li>✓ Battery replacement</li>
-                <li>✓ Tire & wheel service</li>
+                <li>✓ TVS motorcycles & scooters</li>
+                <li>✓ Bajaj bikes & scooters</li>
+                <li>✓ Mopeds & cycles with gears</li>
+                <li>✓ Battery-powered vehicles</li>
+                <li>✓ Expansion in Navi Mumbai & beyond</li>
               </ul>
             </div>
 
@@ -70,17 +69,35 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Four-Wheeler Services
+                Four-Wheeler Sales & Dealerships
               </h3>
               <p class="text-gray-700 mb-4">
-                Comprehensive servicing for cars, SUVs, and commercial vehicles.
+                Commission-based partnerships with leading automobile brands and future owned dealerships.
+              </p>
+              <ul class="text-gray-700 space-y-2">
+                <li>✓ Maruti vehicles</li>
+                <li>✓ Hyundai vehicles</li>
+                <li>✓ Toyota vehicles</li>
+                <li>✓ Luxury at affordable prices</li>
+                <li>✓ Own dealerships & showrooms coming soon</li>
+              </ul>
+            </div>
+
+            <div
+              class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+            >
+              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
+                Automobile Repair & Services
+              </h3>
+              <p class="text-gray-700 mb-4">
+                Professional repair and servicing manpower deployed through partnered garages.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Regular maintenance</li>
-                <li>✓ Engine diagnostics</li>
-                <li>✓ Transmission service</li>
-                <li>✓ AC & cooling system</li>
+                <li>✓ Engine repairs & diagnostics</li>
+                <li>✓ Transmission & electrical service</li>
                 <li>✓ Body work & painting</li>
+                <li>✓ Genuine parts availability</li>
               </ul>
             </div>
 
@@ -88,53 +105,17 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Diagnostic Services
+                Service Network Expansion
               </h3>
               <p class="text-gray-700 mb-4">
-                Advanced computer diagnostics to identify vehicle issues
-                accurately.
+                Growing presence across major Indian cities with partnered garage networks.
               </p>
               <ul class="text-gray-700 space-y-2">
-                <li>✓ Engine diagnostics</li>
-                <li>✓ Electrical testing</li>
-                <li>✓ Emissions testing</li>
-                <li>✓ Performance analysis</li>
-                <li>✓ Safety inspection</li>
-              </ul>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Parts & Accessories
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Genuine and OEM parts with warranty for all vehicle types.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Genuine parts</li>
-                <li>✓ Quality filters</li>
-                <li>✓ Belts & hoses</li>
-                <li>✓ Brake pads</li>
-                <li>✓ Batteries</li>
-              </ul>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg border-l-4 border-[#1a2a5e] md:col-span-2"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Sustainable Practices
-              </h3>
-              <p class="text-gray-700 mb-4">
-                We are committed to eco-friendly automotive servicing practices.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Proper waste disposal</li>
-                <li>✓ Fuel-efficient maintenance</li>
-                <li>✓ Emissions reduction</li>
-                <li>✓ Environmental compliance</li>
+                <li>✓ Currently in Mumbai & Kolkata</li>
+                <li>✓ Expanding to Delhi</li>
+                <li>✓ Adding Bangalore & Chandigarh</li>
+                <li>✓ Chennai, Hyderabad & Indore soon</li>
+                <li>✓ Commission-based partnership model</li>
               </ul>
             </div>
           </div>
