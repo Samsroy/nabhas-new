@@ -88,4 +88,14 @@
   .animate-banner-fade-in {
     animation: bannerFadeIn 0.8s ease-in-out;
   }
+
+  /* Hide scrollbar while keeping functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
