@@ -341,7 +341,8 @@ interface Banner {
             Why Choose Nabhas?
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto text-lg">
-            Whether you're looking for premium products or professional services, Nabhas delivers excellence across every offering.
+            Whether you're looking for premium products or professional
+            services, Nabhas delivers excellence across every offering.
           </p>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center">
@@ -362,7 +363,9 @@ interface Banner {
                 100% Eco-Friendly
               </h3>
               <p class="text-gray-600">
-                Our products and services are designed with environmental responsibility at their core, using sustainable materials and eco-conscious practices across all operations.
+                Our products and services are designed with environmental
+                responsibility at their core, using sustainable materials and
+                eco-conscious practices across all operations.
               </p>
             </div>
 
@@ -384,7 +387,9 @@ interface Banner {
                 Premium Quality
               </h3>
               <p class="text-gray-600">
-                We maintain rigorous quality standards and continuous improvement across all our products and professional services to ensure excellence and customer satisfaction.
+                We maintain rigorous quality standards and continuous
+                improvement across all our products and professional services to
+                ensure excellence and customer satisfaction.
               </p>
             </div>
 
@@ -406,7 +411,9 @@ interface Banner {
                 Competitive Pricing
               </h3>
               <p class="text-gray-600">
-                We offer transparent and competitive pricing for our complete range of products and services, ensuring great value without compromising on quality.
+                We offer transparent and competitive pricing for our complete
+                range of products and services, ensuring great value without
+                compromising on quality.
               </p>
             </div>
           </div>
