@@ -28,10 +28,19 @@ import { CommonModule } from "@angular/common";
               About Nabhas Healthcare
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas is currently assisting a few healthcare stores to supply pharmaceuticals and providing comprehensive assistance in setting up new pharmacies. We are expanding our presence in the pharma space with plans to operate our own pharmaceutical stores in the Navi Mumbai area. Our team continues to support pharmacy establishment across our office locations throughout the country, with Delhi being added shortly.
+              Nabhas is currently assisting a few healthcare stores to supply
+              pharmaceuticals and providing comprehensive assistance in setting
+              up new pharmacies. We are expanding our presence in the pharma
+              space with plans to operate our own pharmaceutical stores in the
+              Navi Mumbai area. Our team continues to support pharmacy
+              establishment across our office locations throughout the country,
+              with Delhi being added shortly.
             </p>
             <p class="text-lg text-gray-700">
-              We provide complete end-to-end pharmacy setup and management services, helping new pharmacy entrepreneurs navigate every aspect of establishing a successful healthcare business. Our expertise ensures quality, compliance, and profitability from day one.
+              We provide complete end-to-end pharmacy setup and management
+              services, helping new pharmacy entrepreneurs navigate every aspect
+              of establishing a successful healthcare business. Our expertise
+              ensures quality, compliance, and profitability from day one.
             </p>
           </div>
         </div>
@@ -51,7 +60,8 @@ import { CommonModule } from "@angular/common";
                 Pharmaceutical Supplies
               </h3>
               <p class="text-gray-700 mb-4">
-                Complete pharmaceutical products and medicines for retail pharmacy operations.
+                Complete pharmaceutical products and medicines for retail
+                pharmacy operations.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Quality pharmaceuticals</li>
@@ -69,7 +79,8 @@ import { CommonModule } from "@angular/common";
                 Pharmacy Setup & Design
               </h3>
               <p class="text-gray-700 mb-4">
-                Complete assistance in establishing new pharmacy stores with professional planning.
+                Complete assistance in establishing new pharmacy stores with
+                professional planning.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Interior design & setup</li>
@@ -87,7 +98,8 @@ import { CommonModule } from "@angular/common";
                 Supplier & Vendor Management
               </h3>
               <p class="text-gray-700 mb-4">
-                Strategic vendor partnerships and supplier selection for optimal operations.
+                Strategic vendor partnerships and supplier selection for optimal
+                operations.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Supplier identification</li>
@@ -141,7 +153,8 @@ import { CommonModule } from "@angular/common";
                 Operational Support
               </h3>
               <p class="text-gray-700 mb-4">
-                Ongoing support and consultation for pharmacy operations and growth.
+                Ongoing support and consultation for pharmacy operations and
+                growth.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Business consultation</li>
@@ -172,7 +185,8 @@ import { CommonModule } from "@angular/common";
                 Own Pharmacy Stores
               </h3>
               <p class="text-gray-700">
-                Operating our own pharmaceutical stores in Navi Mumbai area with plans for expansion.
+                Operating our own pharmaceutical stores in Navi Mumbai area with
+                plans for expansion.
               </p>
             </div>
 
@@ -186,7 +200,8 @@ import { CommonModule } from "@angular/common";
                 Pan-India Presence
               </h3>
               <p class="text-gray-700">
-                Supporting pharmacy setup across office locations, with Delhi expanding soon.
+                Supporting pharmacy setup across office locations, with Delhi
+                expanding soon.
               </p>
             </div>
 
@@ -200,7 +215,8 @@ import { CommonModule } from "@angular/common";
                 Partnership Model
               </h3>
               <p class="text-gray-700">
-                Comprehensive support for partners establishing new pharmacy businesses.
+                Comprehensive support for partners establishing new pharmacy
+                businesses.
               </p>
             </div>
           </div>
@@ -221,7 +237,8 @@ import { CommonModule } from "@angular/common";
                 End-to-End Setup Support
               </h3>
               <p class="text-gray-700">
-                Complete assistance from design and interiors to inventory management and operations for new pharmacies.
+                Complete assistance from design and interiors to inventory
+                management and operations for new pharmacies.
               </p>
             </div>
 
@@ -232,7 +249,8 @@ import { CommonModule } from "@angular/common";
                 Quality Pharmaceutical Supply
               </h3>
               <p class="text-gray-700">
-                Access to quality medicines and low-cost alternatives through established vendor partnerships.
+                Access to quality medicines and low-cost alternatives through
+                established vendor partnerships.
               </p>
             </div>
 
@@ -243,7 +261,8 @@ import { CommonModule } from "@angular/common";
                 Expert Consultation
               </h3>
               <p class="text-gray-700">
-                Guidance on supplier selection, department planning, and business optimization from experienced professionals.
+                Guidance on supplier selection, department planning, and
+                business optimization from experienced professionals.
               </p>
             </div>
 
@@ -254,7 +273,8 @@ import { CommonModule } from "@angular/common";
                 Pan-India Network
               </h3>
               <p class="text-gray-700">
-                Growing presence across multiple cities with established operations and proven business models.
+                Growing presence across multiple cities with established
+                operations and proven business models.
               </p>
             </div>
           </div>
@@ -266,9 +286,12 @@ import { CommonModule } from "@angular/common";
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
         <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Ready to Establish Your Pharmacy?</h2>
+          <h2 class="text-4xl font-bold mb-4">
+            Ready to Establish Your Pharmacy?
+          </h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Partner with Nabhas Healthcare for comprehensive pharmacy setup, pharmaceutical supplies, and operational support.
+            Partner with Nabhas Healthcare for comprehensive pharmacy setup,
+            pharmaceutical supplies, and operational support.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"

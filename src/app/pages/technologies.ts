@@ -28,13 +28,30 @@ import { CommonModule } from "@angular/common";
               About Nabhas Technologies
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              The motto of Nabhas Technologies is moving with the times ahead and that is always technical advancements. Our technology division comprises members with close to 30 years of combined experience in various Indian IT companies. Our ownership has deep expertise working with industry clients across the globe, including banking, manufacturing, telecom, and retail sectors in India, Europe, USA, Canada, Australia, and the Middle East.
+              The motto of Nabhas Technologies is moving with the times ahead
+              and that is always technical advancements. Our technology division
+              comprises members with close to 30 years of combined experience in
+              various Indian IT companies. Our ownership has deep expertise
+              working with industry clients across the globe, including banking,
+              manufacturing, telecom, and retail sectors in India, Europe, USA,
+              Canada, Australia, and the Middle East.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              Our team brings comprehensive exposure across the entire software development lifecycle including business analysis, design, development, testing, deployment, and support. We have successfully completed end-to-end projects in India for real estate companies and paper disposables distribution businesses, demonstrating our ability to deliver results across diverse industries.
+              Our team brings comprehensive exposure across the entire software
+              development lifecycle including business analysis, design,
+              development, testing, deployment, and support. We have
+              successfully completed end-to-end projects in India for real
+              estate companies and paper disposables distribution businesses,
+              demonstrating our ability to deliver results across diverse
+              industries.
             </p>
             <p class="text-lg text-gray-700">
-              We specialize in app development with a strong focus on web technologies. Our approach combines technical excellence with business insights to create solutions that drive real value for our clients. We remain committed to staying at the forefront of technological advancements to deliver cutting-edge solutions that address tomorrow's challenges today.
+              We specialize in app development with a strong focus on web
+              technologies. Our approach combines technical excellence with
+              business insights to create solutions that drive real value for
+              our clients. We remain committed to staying at the forefront of
+              technological advancements to deliver cutting-edge solutions that
+              address tomorrow's challenges today.
             </p>
           </div>
         </div>
@@ -208,9 +225,13 @@ import { CommonModule } from "@angular/common";
               >
                 🌍
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Global Expertise</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Global Expertise
+              </h3>
               <p class="text-gray-700">
-                30+ years of combined IT experience with proven track record across international clients in banking, manufacturing, telecom, and retail.
+                30+ years of combined IT experience with proven track record
+                across international clients in banking, manufacturing, telecom,
+                and retail.
               </p>
             </div>
 
@@ -220,9 +241,12 @@ import { CommonModule } from "@angular/common";
               >
                 🚀
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">End-to-End Solutions</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                End-to-End Solutions
+              </h3>
               <p class="text-gray-700">
-                Complete lifecycle expertise from business analysis and design through development, testing, deployment, and ongoing support.
+                Complete lifecycle expertise from business analysis and design
+                through development, testing, deployment, and ongoing support.
               </p>
             </div>
 
@@ -236,7 +260,8 @@ import { CommonModule } from "@angular/common";
                 Always Advancing
               </h3>
               <p class="text-gray-700">
-                Committed to moving with the times and staying at the forefront of technological advancements for future-ready solutions.
+                Committed to moving with the times and staying at the forefront
+                of technological advancements for future-ready solutions.
               </p>
             </div>
           </div>
