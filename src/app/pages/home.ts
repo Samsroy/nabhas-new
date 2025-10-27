@@ -1,4 +1,10 @@
-import { Component, OnInit, OnDestroy, ViewChild, ElementRef } from "@angular/core";
+import {
+  Component,
+  OnInit,
+  OnDestroy,
+  ViewChild,
+  ElementRef,
+} from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink } from "@angular/router";
 
@@ -168,141 +174,145 @@ interface Banner {
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
-              <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Eco-Friendly Disposable Products"
-                  class="h-full w-full object-cover"
-                />
+                <div class="h-48 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Eco-Friendly Disposable Products"
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    Disposables
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Premium eco-friendly paper cutleries and sustainable
+                    disposable products for food service, events, and
+                    households.
+                  </p>
+                  <a
+                    routerLink="/services/disposables"
+                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
+                  >
+                    View more
+                  </a>
+                </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">
-                  Disposables
-                </h3>
-                <p class="text-gray-600 mb-4">
-                  Premium eco-friendly paper cutleries and sustainable
-                  disposable products for food service, events, and households.
-                </p>
-                <a
-                  routerLink="/services/disposables"
-                  class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                >
-                  View more
-                </a>
-              </div>
-            </div>
 
               <!-- Retail Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
-              <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Retail Supplies and Solutions"
-                  class="h-full w-full object-cover"
-                />
+                <div class="h-48 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Retail Supplies and Solutions"
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">Retail</h3>
+                  <p class="text-gray-600 mb-4">
+                    Comprehensive range of eco-friendly retail solutions
+                    specifically designed for grocery stores and supermarkets.
+                  </p>
+                  <a
+                    routerLink="/services/retail"
+                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
+                  >
+                    View more
+                  </a>
+                </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">Retail</h3>
-                <p class="text-gray-600 mb-4">
-                  Comprehensive range of eco-friendly retail solutions
-                  specifically designed for grocery stores and supermarkets.
-                </p>
-                <a
-                  routerLink="/services/retail"
-                  class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                >
-                  View more
-                </a>
-              </div>
-            </div>
 
               <!-- Automobiles Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
-              <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/3783100/pexels-photo-3783100.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Automobile Servicing"
-                  class="h-full w-full object-cover"
-                />
+                <div class="h-48 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://images.pexels.com/photos/3783100/pexels-photo-3783100.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Automobile Servicing"
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    Automobiles
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Professional automotive servicing solutions for two- and
+                    four-wheel vehicles with eco-friendly practices and
+                    expertise.
+                  </p>
+                  <a
+                    routerLink="/services/automobiles"
+                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
+                  >
+                    View more
+                  </a>
+                </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">
-                  Automobiles
-                </h3>
-                <p class="text-gray-600 mb-4">
-                  Professional automotive servicing solutions for two- and
-                  four-wheel vehicles with eco-friendly practices and expertise.
-                </p>
-                <a
-                  routerLink="/services/automobiles"
-                  class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                >
-                  View more
-                </a>
-              </div>
-            </div>
 
               <!-- Technologies Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
-              <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Web Development and Technology"
-                  class="h-full w-full object-cover"
-                />
+                <div class="h-48 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Web Development and Technology"
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    Technologies
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    Digital solutions and modern website development services
+                    powered by cutting-edge technology and innovation.
+                  </p>
+                  <a
+                    routerLink="/services/technologies"
+                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
+                  >
+                    View more
+                  </a>
+                </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">
-                  Technologies
-                </h3>
-                <p class="text-gray-600 mb-4">
-                  Digital solutions and modern website development services
-                  powered by cutting-edge technology and innovation.
-                </p>
-                <a
-                  routerLink="/services/technologies"
-                  class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                >
-                  View more
-                </a>
-              </div>
-            </div>
 
               <!-- Healthcare Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
-              <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/3908111/pexels-photo-3908111.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Healthcare Supplies and Equipment"
-                  class="h-full w-full object-cover"
-                />
+                <div class="h-48 flex items-center justify-center bg-gray-100">
+                  <img
+                    src="https://images.pexels.com/photos/3908111/pexels-photo-3908111.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Healthcare Supplies and Equipment"
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold text-gray-900 mb-2">
+                    Healthcare
+                  </h3>
+                  <p class="text-gray-600 mb-4">
+                    High-quality healthcare supplies and medical equipment
+                    designed to meet international safety and quality standards.
+                  </p>
+                  <a
+                    routerLink="/services/healthcare"
+                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
+                  >
+                    View more
+                  </a>
+                </div>
               </div>
-              <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">Healthcare</h3>
-                <p class="text-gray-600 mb-4">
-                  High-quality healthcare supplies and medical equipment
-                  designed to meet international safety and quality standards.
-                </p>
-                <a
-                  routerLink="/services/healthcare"
-                  class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                >
-                  View more
-                </a>
-              </div>
-            </div>
             </div>
 
             <!-- Previous Button -->
@@ -425,7 +435,7 @@ interface Banner {
   styles: [],
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  @ViewChild('servicesCarousel') servicesCarousel!: ElementRef;
+  @ViewChild("servicesCarousel") servicesCarousel!: ElementRef;
 
   banners: Banner[] = [
     {
@@ -510,14 +520,14 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.startAutoSlide();
   }
 
-  scrollCarousel(direction: 'next' | 'prev') {
+  scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;
     if (carousel) {
       const scrollAmount = carousel.offsetWidth;
-      if (direction === 'next') {
-        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      if (direction === "next") {
+        carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
       } else {
-        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
       }
     }
   }
