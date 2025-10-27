@@ -175,11 +175,11 @@ interface Banner {
                 style="scroll-snap-align: start;"
               >
                 <div class="h-48 flex items-center justify-center bg-gray-100">
-                <img
-                  src="https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Eco-Friendly Disposable Products"
-                  class="h-full w-full object-cover"
-                />
+                  <img
+                    src="https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Eco-Friendly Disposable Products"
+                    class="h-full w-full object-cover"
+                  />
                 </div>
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-900 mb-2">
