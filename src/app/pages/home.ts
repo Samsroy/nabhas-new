@@ -502,4 +502,16 @@ export class HomeComponent implements OnInit, OnDestroy {
     clearInterval(this.autoSlideInterval);
     this.startAutoSlide();
   }
+
+  scrollCarousel(direction: 'next' | 'prev') {
+    const carousel = this.servicesCarousel?.nativeElement;
+    if (carousel) {
+      const scrollAmount = carousel.offsetWidth;
+      if (direction === 'next') {
+        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      } else {
+        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      }
+    }
+  }
 }
