@@ -232,11 +232,11 @@ interface Banner {
                 style="scroll-snap-align: start;"
               >
                 <div class="h-48 flex items-center justify-center bg-gray-100">
-                  <img
-                    src="https://images.pexels.com/photos/3783100/pexels-photo-3783100.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Automobile Servicing"
-                    class="h-full w-full object-cover"
-                  />
+                <img
+                  src="https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Automobile Servicing"
+                  class="h-full w-full object-cover"
+                />
                 </div>
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-900 mb-2">
@@ -439,7 +439,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   banners: Banner[] = [
     {
-      heading: "Nabhas disposables – paper cutleries",
+      heading: "Nabhas disposables �� paper cutleries",
       description:
         "Premium sustainable disposable products designed for your everyday needs with quality and environmental responsibility.",
       imageUrl:
