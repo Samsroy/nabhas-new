@@ -11,7 +11,7 @@ interface Banner {
 @Component({
   selector: "app-home",
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
       <!-- Sliding Banner Section -->
