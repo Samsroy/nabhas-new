@@ -32,20 +32,13 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
           >
             Home
           </a>
-          <a
-            routerLink="/products"
-            routerLinkActive="text-[#1a2a5e] border-b-2 border-[#1a2a5e]"
-            class="text-gray-700 hover:text-[#1a2a5e] transition font-medium py-2"
-          >
-            Products
-          </a>
 
-          <!-- Services Dropdown Menu -->
+          <!-- Product & Services Dropdown Menu -->
           <div class="relative group">
             <button
               class="text-gray-700 hover:text-[#1a2a5e] transition font-medium py-2 flex items-center gap-1"
             >
-              Services
+              Product & Services
               <span class="text-xs">▼</span>
             </button>
             <div

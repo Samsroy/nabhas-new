@@ -44,116 +44,147 @@ import { CommonModule } from "@angular/common";
         </div>
       </section>
 
-      <!-- Products Section -->
-      <section class="bg-white py-16 px-4">
+      <!-- Product Categories -->
+      <section class="py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Disposable Products
+          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+            Our Products
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+            We provide a comprehensive range of eco-friendly disposable products
+            designed for businesses and consumers who care about quality and
+            sustainability.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Paper Plates -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Paper Plates
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Durable, microwave-safe, and 100% biodegradable paper plates
-                perfect for any occasion.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Microwave safe</li>
-                <li>✓ Water resistant</li>
-                <li>✓ Biodegradable</li>
-                <li>✓ Various sizes</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2Ff404ab8dd6b64b7b884ac6bcbeb02fe7?format=webp&width=800"
+                  alt="Paper Plates"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  Paper Plates
+                </h3>
+                <p class="text-gray-600">
+                  Durable, microwave-safe, and 100% biodegradable paper plates
+                  perfect for any occasion.
+                </p>
+              </div>
             </div>
 
+            <!-- Paper Cups -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">Paper Cups</h3>
-              <p class="text-gray-700 mb-4">
-                Insulated paper cups ideal for hot and cold beverages with
-                perfect grip and durability.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Insulated design</li>
-                <li>✓ Hot & cold safe</li>
-                <li>✓ Eco-friendly coating</li>
-                <li>✓ Custom printing</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F983fcf37b7ad44288daa6b0b8b6ac775?format=webp&width=800"
+                  alt="Paper Cups"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Paper Cups</h3>
+                <p class="text-gray-600">
+                  Premium quality cups for hot and cold beverages, ideal for
+                  cafes and restaurants.
+                </p>
+              </div>
             </div>
 
+            <!-- Paper Glasses -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Wooden Cutlery
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Sustainable wooden spoons, forks, and knives made from renewable
-                resources.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ 100% natural wood</li>
-                <li>✓ Biodegradable</li>
-                <li>✓ Sturdy & reliable</li>
-                <li>✓ Bulk availability</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F0a27eca1df3c4c5d8f1e57fce8e57d83?format=webp&width=800"
+                  alt="Paper Cups with Design"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  Printed Cups
+                </h3>
+                <p class="text-gray-600">
+                  Custom printed paper cups for branded beverages and special
+                  events. Eye-catching designs.
+                </p>
+              </div>
             </div>
 
+            <!-- Paper Napkins -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Paper Napkins
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Soft and absorbent paper napkins for restaurants, cafes, and
-                homes.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Highly absorbent</li>
-                <li>✓ Soft texture</li>
-                <li>✓ Compostable</li>
-                <li>✓ Bulk options</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F4c4d4440d3a7426092228a22c1eaa8fe?format=webp&width=800"
+                  alt="Paper Napkins"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  Paper Napkins
+                </h3>
+                <p class="text-gray-600">
+                  Soft, absorbent napkins for dining and cleaning. Available in
+                  various sizes and designs.
+                </p>
+              </div>
             </div>
 
+            <!-- Paper Tissue Rolls -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Tissue Rolls
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Premium tissue rolls for commercial and residential use.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Premium quality</li>
-                <li>✓ Gentle on skin</li>
-                <li>✓ Eco-friendly</li>
-                <li>✓ Long lasting</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F93bf8b36f0724ff5a022c16d126d0142?format=webp&width=800"
+                  alt="Tissue Rolls"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  Tissue Rolls
+                </h3>
+                <p class="text-gray-600">
+                  Premium quality tissue rolls for homes and businesses. Soft,
+                  strong, and eco-friendly.
+                </p>
+              </div>
             </div>
 
+            <!-- Wooden Cutlery -->
             <div
-              class="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-lg"
+              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
             >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-4">
-                Custom Solutions
-              </h3>
-              <p class="text-gray-700 mb-4">
-                Custom disposable products tailored to your specific business
-                needs.
-              </p>
-              <ul class="text-gray-700 space-y-2">
-                <li>✓ Custom sizing</li>
-                <li>✓ Branded printing</li>
-                <li>✓ Bulk orders</li>
-                <li>✓ Wholesale pricing</li>
-              </ul>
+              <div class="h-48 flex items-center justify-center bg-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F883389fd44704e84b7b3f13610d51e3e?format=webp&width=800"
+                  alt="Wooden Cutlery"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">
+                  Wooden Cutlery
+                </h3>
+                <p class="text-gray-600">
+                  Natural wooden forks, knives, and spoons. Sustainable,
+                  lightweight, and perfect for takeout.
+                </p>
+              </div>
             </div>
           </div>
         </div>
