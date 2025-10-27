@@ -446,7 +446,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         "https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg",
     },
     {
-      heading: "Nabhas Retail �� grocery store supplies",
+      heading: "Nabhas Retail - grocery store supplies",
       description:
         "Comprehensive range of eco-friendly retail solutions for grocery stores and supermarkets.",
       imageUrl:
