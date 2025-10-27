@@ -159,20 +159,20 @@ import { CommonModule } from "@angular/common";
       <section class="py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Quality & Compliance
+            Our Expansion Plans
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div class="text-center">
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                ✓
+                🏪
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                ISO Certified
+                Own Pharmacy Stores
               </h3>
               <p class="text-gray-700">
-                All products meet ISO quality standards for safety and efficacy.
+                Operating our own pharmaceutical stores in Navi Mumbai area with plans for expansion.
               </p>
             </div>
 
@@ -180,14 +180,13 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                📋
+                🌍
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Regulatory Approval
+                Pan-India Presence
               </h3>
               <p class="text-gray-700">
-                Approved by relevant healthcare regulatory bodies and
-                authorities.
+                Supporting pharmacy setup across office locations, with Delhi expanding soon.
               </p>
             </div>
 
@@ -195,13 +194,13 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                🔬
+                🤝
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Clinical Testing
+                Partnership Model
               </h3>
               <p class="text-gray-700">
-                Rigorous testing ensuring effectiveness and safety for patients.
+                Comprehensive support for partners establishing new pharmacy businesses.
               </p>
             </div>
           </div>
