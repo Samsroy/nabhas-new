@@ -115,7 +115,7 @@ import { CommonModule } from "@angular/common";
                 <li>✓ Expanding to Delhi</li>
                 <li>✓ Adding Bangalore & Chandigarh</li>
                 <li>✓ Chennai, Hyderabad & Indore soon</li>
-                <li>✓ Commission-based partnership model</li>
+                <li>��� Commission-based partnership model</li>
               </ul>
             </div>
           </div>
@@ -133,14 +133,27 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
+                🚗
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Multiple Brands
+              </h3>
+              <p class="text-gray-700">
+                Access to premium two and four-wheeler brands at affordable prices.
+              </p>
+            </div>
+
+            <div class="text-center">
+              <div
+                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
+              >
                 🔧
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Expert Technicians
+                Expert Service Network
               </h3>
               <p class="text-gray-700">
-                Highly trained and certified professionals with years of
-                experience.
+                Professional repair and servicing across major Indian cities through partnered garages.
               </p>
             </div>
 
@@ -148,27 +161,13 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                ⚙️
+                📍
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Modern Equipment
+                Expanding Presence
               </h3>
               <p class="text-gray-700">
-                State-of-the-art diagnostic and servicing equipment.
-              </p>
-            </div>
-
-            <div class="text-center">
-              <div
-                class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
-              >
-                🌍
-              </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Sustainable Practices
-              </h3>
-              <p class="text-gray-700">
-                Environmentally responsible automotive servicing.
+                Growing coverage across India with continuous expansion to new cities and markets.
               </p>
             </div>
           </div>
