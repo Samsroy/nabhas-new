@@ -163,10 +163,10 @@ interface Banner {
               class="flex gap-8 overflow-x-auto scroll-smooth scrollbar-hide"
               style="scroll-behavior: smooth;"
             >
-            <!-- Disposables Service -->
-            <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
-            >
+              <!-- Disposables Service -->
+              <div
+                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+              >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
                   src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=600"
