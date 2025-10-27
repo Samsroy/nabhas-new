@@ -191,10 +191,10 @@ interface Banner {
               </div>
             </div>
 
-            <!-- Retail Service -->
-            <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
-            >
+              <!-- Retail Service -->
+              <div
+                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+              >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
                   src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
