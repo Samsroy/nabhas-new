@@ -206,11 +206,11 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                💡
+                🌍
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">Global Expertise</h3>
               <p class="text-gray-700">
-                Cutting-edge solutions using the latest technologies and trends.
+                30+ years of combined IT experience with proven track record across international clients in banking, manufacturing, telecom, and retail.
               </p>
             </div>
 
@@ -218,11 +218,11 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                👥
+                🚀
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">Expert Team</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">End-to-End Solutions</h3>
               <p class="text-gray-700">
-                Experienced developers and designers dedicated to your success.
+                Complete lifecycle expertise from business analysis and design through development, testing, deployment, and ongoing support.
               </p>
             </div>
 
@@ -230,13 +230,13 @@ import { CommonModule } from "@angular/common";
               <div
                 class="bg-[#1a2a5e] text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4"
               >
-                🎯
+                ⚡
               </div>
               <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Results-Driven
+                Always Advancing
               </h3>
               <p class="text-gray-700">
-                Focused on delivering measurable results and ROI.
+                Committed to moving with the times and staying at the forefront of technological advancements for future-ready solutions.
               </p>
             </div>
           </div>
