@@ -298,6 +298,23 @@ interface Banner {
                 </a>
               </div>
             </div>
+            </div>
+
+            <!-- Previous Button -->
+            <button
+              (click)="scrollCarousel('prev')"
+              class="absolute left-0 top-1/3 transform -translate-y-1/2 -translate-x-6 bg-[#1a2a5e] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2d3f7f] transition z-10"
+            >
+              &#10094;
+            </button>
+
+            <!-- Next Button -->
+            <button
+              (click)="scrollCarousel('next')"
+              class="absolute right-0 top-1/3 transform -translate-y-1/2 translate-x-6 bg-[#1a2a5e] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#2d3f7f] transition z-10"
+            >
+              &#10095;
+            </button>
           </div>
         </div>
       </section>
