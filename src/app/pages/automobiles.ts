@@ -115,7 +115,7 @@ import { CommonModule } from "@angular/common";
                 <li>✓ Expanding to Delhi</li>
                 <li>✓ Adding Bangalore & Chandigarh</li>
                 <li>✓ Chennai, Hyderabad & Indore soon</li>
-                <li>��� Commission-based partnership model</li>
+                <li>✓ Commission-based partnership model</li>
               </ul>
             </div>
           </div>
@@ -180,15 +180,15 @@ import { CommonModule } from "@angular/common";
       >
         <div class="container mx-auto text-center">
           <h2 class="text-4xl font-bold mb-4">
-            Keep Your Vehicle Running Smoothly
+            Ready to Drive Your Dream Vehicle?
           </h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Schedule your vehicle's servicing with Nabhas Automobiles today.
+            Explore our range of two and four-wheeler vehicles or schedule a service appointment with Nabhas Automobiles.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
           >
-            Book an Appointment
+            Contact Us Today
           </button>
         </div>
       </section>
