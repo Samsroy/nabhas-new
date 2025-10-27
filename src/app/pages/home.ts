@@ -273,10 +273,10 @@ interface Banner {
               </div>
             </div>
 
-            <!-- Healthcare Service -->
-            <div
-              class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
-            >
+              <!-- Healthcare Service -->
+              <div
+                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+              >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
                   src="https://images.pexels.com/photos/3908111/pexels-photo-3908111.jpeg?auto=compress&cs=tinysrgb&w=600"
