@@ -28,17 +28,13 @@ import { CommonModule } from "@angular/common";
               About Nabhas Technologies
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas Technologies specializes in creating innovative digital
-              solutions tailored to your business needs. Our expert team of
-              developers, designers, and digital strategists work
-              collaboratively to transform your vision into reality.
+              The motto of Nabhas Technologies is moving with the times ahead and that is always technical advancements. Our technology division comprises members with close to 30 years of combined experience in various Indian IT companies. Our ownership has deep expertise working with industry clients across the globe, including banking, manufacturing, telecom, and retail sectors in India, Europe, USA, Canada, Australia, and the Middle East.
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+              Our team brings comprehensive exposure across the entire software development lifecycle including business analysis, design, development, testing, deployment, and support. We have successfully completed end-to-end projects in India for real estate companies and paper disposables distribution businesses, demonstrating our ability to deliver results across diverse industries.
             </p>
             <p class="text-lg text-gray-700">
-              From responsive websites to custom web applications, we leverage
-              the latest technologies and best practices to deliver solutions
-              that drive results. Our approach combines technical excellence
-              with user-centered design to ensure your digital presence stands
-              out.
+              We specialize in app development with a strong focus on web technologies. Our approach combines technical excellence with business insights to create solutions that drive real value for our clients. We remain committed to staying at the forefront of technological advancements to deliver cutting-edge solutions that address tomorrow's challenges today.
             </p>
           </div>
         </div>
