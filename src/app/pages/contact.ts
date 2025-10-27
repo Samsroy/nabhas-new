@@ -24,39 +24,7 @@ import { FormsModule } from "@angular/forms";
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <!-- Contact Information -->
             <div class="lg:col-span-1 space-y-8">
-              <!-- Email -->
-              <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-                <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-[#1a2a5e]" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Email</h3>
-                    <p class="text-gray-600">contact@nabhas.com</p>
-                    <p class="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Phone -->
-              <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-                <div class="flex items-start gap-4">
-                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg class="w-6 h-6 text-[#1a2a5e]" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M17.92 7.02C17.45 6.18 16.3 5.74 15.24 6.12C13.78 6.66 12.59 7.76 12.59 9.23C12.59 11.1 14.36 12.87 16.23 12.87C17.7 12.87 18.8 11.68 19.34 10.22C19.72 9.16 19.27 8.01 18.44 7.54M11 19.93C6.5 18.5 3 14.47 3 9.72C3 5.34 6.34 2 10.72 2C15.1 2 18.44 5.34 18.44 9.72C18.44 10.68 18.37 11.61 18.23 12.52"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Phone</h3>
-                    <p class="text-gray-600">+91 XXXX XXXX XX</p>
-                    <p class="text-sm text-gray-500 mt-1">Mon-Fri, 9AM-6PM IST</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Location -->
+              <!-- Headquarters -->
               <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
                 <div class="flex items-start gap-4">
                   <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -65,9 +33,63 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Location</h3>
-                    <p class="text-gray-600">India</p>
-                    <p class="text-sm text-gray-500 mt-1">Available globally</p>
+                    <h3 class="font-bold text-gray-900 mb-2">Headquarters</h3>
+                    <p class="text-gray-600 text-sm">A304, Neelkanth Exotica</p>
+                    <p class="text-gray-600 text-sm">Plot 88, Sector 21, Ulwe</p>
+                    <p class="text-gray-600 text-sm">Navi Mumbai 410206, India</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone Numbers -->
+              <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                <div class="flex items-start gap-4">
+                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-[#1a2a5e]" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.92 7.02C17.45 6.18 16.3 5.74 15.24 6.12C13.78 6.66 12.59 7.76 12.59 9.23C12.59 11.1 14.36 12.87 16.23 12.87C17.7 12.87 18.8 11.68 19.34 10.22C19.72 9.16 19.27 8.01 18.44 7.54M11 19.93C6.5 18.5 3 14.47 3 9.72C3 5.34 6.34 2 10.72 2C15.1 2 18.44 5.34 18.44 9.72C18.44 10.68 18.37 11.61 18.23 12.52"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Phone</h3>
+                    <p class="text-gray-600 text-sm">+91-8469690812</p>
+                    <p class="text-gray-600 text-sm">+91-8469198872</p>
+                    <p class="text-sm text-gray-500 mt-2">Mon-Fri, 9AM-6PM IST</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Regional Contacts -->
+              <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                <div class="flex items-start gap-4">
+                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-[#1a2a5e]" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Regional Emails</h3>
+                    <p class="text-gray-600 text-sm">General: Contact.nabhas@gmail.com</p>
+                    <p class="text-gray-600 text-sm">Dubai: Dubai@nabhas.com</p>
+                    <p class="text-gray-600 text-sm">Europe: Europe@nabhas.com</p>
+                    <p class="text-gray-600 text-sm">USA: Usa@nabhas.com</p>
+                    <p class="text-gray-600 text-sm">Australia: Australia@nabhas.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Global Presence -->
+              <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                <div class="flex items-start gap-4">
+                  <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-[#1a2a5e]" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-gray-900 mb-2">Current Offices</h3>
+                    <p class="text-gray-600 text-sm">Mumbai • Delhi • Kolkata</p>
+                    <p class="text-gray-600 text-sm">Bangalore • Jabalpur</p>
+                    <p class="text-gray-600 text-sm">+Expanding internationally</p>
                   </div>
                 </div>
               </div>
