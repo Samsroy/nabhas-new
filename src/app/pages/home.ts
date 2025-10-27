@@ -152,7 +152,8 @@ interface Banner {
             Our Product & Services
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Explore our comprehensive range of eco-friendly products and professional services tailored to meet all your business needs.
+            Explore our comprehensive range of eco-friendly products and
+            professional services tailored to meet all your business needs.
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -172,7 +173,8 @@ interface Banner {
                   Disposables
                 </h3>
                 <p class="text-gray-600 mb-4">
-                  Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
+                  Premium eco-friendly paper cutleries and sustainable
+                  disposable products for food service, events, and households.
                 </p>
                 <a
                   routerLink="/services/disposables"
@@ -195,11 +197,10 @@ interface Banner {
                 />
               </div>
               <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">
-                  Retail
-                </h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Retail</h3>
                 <p class="text-gray-600 mb-4">
-                  Comprehensive range of eco-friendly retail solutions specifically designed for grocery stores and supermarkets.
+                  Comprehensive range of eco-friendly retail solutions
+                  specifically designed for grocery stores and supermarkets.
                 </p>
                 <a
                   routerLink="/services/retail"
@@ -226,7 +227,8 @@ interface Banner {
                   Automobiles
                 </h3>
                 <p class="text-gray-600 mb-4">
-                  Professional automotive servicing solutions for two- and four-wheel vehicles with eco-friendly practices and expertise.
+                  Professional automotive servicing solutions for two- and
+                  four-wheel vehicles with eco-friendly practices and expertise.
                 </p>
                 <a
                   routerLink="/services/automobiles"
@@ -253,7 +255,8 @@ interface Banner {
                   Technologies
                 </h3>
                 <p class="text-gray-600 mb-4">
-                  Digital solutions and modern website development services powered by cutting-edge technology and innovation.
+                  Digital solutions and modern website development services
+                  powered by cutting-edge technology and innovation.
                 </p>
                 <a
                   routerLink="/services/technologies"
@@ -276,11 +279,10 @@ interface Banner {
                 />
               </div>
               <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-2">
-                  Healthcare
-                </h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Healthcare</h3>
                 <p class="text-gray-600 mb-4">
-                  High-quality healthcare supplies and medical equipment designed to meet international safety and quality standards.
+                  High-quality healthcare supplies and medical equipment
+                  designed to meet international safety and quality standards.
                 </p>
                 <a
                   routerLink="/services/healthcare"
