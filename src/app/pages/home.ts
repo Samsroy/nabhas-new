@@ -160,12 +160,13 @@ interface Banner {
             <!-- Carousel Container -->
             <div
               #servicesCarousel
-              class="flex gap-8 overflow-x-auto scroll-smooth scrollbar-hide"
-              style="scroll-behavior: smooth;"
+              class="flex gap-8 overflow-x-auto scroll-smooth scrollbar-hide pb-4"
+              style="scroll-behavior: smooth; scroll-snap-type: x mandatory;"
             >
               <!-- Disposables Service -->
               <div
-                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                style="scroll-snap-align: start;"
               >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -193,7 +194,8 @@ interface Banner {
 
               <!-- Retail Service -->
               <div
-                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                style="scroll-snap-align: start;"
               >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -219,7 +221,8 @@ interface Banner {
 
               <!-- Automobiles Service -->
               <div
-                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                style="scroll-snap-align: start;"
               >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -247,7 +250,8 @@ interface Banner {
 
               <!-- Technologies Service -->
               <div
-                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                style="scroll-snap-align: start;"
               >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
@@ -275,7 +279,8 @@ interface Banner {
 
               <!-- Healthcare Service -->
               <div
-                class="flex-shrink-0 w-full md:w-1/3 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
+                style="scroll-snap-align: start;"
               >
               <div class="h-48 flex items-center justify-center bg-gray-100">
                 <img
