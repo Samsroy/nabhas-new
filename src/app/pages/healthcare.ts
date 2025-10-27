@@ -28,17 +28,10 @@ import { CommonModule } from "@angular/common";
               About Nabhas Healthcare
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas Healthcare is committed to providing high-quality medical
-              supplies and healthcare products that meet the highest
-              international standards. Our comprehensive range of products
-              serves hospitals, clinics, nursing homes, and individual
-              healthcare providers.
+              Nabhas is currently assisting a few healthcare stores to supply pharmaceuticals and providing comprehensive assistance in setting up new pharmacies. We are expanding our presence in the pharma space with plans to operate our own pharmaceutical stores in the Navi Mumbai area. Our team continues to support pharmacy establishment across our office locations throughout the country, with Delhi being added shortly.
             </p>
             <p class="text-lg text-gray-700">
-              With a focus on safety, reliability, and innovation, we ensure
-              that every product in our portfolio contributes to better
-              healthcare outcomes. Our team understands the critical nature of
-              healthcare supplies and maintains strict quality control measures.
+              We provide complete end-to-end pharmacy setup and management services, helping new pharmacy entrepreneurs navigate every aspect of establishing a successful healthcare business. Our expertise ensures quality, compliance, and profitability from day one.
             </p>
           </div>
         </div>
