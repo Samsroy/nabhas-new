@@ -28,18 +28,13 @@ import { CommonModule } from "@angular/common";
               About Nabhas Automobiles
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              Nabhas Automobiles provides comprehensive servicing solutions for
-              both two-wheeled and four-wheeled vehicles. Our state-of-the-art
-              service centers are equipped with modern diagnostic tools and
-              staffed by trained professionals committed to delivering
-              excellence.
+              Nabhas is focusing on two-wheeler sales in specific areas like Navi Mumbai. Currently offering TVS and Bajaj brands, with plans to add more brands and types including bikes, scooters, mopeds, and cycles with gears and battery. Nabhas is committed to focusing on luxury segments at affordable prices, expanding market presence on a continuous basis.
+            </p>
+            <p class="text-lg text-gray-700 mb-4">
+              For four-wheelers, Nabhas deals with reputed dealers on commission basis for Maruti, Hyundai, and Toyota. We plan to add four-wheel brands in the future with own dealerships and showrooms to provide direct access to customers seeking luxury vehicles at affordable prices.
             </p>
             <p class="text-lg text-gray-700">
-              We believe in sustainable automotive practices, ensuring minimal
-              environmental impact while maintaining the highest standards of
-              vehicle maintenance and repair. Whether you own a motorcycle,
-              scooter, car, or commercial vehicle, we have the expertise to keep
-              it running smoothly.
+              On the services side, Nabhas team is providing manpower to clients for car repairs and services through a network of partnered garages currently in Mumbai and Kolkata. We are expanding rapidly to Delhi, Bangalore, Chandigarh, Chennai, Hyderabad, and Indore. Nabhas operates on a commission-based model for both sales and repair services in the automobile segment.
             </p>
           </div>
         </div>
