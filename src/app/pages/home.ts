@@ -60,7 +60,7 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 5: Automobiles - Bottom Center/Full -->
+            <!-- Service 4: Automobiles - Second Row Right -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
