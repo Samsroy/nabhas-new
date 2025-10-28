@@ -14,7 +14,8 @@ import { CommonModule } from "@angular/common";
         <div class="container mx-auto px-4">
           <h1 class="text-5xl font-bold mb-4">Nabhas - Foods & Cafe's</h1>
           <p class="text-xl text-blue-50">
-            Premium sustainable food and beverage solutions for cafes and restaurants
+            Premium sustainable food and beverage solutions for cafes and
+            restaurants
           </p>
         </div>
       </section>
@@ -28,10 +29,17 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Foods & Cafe's
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Foods & Cafe's provides comprehensive solutions for cafes, restaurants, and food service establishments. Our eco-friendly products and supplies are designed to enhance customer experience while maintaining sustainability standards.
+                Nabhas Foods & Cafe's provides comprehensive solutions for
+                cafes, restaurants, and food service establishments. Our
+                eco-friendly products and supplies are designed to enhance
+                customer experience while maintaining sustainability standards.
               </p>
               <p class="text-lg text-gray-700">
-                We partner with food businesses to deliver quality packaging, sustainable serving solutions, and premium food service products. Our commitment to environmental responsibility ensures that your cafe or restaurant can thrive while making a positive impact on the planet.
+                We partner with food businesses to deliver quality packaging,
+                sustainable serving solutions, and premium food service
+                products. Our commitment to environmental responsibility ensures
+                that your cafe or restaurant can thrive while making a positive
+                impact on the planet.
               </p>
             </div>
             <div class="hidden lg:block">
@@ -59,7 +67,8 @@ import { CommonModule } from "@angular/common";
                 Packaging Solutions
               </h3>
               <p class="text-gray-700 mb-4">
-                Eco-friendly packaging for food service, beverages, and takeaway items.
+                Eco-friendly packaging for food service, beverages, and takeaway
+                items.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Paper cups and lids</li>
@@ -77,7 +86,8 @@ import { CommonModule } from "@angular/common";
                 Food Service Supplies
               </h3>
               <p class="text-gray-700 mb-4">
-                Complete range of supplies for cafes, restaurants, and food establishments.
+                Complete range of supplies for cafes, restaurants, and food
+                establishments.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Kitchen equipment</li>
@@ -113,7 +123,8 @@ import { CommonModule } from "@angular/common";
                 Custom Solutions
               </h3>
               <p class="text-gray-700 mb-4">
-                Tailored solutions designed specifically for your cafe or restaurant.
+                Tailored solutions designed specifically for your cafe or
+                restaurant.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Branded packaging design</li>
@@ -131,7 +142,8 @@ import { CommonModule } from "@angular/common";
                 Sustainability Commitment
               </h3>
               <p class="text-gray-700 mb-4">
-                All our products are designed with environmental responsibility at the core.
+                All our products are designed with environmental responsibility
+                at the core.
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ 100% biodegradable materials</li>
@@ -157,9 +169,7 @@ import { CommonModule } from "@angular/common";
               >
                 🌱
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-2">
-                Eco-Friendly
-              </h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">Eco-Friendly</h3>
               <p class="text-gray-700">
                 All products are sustainable and environmentally responsible.
               </p>
@@ -205,7 +215,8 @@ import { CommonModule } from "@angular/common";
             Elevate Your Cafe's Sustainability
           </h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Partner with Nabhas for premium, eco-friendly food and beverage solutions.
+            Partner with Nabhas for premium, eco-friendly food and beverage
+            solutions.
           </p>
           <button
             class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"

@@ -112,7 +112,8 @@ import { CommonModule } from "@angular/common";
                 Nabhas Foods & Cafe's
               </h3>
               <p class="text-gray-700 text-lg">
-                Premium sustainable food and beverage solutions for cafes and restaurants.
+                Premium sustainable food and beverage solutions for cafes and
+                restaurants.
               </p>
             </div>
 
