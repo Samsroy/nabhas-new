@@ -23,24 +23,33 @@ import { CommonModule } from "@angular/common";
       <!-- Overview Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              About Nabhas Automobiles
-            </h2>
-            <p class="text-lg text-gray-700 mb-4">
-              Nabhas Automobiles provides comprehensive servicing solutions for
-              both two-wheeled and four-wheeled vehicles. Our state-of-the-art
-              service centers are equipped with modern diagnostic tools and
-              staffed by trained professionals committed to delivering
-              excellence.
-            </p>
-            <p class="text-lg text-gray-700">
-              We believe in sustainable automotive practices, ensuring minimal
-              environmental impact while maintaining the highest standards of
-              vehicle maintenance and repair. Whether you own a motorcycle,
-              scooter, car, or commercial vehicle, we have the expertise to keep
-              it running smoothly.
-            </p>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold mb-6 text-gray-900">
+                About Nabhas Automobiles
+              </h2>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas Automobiles provides comprehensive servicing solutions for
+                both two-wheeled and four-wheeled vehicles. Our state-of-the-art
+                service centers are equipped with modern diagnostic tools and
+                staffed by trained professionals committed to delivering
+                excellence.
+              </p>
+              <p class="text-lg text-gray-700">
+                We believe in sustainable automotive practices, ensuring minimal
+                environmental impact while maintaining the highest standards of
+                vehicle maintenance and repair. Whether you own a motorcycle,
+                scooter, car, or commercial vehicle, we have the expertise to keep
+                it running smoothly.
+              </p>
+            </div>
+            <div class="hidden lg:block">
+              <img
+                src="https://images.pexels.com/photos/4489720/pexels-photo-4489720.jpeg"
+                alt="Professional mechanic servicing a vehicle in modern workshop"
+                class="rounded-lg shadow-lg h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
