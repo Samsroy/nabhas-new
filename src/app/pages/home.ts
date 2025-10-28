@@ -12,8 +12,9 @@ import { RouterLink } from "@angular/router";
       <section class="py-0 px-4 bg-white">
         <div class="container mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 py-20">
-            <!-- Service 1: Disposables - Top Left -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
+            <!-- Service 1: Disposables - 2 columns -->
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
@@ -28,23 +29,7 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 2: Healthcare - Top Center -->
-            <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Healthcare
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 3: Retail - Top Right -->
+            <!-- Service 2: Retail - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
@@ -60,8 +45,9 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 4: Technologies - Bottom Left -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Row 2: Technologies (2 columns) and Automobiles (1 column) -->
+            <!-- Service 3: Technologies - 2 columns -->
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
@@ -76,8 +62,8 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 5: Automobiles - Bottom Center/Full -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+            <!-- Service 4: Automobiles - 1 column -->
+            <div class="col-span-1 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
@@ -87,6 +73,23 @@ import { RouterLink } from "@angular/router";
                 >
                   <h3 class="text-3xl font-bold text-white drop-shadow-lg">
                     Automobiles
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 3: Healthcare - 3 columns (full width) -->
+            <!-- Service 5: Healthcare - 3 columns -->
+            <div class="col-span-1 md:col-span-3 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Healthcare
                   </h3>
                 </div>
               </div>
