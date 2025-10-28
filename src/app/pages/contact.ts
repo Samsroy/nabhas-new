@@ -69,9 +69,11 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Location</h3>
-                    <p class="text-gray-600">India</p>
-                    <p class="text-sm text-gray-500 mt-1">Available globally</p>
+                    <h3 class="font-bold text-gray-900 mb-2">Headquarters</h3>
+                    <p class="text-sm text-gray-600">A304, Neelkanth Exotica</p>
+                    <p class="text-sm text-gray-600">Plot 88, Sector 21</p>
+                    <p class="text-sm text-gray-600">Ulwe, Navi Mumbai 410206</p>
+                    <p class="text-sm text-gray-600">Maharashtra, India</p>
                   </div>
                 </div>
               </div>
@@ -194,7 +196,7 @@ import { FormsModule } from "@angular/forms";
                   class="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg"
                 >
                   <p class="text-green-800 font-semibold">
-                    ✓ Thank you! We've received your message. We'll get back to you soon.
+                    �� Thank you! We've received your message. We'll get back to you soon.
                   </p>
                 </div>
               </div>
