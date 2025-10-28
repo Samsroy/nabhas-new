@@ -23,12 +23,12 @@ import { RouterLink } from "@angular/router";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
                     >
                       Nabhas - Disposables
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-yellow-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Premium eco-friendly paper cutleries and sustainable
                       disposable products for food service, events, and
@@ -54,12 +54,12 @@ import { RouterLink } from "@angular/router";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
                       Nabhas - Retail
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Comprehensive range of eco-friendly retail solutions
                       specifically designed for grocery stores and supermarkets.
@@ -85,12 +85,12 @@ import { RouterLink } from "@angular/router";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
                     >
                       Nabhas - Foods & Cafe's
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-orange-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Premium sustainable food and beverage solutions for cafes
                       and restaurants with eco-friendly practices.
@@ -115,12 +115,12 @@ import { RouterLink } from "@angular/router";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
                       Nabhas - Technologies
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-cyan-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Digital solutions and modern website development services
                       powered by cutting-edge technology and innovation.
@@ -146,12 +146,12 @@ import { RouterLink } from "@angular/router";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-pink-300 drop-shadow-lg mb-3 tracking-wide"
                     >
                       Nabhas - Healthcare
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-pink-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       High-quality healthcare supplies and medical equipment
                       designed to meet international safety and quality
