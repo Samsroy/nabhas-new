@@ -28,23 +28,7 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 2: Healthcare - Top Center -->
-            <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Healthcare
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 3: Retail - Top Right -->
+            <!-- Service 2: Retail - Top Right -->
             <div class="col-span-1 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
