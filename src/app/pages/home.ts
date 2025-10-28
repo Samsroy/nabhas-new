@@ -8,73 +8,66 @@ import { RouterLink } from "@angular/router";
   imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
-      <!-- Masonry Grid Services Section -->
-      <section class="py-20 px-4 bg-gray-50">
+      <!-- Masonry Grid Services Section with Background Images -->
+      <section class="py-0 px-4 bg-white">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
-            Our Services
-          </h2>
-          <p class="text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-            Explore our comprehensive range of services tailored to meet all your business needs.
-          </p>
-
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 py-20">
             <!-- Service 1: Disposables - Top Left -->
-            <div class="col-span-1">
-              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
-                <div class="p-8">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Disposables</h3>
-                  <p class="text-gray-700 leading-relaxed">
-                    Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
-                  </p>
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Disposables</h3>
                 </div>
               </div>
             </div>
 
             <!-- Service 2: Healthcare - Top Center -->
-            <div class="col-span-1">
-              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
-                <div class="p-8">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Healthcare</h3>
-                  <p class="text-gray-700 leading-relaxed">
-                    High-quality healthcare supplies and medical equipment designed to meet international safety and quality standards.
-                  </p>
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Healthcare</h3>
                 </div>
               </div>
             </div>
 
             <!-- Service 3: Retail - Top Right -->
-            <div class="col-span-1">
-              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
-                <div class="p-8">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Retail</h3>
-                  <p class="text-gray-700 leading-relaxed">
-                    Comprehensive range of eco-friendly retail solutions specifically designed for grocery stores and supermarkets.
-                  </p>
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Retail</h3>
                 </div>
               </div>
             </div>
 
             <!-- Service 4: Technologies - Bottom Left -->
-            <div class="col-span-1">
-              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
-                <div class="p-8">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Technologies</h3>
-                  <p class="text-gray-700 leading-relaxed">
-                    Digital solutions and modern website development services powered by cutting-edge technology and innovation.
-                  </p>
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Technologies</h3>
                 </div>
               </div>
             </div>
 
             <!-- Service 5: Automobiles - Bottom Center/Full -->
-            <div class="col-span-1 md:col-span-2">
-              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
-                <div class="p-8">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Automobiles</h3>
-                  <p class="text-gray-700 leading-relaxed">
-                    Professional automotive servicing solutions for two- and four-wheel vehicles with eco-friendly practices and expertise.
-                  </p>
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Automobiles</h3>
                 </div>
               </div>
             </div>
