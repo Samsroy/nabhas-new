@@ -19,15 +19,19 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 flex flex-col justify-end"
-                >
+                <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
                       Disposables
                     </h3>
-                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
-                      Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Premium eco-friendly paper cutleries and sustainable
+                      disposable products for food service, events, and
+                      households.
                     </p>
                   </div>
                 </div>
@@ -40,15 +44,18 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 flex flex-col justify-end"
-                >
+                <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
                       Retail
                     </h3>
-                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
-                      Comprehensive range of eco-friendly retail solutions specifically designed for grocery stores and supermarkets.
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Comprehensive range of eco-friendly retail solutions
+                      specifically designed for grocery stores and supermarkets.
                     </p>
                   </div>
                 </div>
@@ -62,15 +69,19 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 flex flex-col justify-end"
-                >
+                <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
                       Automobiles
                     </h3>
-                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
-                      Professional automotive servicing solutions for two- and four-wheel vehicles with eco-friendly practices and expertise.
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Professional automotive servicing solutions for two- and
+                      four-wheel vehicles with eco-friendly practices and
+                      expertise.
                     </p>
                   </div>
                 </div>
@@ -83,15 +94,18 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 flex flex-col justify-end"
-                >
+                <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
                       Technologies
                     </h3>
-                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
-                      Digital solutions and modern website development services powered by cutting-edge technology and innovation.
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Digital solutions and modern website development services
+                      powered by cutting-edge technology and innovation.
                     </p>
                   </div>
                 </div>
@@ -105,15 +119,19 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 flex flex-col justify-end"
-                >
+                <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
                       Healthcare
                     </h3>
-                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
-                      High-quality healthcare supplies and medical equipment designed to meet international safety and quality standards.
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      High-quality healthcare supplies and medical equipment
+                      designed to meet international safety and quality
+                      standards.
                     </p>
                   </div>
                 </div>
