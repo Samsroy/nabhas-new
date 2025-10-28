@@ -1,18 +1,6 @@
-import {
-  Component,
-  OnInit,
-  OnDestroy,
-  ViewChild,
-  ElementRef,
-} from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink } from "@angular/router";
-
-interface Banner {
-  heading: string;
-  description: string;
-  imageUrl: string;
-}
 
 @Component({
   selector: "app-home",
