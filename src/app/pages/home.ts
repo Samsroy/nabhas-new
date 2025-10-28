@@ -74,27 +74,26 @@ import { RouterLink } from "@angular/router";
               </a>
             </div>
 
-            <!-- Row 2: Automobiles (1 column) and Technologies (2 columns) -->
-            <!-- Service 3: Automobiles - 1 column -->
+            <!-- Row 2: Foods & Cafe's (1 column) and Technologies (2 columns) -->
+            <!-- Service 3: Foods & Cafe's - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
               <a
-                routerLink="/services/automobiles"
+                routerLink="/services/food-cafes"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Automobiles
+                      Nabhas - Foods & Cafe's
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      Professional automotive servicing solutions for two- and
-                      four-wheel vehicles with eco-friendly practices and
-                      expertise.
+                      Premium sustainable food and beverage solutions for cafes
+                      and restaurants with eco-friendly practices.
                     </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -246,29 +245,28 @@ import { RouterLink } from "@angular/router";
                 </div>
               </div>
 
-              <!-- Automobiles Service -->
+              <!-- Foods & Cafe's Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
                 <div class="h-48 flex items-center justify-center bg-gray-100">
                   <img
-                    src="https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Automobile Servicing"
+                    src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Premium Food and Beverage Solutions"
                     class="h-full w-full object-cover"
                   />
                 </div>
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-900 mb-2">
-                    Automobiles
+                    Foods & Cafe's
                   </h3>
                   <p class="text-gray-600 mb-4">
-                    Professional automotive servicing solutions for two- and
-                    four-wheel vehicles with eco-friendly practices and
-                    expertise.
+                    Premium sustainable food and beverage solutions for cafes
+                    and restaurants with eco-friendly practices.
                   </p>
                   <a
-                    routerLink="/services/automobiles"
+                    routerLink="/services/food-cafes"
                     class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
                   >
                     View more
