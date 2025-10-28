@@ -18,8 +18,12 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Disposables</h3>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Disposables
+                  </h3>
                 </div>
               </div>
             </div>
@@ -30,8 +34,12 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Healthcare</h3>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Healthcare
+                  </h3>
                 </div>
               </div>
             </div>
@@ -42,8 +50,12 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Retail</h3>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Retail
+                  </h3>
                 </div>
               </div>
             </div>
@@ -54,8 +66,12 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Technologies</h3>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Technologies
+                  </h3>
                 </div>
               </div>
             </div>
@@ -66,8 +82,12 @@ import { RouterLink } from "@angular/router";
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">Automobiles</h3>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Automobiles
+                  </h3>
                 </div>
               </div>
             </div>
@@ -364,14 +384,117 @@ import { RouterLink } from "@angular/router";
       </section>
     </div>
   `,
-  styles: [`
-    .zigzag-box {
-      position: relative;
-      clip-path: polygon(
-        0% 5%, 2% 0%, 4% 5%, 6% 0%, 8% 5%, 10% 0%, 12% 5%, 14% 0%, 16% 5%, 18% 0%, 20% 5%, 22% 0%, 24% 5%, 26% 0%, 28% 5%, 30% 0%, 32% 5%, 34% 0%, 36% 5%, 38% 0%, 40% 5%, 42% 0%, 44% 5%, 46% 0%, 48% 5%, 50% 0%, 52% 5%, 54% 0%, 56% 5%, 58% 0%, 60% 5%, 62% 0%, 64% 5%, 66% 0%, 68% 5%, 70% 0%, 72% 5%, 74% 0%, 76% 5%, 78% 0%, 80% 5%, 82% 0%, 84% 5%, 86% 0%, 88% 5%, 90% 0%, 92% 5%, 94% 0%, 96% 5%, 98% 0%, 100% 5%, 100% 95%, 98% 100%, 96% 95%, 94% 100%, 92% 95%, 90% 100%, 88% 95%, 86% 100%, 84% 95%, 82% 100%, 80% 95%, 78% 100%, 76% 95%, 74% 100%, 72% 95%, 70% 100%, 68% 95%, 66% 100%, 64% 95%, 62% 100%, 60% 95%, 58% 100%, 56% 95%, 54% 100%, 52% 95%, 50% 100%, 48% 95%, 46% 100%, 44% 95%, 42% 100%, 40% 95%, 38% 100%, 36% 95%, 34% 100%, 32% 95%, 30% 100%, 28% 95%, 26% 100%, 24% 95%, 22% 100%, 20% 95%, 18% 100%, 16% 95%, 14% 100%, 12% 95%, 10% 100%, 8% 95%, 6% 100%, 4% 95%, 2% 100%, 0% 95%
-      );
-    }
-  `],
+  styles: [
+    `
+      .zigzag-box {
+        position: relative;
+        clip-path: polygon(
+          0% 5%,
+          2% 0%,
+          4% 5%,
+          6% 0%,
+          8% 5%,
+          10% 0%,
+          12% 5%,
+          14% 0%,
+          16% 5%,
+          18% 0%,
+          20% 5%,
+          22% 0%,
+          24% 5%,
+          26% 0%,
+          28% 5%,
+          30% 0%,
+          32% 5%,
+          34% 0%,
+          36% 5%,
+          38% 0%,
+          40% 5%,
+          42% 0%,
+          44% 5%,
+          46% 0%,
+          48% 5%,
+          50% 0%,
+          52% 5%,
+          54% 0%,
+          56% 5%,
+          58% 0%,
+          60% 5%,
+          62% 0%,
+          64% 5%,
+          66% 0%,
+          68% 5%,
+          70% 0%,
+          72% 5%,
+          74% 0%,
+          76% 5%,
+          78% 0%,
+          80% 5%,
+          82% 0%,
+          84% 5%,
+          86% 0%,
+          88% 5%,
+          90% 0%,
+          92% 5%,
+          94% 0%,
+          96% 5%,
+          98% 0%,
+          100% 5%,
+          100% 95%,
+          98% 100%,
+          96% 95%,
+          94% 100%,
+          92% 95%,
+          90% 100%,
+          88% 95%,
+          86% 100%,
+          84% 95%,
+          82% 100%,
+          80% 95%,
+          78% 100%,
+          76% 95%,
+          74% 100%,
+          72% 95%,
+          70% 100%,
+          68% 95%,
+          66% 100%,
+          64% 95%,
+          62% 100%,
+          60% 95%,
+          58% 100%,
+          56% 95%,
+          54% 100%,
+          52% 95%,
+          50% 100%,
+          48% 95%,
+          46% 100%,
+          44% 95%,
+          42% 100%,
+          40% 95%,
+          38% 100%,
+          36% 95%,
+          34% 100%,
+          32% 95%,
+          30% 100%,
+          28% 95%,
+          26% 100%,
+          24% 95%,
+          22% 100%,
+          20% 95%,
+          18% 100%,
+          16% 95%,
+          14% 100%,
+          12% 95%,
+          10% 100%,
+          8% 95%,
+          6% 100%,
+          4% 95%,
+          2% 100%,
+          0% 95%
+        );
+      }
+    `,
+  ],
 })
 export class HomeComponent {
   @ViewChild("servicesCarousel") servicesCarousel!: ElementRef;
