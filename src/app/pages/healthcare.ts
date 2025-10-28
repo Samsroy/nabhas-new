@@ -23,23 +23,32 @@ import { CommonModule } from "@angular/common";
       <!-- Overview Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              About Nabhas Healthcare
-            </h2>
-            <p class="text-lg text-gray-700 mb-4">
-              Nabhas Healthcare is committed to providing high-quality medical
-              supplies and healthcare products that meet the highest
-              international standards. Our comprehensive range of products
-              serves hospitals, clinics, nursing homes, and individual
-              healthcare providers.
-            </p>
-            <p class="text-lg text-gray-700">
-              With a focus on safety, reliability, and innovation, we ensure
-              that every product in our portfolio contributes to better
-              healthcare outcomes. Our team understands the critical nature of
-              healthcare supplies and maintains strict quality control measures.
-            </p>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold mb-6 text-gray-900">
+                About Nabhas Healthcare
+              </h2>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas Healthcare is committed to providing high-quality medical
+                supplies and healthcare products that meet the highest
+                international standards. Our comprehensive range of products
+                serves hospitals, clinics, nursing homes, and individual
+                healthcare providers.
+              </p>
+              <p class="text-lg text-gray-700">
+                With a focus on safety, reliability, and innovation, we ensure
+                that every product in our portfolio contributes to better
+                healthcare outcomes. Our team understands the critical nature of
+                healthcare supplies and maintains strict quality control measures.
+              </p>
+            </div>
+            <div class="hidden lg:block">
+              <img
+                src="https://images.pexels.com/photos/4421490/pexels-photo-4421490.jpeg"
+                alt="Medical supplies and healthcare equipment organized in hospital setting"
+                class="rounded-lg shadow-lg h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
