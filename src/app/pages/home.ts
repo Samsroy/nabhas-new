@@ -21,7 +21,7 @@ import { RouterLink } from "@angular/router";
           <div class="flex flex-col gap-12 lg:gap-16">
             <!-- Service 1: Disposables - Left -->
             <div class="flex justify-start">
-              <div class="w-full lg:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
                 <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
                   <img
                     src="https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=600"
