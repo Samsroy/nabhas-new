@@ -21,7 +21,7 @@ import { RouterLink } from "@angular/router";
               <span class="text-xl font-bold">Nabhas</span>
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
-              Manufacturing premium eco-friendly packaging solutions for a sustainable future.
+              Committed to delivering innovative, sustainable packaging solutions across diverse industries with a focus on environmental responsibility.
             </p>
           </div>
 
@@ -30,20 +30,20 @@ import { RouterLink } from "@angular/router";
             <h4 class="font-bold text-lg mb-4">Quick Links</h4>
             <ul class="space-y-2">
               <li><a routerLink="/" class="text-blue-200 hover:text-white transition">Home</a></li>
-              <li><a routerLink="/products" class="text-blue-200 hover:text-white transition">Products</a></li>
               <li><a routerLink="/about" class="text-blue-200 hover:text-white transition">About Us</a></li>
               <li><a routerLink="/contact" class="text-blue-200 hover:text-white transition">Contact</a></li>
             </ul>
           </div>
 
-          <!-- Products -->
+          <!-- Pages -->
           <div>
-            <h4 class="font-bold text-lg mb-4">Products</h4>
+            <h4 class="font-bold text-lg mb-4">Pages</h4>
             <ul class="space-y-2">
-              <li><a href="#" class="text-blue-200 hover:text-white transition">Paper Plates</a></li>
-              <li><a href="#" class="text-blue-200 hover:text-white transition">Paper Cups</a></li>
-              <li><a href="#" class="text-blue-200 hover:text-white transition">Paper Napkins</a></li>
-              <li><a href="#" class="text-blue-200 hover:text-white transition">Wooden Cutlery</a></li>
+              <li><a routerLink="/services/disposables" class="text-blue-200 hover:text-white transition">Disposables</a></li>
+              <li><a routerLink="/services/retail" class="text-blue-200 hover:text-white transition">Retail</a></li>
+              <li><a routerLink="/services/automobiles" class="text-blue-200 hover:text-white transition">Automobiles</a></li>
+              <li><a routerLink="/services/healthcare" class="text-blue-200 hover:text-white transition">Healthcare</a></li>
+              <li><a routerLink="/services/technologies" class="text-blue-200 hover:text-white transition">Technologies</a></li>
             </ul>
           </div>
 
@@ -61,7 +61,7 @@ import { RouterLink } from "@angular/router";
                 <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                <span>+91 XXXX XXXX XX</span>
+                <span>+91-8469690812</span>
               </li>
               <li class="flex items-start gap-2">
                 <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">

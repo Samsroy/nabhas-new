@@ -13,7 +13,7 @@ import { FormsModule } from "@angular/forms";
         <div class="container mx-auto px-4">
           <h1 class="text-5xl font-bold mb-4">Get in Touch</h1>
           <p class="text-xl text-blue-50">
-            Have questions? We'd love to hear from you. Send us a message!
+            Nabhas is a global company with operations across India, Europe, Australia, Middle East, and beyond. Connect with us today!
           </p>
         </div>
       </section>
@@ -33,9 +33,12 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Email</h3>
-                    <p class="text-gray-600">contact@nabhas.com</p>
-                    <p class="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
+                    <h3 class="font-bold text-gray-900 mb-3">Email</h3>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">General:</span> Contact.nabhas@gmail.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Dubai:</span> Dubai@nabhas.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Europe:</span> Europe@nabhas.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">USA:</span> Usa@nabhas.com</p>
+                    <p class="text-sm text-gray-600"><span class="font-semibold">Australia:</span> Australia@nabhas.com</p>
                   </div>
                 </div>
               </div>
@@ -49,9 +52,10 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Phone</h3>
-                    <p class="text-gray-600">+91 XXXX XXXX XX</p>
-                    <p class="text-sm text-gray-500 mt-1">Mon-Fri, 9AM-6PM IST</p>
+                    <h3 class="font-bold text-gray-900 mb-3">Phone</h3>
+                    <p class="text-sm text-gray-600 mb-1">+91-8469690812</p>
+                    <p class="text-sm text-gray-600">+91-8469198872</p>
+                    <p class="text-sm text-gray-500 mt-2">Mon-Fri, 9AM-6PM IST</p>
                   </div>
                 </div>
               </div>
@@ -65,9 +69,11 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Location</h3>
-                    <p class="text-gray-600">India</p>
-                    <p class="text-sm text-gray-500 mt-1">Available globally</p>
+                    <h3 class="font-bold text-gray-900 mb-2">Headquarters</h3>
+                    <p class="text-sm text-gray-600">A304, Neelkanth Exotica</p>
+                    <p class="text-sm text-gray-600">Plot 88, Sector 21</p>
+                    <p class="text-sm text-gray-600">Ulwe, Navi Mumbai 410206</p>
+                    <p class="text-sm text-gray-600">Maharashtra, India</p>
                   </div>
                 </div>
               </div>
@@ -195,6 +201,75 @@ import { FormsModule } from "@angular/forms";
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Global Presence Section -->
+      <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Global Presence & Operations</h2>
+          <p class="text-center text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+            Nabhas is an Indian company with a strong global presence and an expanding network of customers and offices across multiple continents.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+            <!-- Our Offices -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">Our Offices</h3>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">India</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Mumbai (Headquarters)</li>
+                    <li>• Delhi (Collaboration Office)</li>
+                    <li>• Kolkata (Collaboration Office)</li>
+                    <li>• Bangalore (Collaboration Office)</li>
+                    <li>• Jabalpur (Collaboration Office)</li>
+                  </ul>
+                </div>
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">International</h4>
+                  <p class="text-sm text-gray-600 mb-2">Currently Expanding With:</p>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Melbourne, Australia</li>
+                    <li>• Bahrain, Middle East</li>
+                    <li>• San Francisco, USA</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Presence -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">Customer Presence</h3>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">India</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Mumbai, Kolkata, Bangalore</li>
+                    <li>• Chennai, Hyderabad</li>
+                  </ul>
+                </div>
+                <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">Global</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Dubai (Middle East)</li>
+                    <li>• London, Basel, Germany (Europe)</li>
+                    <li>• New Jersey (USA)</li>
+                    <li>• Sydney (Australia)</li>
+                    <li>• And many more...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white p-8 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4">Our Vision</h3>
+            <p class="text-lg leading-relaxed">
+              Nabhas is committed to expanding its global operations across diverse markets. With a strong foundation in India and established customer relationships worldwide, we continue to establish international offices and partnerships in key markets to better serve our global clientele.
+            </p>
           </div>
         </div>
       </section>

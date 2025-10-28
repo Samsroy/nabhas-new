@@ -23,23 +23,32 @@ import { CommonModule } from "@angular/common";
       <!-- Overview Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              About Nabhas Technologies
-            </h2>
-            <p class="text-lg text-gray-700 mb-4">
-              Nabhas Technologies specializes in creating innovative digital
-              solutions tailored to your business needs. Our expert team of
-              developers, designers, and digital strategists work
-              collaboratively to transform your vision into reality.
-            </p>
-            <p class="text-lg text-gray-700">
-              From responsive websites to custom web applications, we leverage
-              the latest technologies and best practices to deliver solutions
-              that drive results. Our approach combines technical excellence
-              with user-centered design to ensure your digital presence stands
-              out.
-            </p>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold mb-6 text-gray-900">
+                About Nabhas Technologies
+              </h2>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas Technologies specializes in creating innovative digital
+                solutions tailored to your business needs. Our expert team of
+                developers, designers, and digital strategists work
+                collaboratively to transform your vision into reality.
+              </p>
+              <p class="text-lg text-gray-700">
+                From responsive websites to custom web applications, we leverage
+                the latest technologies and best practices to deliver solutions
+                that drive results. Our approach combines technical excellence
+                with user-centered design to ensure your digital presence stands
+                out.
+              </p>
+            </div>
+            <div class="hidden lg:block">
+              <img
+                src="https://images.pexels.com/photos/4974922/pexels-photo-4974922.jpeg"
+                alt="Developer working on coding and web development with multiple displays"
+                class="rounded-lg shadow-lg h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
