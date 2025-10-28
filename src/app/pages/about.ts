@@ -109,11 +109,10 @@ import { CommonModule } from "@angular/common";
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Automobiles
+                Nabhas Foods & Cafe's
               </h3>
               <p class="text-gray-700 text-lg">
-                Professional two- and four-wheel servicing solutions with
-                sustainable practices.
+                Premium sustainable food and beverage solutions for cafes and restaurants.
               </p>
             </div>
 

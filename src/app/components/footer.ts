@@ -41,7 +41,7 @@ import { RouterLink } from "@angular/router";
             <ul class="space-y-2">
               <li><a routerLink="/services/disposables" class="text-blue-200 hover:text-white transition">Disposables</a></li>
               <li><a routerLink="/services/retail" class="text-blue-200 hover:text-white transition">Retail</a></li>
-              <li><a routerLink="/services/automobiles" class="text-blue-200 hover:text-white transition">Automobiles</a></li>
+              <li><a routerLink="/services/food-cafes" class="text-blue-200 hover:text-white transition">Foods & Cafe's</a></li>
               <li><a routerLink="/services/healthcare" class="text-blue-200 hover:text-white transition">Healthcare</a></li>
               <li><a routerLink="/services/technologies" class="text-blue-200 hover:text-white transition">Technologies</a></li>
             </ul>

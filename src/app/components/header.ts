@@ -79,10 +79,10 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
                 Nabhas Retail
               </a>
               <a
-                routerLink="/services/automobiles"
+                routerLink="/services/food-cafes"
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
               >
-                Nabhas Automobiles
+                Nabhas Foods & Cafe's
               </a>
               <a
                 routerLink="/services/technologies"
