@@ -15,8 +15,9 @@ import { RouterLink } from "@angular/router";
             <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
             <!-- Service 1: Disposables - 2 columns -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/disposables"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
@@ -33,15 +34,21 @@ import { RouterLink } from "@angular/router";
                       disposable products for food service, events, and
                       households.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Service 2: Retail - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/retail"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
@@ -57,16 +64,22 @@ import { RouterLink } from "@angular/router";
                       Comprehensive range of eco-friendly retail solutions
                       specifically designed for grocery stores and supermarkets.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Row 2: Automobiles (1 column) and Technologies (2 columns) -->
             <!-- Service 3: Automobiles - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/automobiles"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
@@ -83,15 +96,21 @@ import { RouterLink } from "@angular/router";
                       four-wheel vehicles with eco-friendly practices and
                       expertise.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Service 4: Technologies - 2 columns -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/technologies"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
@@ -107,16 +126,22 @@ import { RouterLink } from "@angular/router";
                       Digital solutions and modern website development services
                       powered by cutting-edge technology and innovation.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Row 3: Healthcare - 3 columns (full width) -->
             <!-- Service 5: Healthcare - 3 columns -->
             <div class="col-span-1 md:col-span-3 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/healthcare"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
@@ -133,9 +158,14 @@ import { RouterLink } from "@angular/router";
                       designed to meet international safety and quality
                       standards.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
