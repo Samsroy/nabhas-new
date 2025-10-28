@@ -9,9 +9,9 @@ import { RouterLink } from "@angular/router";
   template: `
     <div class="bg-gray-50">
       <!-- Masonry Grid Services Section with Background Images -->
-      <section class="py-0 px-4 bg-white">
-        <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 py-20">
+      <section class="py-0 px-0 bg-white w-full">
+        <div class="w-full">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0">
             <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
             <!-- Service 1: Disposables - 2 columns -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
