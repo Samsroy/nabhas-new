@@ -23,23 +23,32 @@ import { CommonModule } from "@angular/common";
       <!-- Overview Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              About Our Disposables
-            </h2>
-            <p class="text-lg text-gray-700 mb-4">
-              Nabhas Disposables specializes in high-quality, eco-friendly paper
-              cutleries and disposable products designed for food service,
-              events, and household use. Our products are manufactured with
-              sustainability at their core, ensuring minimal environmental
-              impact without compromising on quality or durability.
-            </p>
-            <p class="text-lg text-gray-700">
-              From paper plates and cups to wooden cutlery, our comprehensive
-              range of disposable products serves businesses and consumers who
-              care about the environment. Each product undergoes rigorous
-              quality testing to meet international standards.
-            </p>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold mb-6 text-gray-900">
+                About Our Disposables
+              </h2>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas Disposables specializes in high-quality, eco-friendly paper
+                cutleries and disposable products designed for food service,
+                events, and household use. Our products are manufactured with
+                sustainability at their core, ensuring minimal environmental
+                impact without compromising on quality or durability.
+              </p>
+              <p class="text-lg text-gray-700">
+                From paper plates and cups to wooden cutlery, our comprehensive
+                range of disposable products serves businesses and consumers who
+                care about the environment. Each product undergoes rigorous
+                quality testing to meet international standards.
+              </p>
+            </div>
+            <div class="hidden lg:block">
+              <img
+                src="https://images.pexels.com/photos/10376368/pexels-photo-10376368.jpeg"
+                alt="Eco-friendly packaging and disposable products"
+                class="rounded-lg shadow-lg h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
