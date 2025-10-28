@@ -20,14 +20,16 @@ import { RouterLink } from "@angular/router";
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex flex-col items-end justify-end p-6"
+                  class="absolute inset-0 flex flex-col justify-end"
                 >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg mb-2">
-                    Disposables
-                  </h3>
-                  <p class="text-white text-sm drop-shadow-lg line-clamp-3">
-                    Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
-                  </p>
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3 class="text-3xl font-bold text-white drop-shadow-lg mb-2">
+                      Disposables
+                    </h3>
+                    <p class="text-white text-sm drop-shadow-lg line-clamp-3">
+                      Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
