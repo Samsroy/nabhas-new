@@ -33,9 +33,12 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Email</h3>
-                    <p class="text-gray-600">contact@nabhas.com</p>
-                    <p class="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
+                    <h3 class="font-bold text-gray-900 mb-3">Email</h3>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">General:</span> Contact.nabhas@gmail.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Dubai:</span> Dubai@nabhas.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Europe:</span> Europe@nabhas.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">USA:</span> Usa@nabhas.com</p>
+                    <p class="text-sm text-gray-600"><span class="font-semibold">Australia:</span> Australia@nabhas.com</p>
                   </div>
                 </div>
               </div>
