@@ -22,23 +22,32 @@ import { CommonModule } from "@angular/common";
       <!-- Overview Section -->
       <section class="py-16 px-4">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              About Nabhas Retail
-            </h2>
-            <p class="text-lg text-gray-700 mb-4">
-              Nabhas Retail is your trusted partner for comprehensive grocery
-              store supplies. We provide a wide range of products and solutions
-              tailored specifically for retail businesses, supermarkets, and
-              convenience stores. From packaging materials to display solutions,
-              we have everything you need to optimize your retail operations.
-            </p>
-            <p class="text-lg text-gray-700">
-              Our retail solutions are designed to enhance customer experience,
-              improve efficiency, and maintain product quality. With years of
-              experience in the retail sector, we understand the unique
-              challenges faced by modern retailers.
-            </p>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="text-4xl font-bold mb-6 text-gray-900">
+                About Nabhas Retail
+              </h2>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas Retail is your trusted partner for comprehensive grocery
+                store supplies. We provide a wide range of products and solutions
+                tailored specifically for retail businesses, supermarkets, and
+                convenience stores. From packaging materials to display solutions,
+                we have everything you need to optimize your retail operations.
+              </p>
+              <p class="text-lg text-gray-700">
+                Our retail solutions are designed to enhance customer experience,
+                improve efficiency, and maintain product quality. With years of
+                experience in the retail sector, we understand the unique
+                challenges faced by modern retailers.
+              </p>
+            </div>
+            <div class="hidden lg:block">
+              <img
+                src="https://images.pexels.com/photos/34460655/pexels-photo-34460655.jpeg"
+                alt="Retail grocery store with vibrant colors and fresh produce"
+                class="rounded-lg shadow-lg h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
