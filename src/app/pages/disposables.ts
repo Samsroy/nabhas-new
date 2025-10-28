@@ -29,11 +29,12 @@ import { CommonModule } from "@angular/common";
                 About Our Disposables
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Disposables specializes in high-quality, eco-friendly paper
-                cutleries and disposable products designed for food service,
-                events, and household use. Our products are manufactured with
-                sustainability at their core, ensuring minimal environmental
-                impact without compromising on quality or durability.
+                Nabhas Disposables specializes in high-quality, eco-friendly
+                paper cutleries and disposable products designed for food
+                service, events, and household use. Our products are
+                manufactured with sustainability at their core, ensuring minimal
+                environmental impact without compromising on quality or
+                durability.
               </p>
               <p class="text-lg text-gray-700">
                 From paper plates and cups to wooden cutlery, our comprehensive

@@ -39,7 +39,8 @@ import { CommonModule } from "@angular/common";
                 With a focus on safety, reliability, and innovation, we ensure
                 that every product in our portfolio contributes to better
                 healthcare outcomes. Our team understands the critical nature of
-                healthcare supplies and maintains strict quality control measures.
+                healthcare supplies and maintains strict quality control
+                measures.
               </p>
             </div>
             <div class="hidden lg:block">

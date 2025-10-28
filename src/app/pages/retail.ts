@@ -29,16 +29,17 @@ import { CommonModule } from "@angular/common";
               </h2>
               <p class="text-lg text-gray-700 mb-4">
                 Nabhas Retail is your trusted partner for comprehensive grocery
-                store supplies. We provide a wide range of products and solutions
-                tailored specifically for retail businesses, supermarkets, and
-                convenience stores. From packaging materials to display solutions,
-                we have everything you need to optimize your retail operations.
+                store supplies. We provide a wide range of products and
+                solutions tailored specifically for retail businesses,
+                supermarkets, and convenience stores. From packaging materials
+                to display solutions, we have everything you need to optimize
+                your retail operations.
               </p>
               <p class="text-lg text-gray-700">
-                Our retail solutions are designed to enhance customer experience,
-                improve efficiency, and maintain product quality. With years of
-                experience in the retail sector, we understand the unique
-                challenges faced by modern retailers.
+                Our retail solutions are designed to enhance customer
+                experience, improve efficiency, and maintain product quality.
+                With years of experience in the retail sector, we understand the
+                unique challenges faced by modern retailers.
               </p>
             </div>
             <div class="hidden lg:block">

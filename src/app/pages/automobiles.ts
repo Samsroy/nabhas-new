@@ -29,18 +29,18 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Automobiles
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Automobiles provides comprehensive servicing solutions for
-                both two-wheeled and four-wheeled vehicles. Our state-of-the-art
-                service centers are equipped with modern diagnostic tools and
-                staffed by trained professionals committed to delivering
-                excellence.
+                Nabhas Automobiles provides comprehensive servicing solutions
+                for both two-wheeled and four-wheeled vehicles. Our
+                state-of-the-art service centers are equipped with modern
+                diagnostic tools and staffed by trained professionals committed
+                to delivering excellence.
               </p>
               <p class="text-lg text-gray-700">
                 We believe in sustainable automotive practices, ensuring minimal
                 environmental impact while maintaining the highest standards of
                 vehicle maintenance and repair. Whether you own a motorcycle,
-                scooter, car, or commercial vehicle, we have the expertise to keep
-                it running smoothly.
+                scooter, car, or commercial vehicle, we have the expertise to
+                keep it running smoothly.
               </p>
             </div>
             <div class="hidden lg:block">
