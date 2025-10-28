@@ -9,85 +9,131 @@ import { RouterLink } from "@angular/router";
   template: `
     <div class="bg-gray-50">
       <!-- Masonry Grid Services Section with Background Images -->
-      <section class="py-0 px-4 bg-white">
-        <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 py-20">
-            <!-- Service 1: Disposables - Top Left -->
-            <div class="col-span-1 h-64 md:h-80">
+      <section class="py-0 px-0 bg-white w-full">
+        <div class="w-full">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0">
+            <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
+            <!-- Service 1: Disposables - 2 columns -->
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Disposables
-                  </h3>
+                <div class="absolute inset-0 flex flex-col justify-end">
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
+                      Disposables
+                    </h3>
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Premium eco-friendly paper cutleries and sustainable
+                      disposable products for food service, events, and
+                      households.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- Service 2: Healthcare - Top Center -->
-            <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Healthcare
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 3: Retail - Top Right -->
+            <!-- Service 2: Retail - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Retail
-                  </h3>
+                <div class="absolute inset-0 flex flex-col justify-end">
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
+                      Retail
+                    </h3>
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Comprehensive range of eco-friendly retail solutions
+                      specifically designed for grocery stores and supermarkets.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- Service 4: Technologies - Bottom Left -->
+            <!-- Row 2: Automobiles (1 column) and Technologies (2 columns) -->
+            <!-- Service 3: Automobiles - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Technologies
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 5: Automobiles - Bottom Center/Full -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                 style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
-                >
-                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
-                    Automobiles
-                  </h3>
+                <div class="absolute inset-0 flex flex-col justify-end">
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
+                      Automobiles
+                    </h3>
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Professional automotive servicing solutions for two- and
+                      four-wheel vehicles with eco-friendly practices and
+                      expertise.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 4: Technologies - 2 columns -->
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 flex flex-col justify-end">
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
+                      Technologies
+                    </h3>
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      Digital solutions and modern website development services
+                      powered by cutting-edge technology and innovation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 3: Healthcare - 3 columns (full width) -->
+            <!-- Service 5: Healthcare - 3 columns -->
+            <div class="col-span-1 md:col-span-3 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div class="absolute inset-0 flex flex-col justify-end">
+                  <div class="bg-black bg-opacity-50 p-6">
+                    <h3
+                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                    >
+                      Healthcare
+                    </h3>
+                    <p
+                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                    >
+                      High-quality healthcare supplies and medical equipment
+                      designed to meet international safety and quality
+                      standards.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,7 +142,7 @@ import { RouterLink } from "@angular/router";
       </section>
 
       <!-- Product & Services Section -->
-      <section class="py-16 px-4">
+      <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
             Our Product & Services
