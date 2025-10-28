@@ -124,7 +124,7 @@ import { RouterLink } from "@angular/router";
       </section>
 
       <!-- Product & Services Section -->
-      <section class="py-16 px-4">
+      <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
             Our Product & Services
