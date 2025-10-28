@@ -87,10 +87,10 @@ import { RouterLink } from "@angular/router";
                   class="absolute inset-0 flex flex-col justify-end"
                 >
                   <div class="bg-black bg-opacity-50 p-6">
-                    <h3 class="text-3xl font-bold text-white drop-shadow-lg mb-2">
+                    <h3 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide">
                       Technologies
                     </h3>
-                    <p class="text-white text-sm drop-shadow-lg line-clamp-3">
+                    <p class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium">
                       Digital solutions and modern website development services powered by cutting-edge technology and innovation.
                     </p>
                   </div>
