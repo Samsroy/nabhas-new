@@ -24,7 +24,7 @@ import { RouterLink } from "@angular/router";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Disposables
+                      Nabhas - Disposables
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
@@ -49,7 +49,7 @@ import { RouterLink } from "@angular/router";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Retail
+                      Nabhas - Retail
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
@@ -74,7 +74,7 @@ import { RouterLink } from "@angular/router";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Automobiles
+                      Nabhas - Automobiles
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
@@ -99,7 +99,7 @@ import { RouterLink } from "@angular/router";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Technologies
+                      Nabhas - Technologies
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
@@ -124,7 +124,7 @@ import { RouterLink } from "@angular/router";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Healthcare
+                      Nabhas - Healthcare
                     </h3>
                     <p
                       class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
