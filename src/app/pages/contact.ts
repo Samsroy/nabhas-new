@@ -52,9 +52,10 @@ import { FormsModule } from "@angular/forms";
                     </svg>
                   </div>
                   <div>
-                    <h3 class="font-bold text-gray-900 mb-1">Phone</h3>
-                    <p class="text-gray-600">+91 XXXX XXXX XX</p>
-                    <p class="text-sm text-gray-500 mt-1">Mon-Fri, 9AM-6PM IST</p>
+                    <h3 class="font-bold text-gray-900 mb-3">Phone</h3>
+                    <p class="text-sm text-gray-600 mb-1">+91-8469690812</p>
+                    <p class="text-sm text-gray-600">+91-8469198872</p>
+                    <p class="text-sm text-gray-500 mt-2">Mon-Fri, 9AM-6PM IST</p>
                   </div>
                 </div>
               </div>
