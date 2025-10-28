@@ -71,7 +71,7 @@ import { RouterLink } from "@angular/router";
 
             <!-- Service 3: Automobiles - Left -->
             <div class="flex justify-start">
-              <div class="w-full lg:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
+              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
                 <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
                   <img
                     src="https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=600"
