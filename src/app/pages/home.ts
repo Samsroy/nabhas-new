@@ -15,127 +15,156 @@ import { RouterLink } from "@angular/router";
             <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
             <!-- Service 1: Disposables - 2 columns -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/disposables"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Disposables
+                      Nabhas - Disposables
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-yellow-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Premium eco-friendly paper cutleries and sustainable
                       disposable products for food service, events, and
                       households.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Service 2: Retail - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/retail"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Retail
+                      Nabhas - Retail
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Comprehensive range of eco-friendly retail solutions
                       specifically designed for grocery stores and supermarkets.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
-            <!-- Row 2: Automobiles (1 column) and Technologies (2 columns) -->
-            <!-- Service 3: Automobiles - 1 column -->
+            <!-- Row 2: Foods & Cafe's (1 column) and Technologies (2 columns) -->
+            <!-- Service 3: Foods & Cafe's - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-                style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              <a
+                routerLink="/services/food-cafes"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
+                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Automobiles
+                      Nabhas - Foods & Cafe's
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-orange-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      Professional automotive servicing solutions for two- and
-                      four-wheel vehicles with eco-friendly practices and
-                      expertise.
+                      Premium sustainable food and beverage solutions for cafes
+                      and restaurants with eco-friendly practices.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Service 4: Technologies - 2 columns -->
             <div class="col-span-1 md:col-span-2 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/technologies"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Technologies
+                      Nabhas - Technologies
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-cyan-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       Digital solutions and modern website development services
                       powered by cutting-edge technology and innovation.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <!-- Row 3: Healthcare - 3 columns (full width) -->
             <!-- Service 5: Healthcare - 3 columns -->
             <div class="col-span-1 md:col-span-3 h-64 md:h-80">
-              <div
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              <a
+                routerLink="/services/healthcare"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-pink-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Healthcare
+                      Nabhas - Healthcare
                     </h3>
                     <p
-                      class="text-white text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-pink-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
                       High-quality healthcare supplies and medical equipment
                       designed to meet international safety and quality
                       standards.
                     </p>
+                    <button
+                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
+                    >
+                      View more
+                    </button>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -216,29 +245,28 @@ import { RouterLink } from "@angular/router";
                 </div>
               </div>
 
-              <!-- Automobiles Service -->
+              <!-- Foods & Cafe's Service -->
               <div
                 class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-[calc(33.333%-1.5rem)] bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 animate-fade-in"
                 style="scroll-snap-align: start;"
               >
                 <div class="h-48 flex items-center justify-center bg-gray-100">
                   <img
-                    src="https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Automobile Servicing"
+                    src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Premium Food and Beverage Solutions"
                     class="h-full w-full object-cover"
                   />
                 </div>
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-900 mb-2">
-                    Automobiles
+                    Foods & Cafe's
                   </h3>
                   <p class="text-gray-600 mb-4">
-                    Professional automotive servicing solutions for two- and
-                    four-wheel vehicles with eco-friendly practices and
-                    expertise.
+                    Premium sustainable food and beverage solutions for cafes
+                    and restaurants with eco-friendly practices.
                   </p>
                   <a
-                    routerLink="/services/automobiles"
+                    routerLink="/services/food-cafes"
                     class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
                   >
                     View more
