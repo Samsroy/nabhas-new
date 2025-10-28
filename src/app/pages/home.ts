@@ -8,135 +8,66 @@ import { RouterLink } from "@angular/router";
   imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
-      <!-- Sliding Banner Section -->
+      <!-- Zigzag Banner Section -->
       <section
-        class="text-white py-20 relative overflow-hidden bg-cover bg-center bg-no-repeat"
-        [style.backgroundImage]="'url(' + banners[currentSlide].imageUrl + ')'"
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-24 px-4 relative overflow-hidden"
       >
-        <!-- Dark overlay for text readability -->
-        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div class="container mx-auto px-4 relative z-10">
-          <div class="max-w-3xl">
-            <div class="mb-8 h-24 flex items-center">
-              <div
-                *ngIf="currentSlide === 0"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[0].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 1"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[1].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 2"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[2].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 3"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[3].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 4"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[4].heading }}
-                </h1>
+        <div class="container mx-auto relative z-10">
+          <div class="flex flex-col gap-12 lg:gap-16">
+            <!-- Service 1: Disposables - Left -->
+            <div class="flex justify-start">
+              <div style="transform: rotate(-15deg);" class="transition hover:scale-110">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+                  Disposables
+                </h2>
               </div>
             </div>
-            <div class="mb-8 h-24 flex items-center">
-              <div
-                *ngIf="currentSlide === 0"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[0].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 1"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[1].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 2"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[2].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 3"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[3].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 4"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[4].description }}
-                </p>
+
+            <!-- Service 2: Retail - Right -->
+            <div class="flex justify-end mr-12">
+              <div style="transform: rotate(15deg);" class="transition hover:scale-110">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+                  Retail
+                </h2>
               </div>
             </div>
-            <button
-              class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition transform hover:scale-105"
-            >
-              Explore Our Products
-            </button>
+
+            <!-- Service 3: Automobiles - Left -->
+            <div class="flex justify-start ml-12">
+              <div style="transform: rotate(-15deg);" class="transition hover:scale-110">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+                  Automobiles
+                </h2>
+              </div>
+            </div>
+
+            <!-- Service 4: Technologies - Right -->
+            <div class="flex justify-end">
+              <div style="transform: rotate(15deg);" class="transition hover:scale-110">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+                  Technologies
+                </h2>
+              </div>
+            </div>
+
+            <!-- Service 5: Healthcare - Left -->
+            <div class="flex justify-start mr-12">
+              <div style="transform: rotate(-15deg);" class="transition hover:scale-110">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white drop-shadow-lg">
+                  Healthcare
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Navigation Dots -->
+        <!-- Decorative background elements -->
         <div
-          class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3 z-20"
-        >
-          <button
-            *ngFor="let i of bannerIndices"
-            (click)="goToSlide(i)"
-            [class.bg-white]="i === currentSlide"
-            [class.bg-blue-200]="i !== currentSlide"
-            class="w-3 h-3 rounded-full transition-all duration-300"
-          ></button>
-        </div>
-
-        <!-- Previous Button -->
-        <button
-          (click)="previousSlide()"
-          class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
-        >
-          &#10094;
-        </button>
-
-        <!-- Next Button -->
-        <button
-          (click)="nextSlide()"
-          class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
-        >
-          &#10095;
-        </button>
+          class="absolute top-0 left-0 w-96 h-96 bg-white opacity-5 rounded-full -translate-x-1/2 -translate-y-1/2"
+        ></div>
+        <div
+          class="absolute bottom-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full translate-x-1/2 translate-y-1/2"
+        ></div>
       </section>
 
       <!-- Product & Services Section -->
