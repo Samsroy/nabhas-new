@@ -196,11 +196,80 @@ import { FormsModule } from "@angular/forms";
                   class="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg"
                 >
                   <p class="text-green-800 font-semibold">
-                    �� Thank you! We've received your message. We'll get back to you soon.
+                    ✓ Thank you! We've received your message. We'll get back to you soon.
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Global Presence Section -->
+      <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Global Presence & Operations</h2>
+          <p class="text-center text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+            Nabhas is an Indian company with a strong global presence and an expanding network of customers and offices across multiple continents.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+            <!-- Our Offices -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">Our Offices</h3>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">India</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Mumbai (Headquarters)</li>
+                    <li>• Delhi (Collaboration Office)</li>
+                    <li>• Kolkata (Collaboration Office)</li>
+                    <li>• Bangalore (Collaboration Office)</li>
+                    <li>• Jabalpur (Collaboration Office)</li>
+                  </ul>
+                </div>
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">International</h4>
+                  <p class="text-sm text-gray-600 mb-2">Currently Expanding With:</p>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Melbourne, Australia</li>
+                    <li>• Bahrain, Middle East</li>
+                    <li>• San Francisco, USA</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Presence -->
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">Customer Presence</h3>
+              <div class="space-y-4">
+                <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">India</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Mumbai, Kolkata, Bangalore</li>
+                    <li>• Chennai, Hyderabad</li>
+                  </ul>
+                </div>
+                <div class="bg-gradient-to-r from-emerald-50 to-teal-50 p-4 rounded-lg">
+                  <h4 class="font-bold text-gray-900 mb-2">Global</h4>
+                  <ul class="text-sm text-gray-600 space-y-1">
+                    <li>• Dubai (Middle East)</li>
+                    <li>• London, Basel, Germany (Europe)</li>
+                    <li>• New Jersey (USA)</li>
+                    <li>• Sydney (Australia)</li>
+                    <li>• And many more...</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white p-8 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4">Our Vision</h3>
+            <p class="text-lg leading-relaxed">
+              Nabhas is committed to expanding its global operations across diverse markets. With a strong foundation in India and established customer relationships worldwide, we continue to establish international offices and partnerships in key markets to better serve our global clientele.
+            </p>
           </div>
         </div>
       </section>
