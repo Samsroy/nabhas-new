@@ -13,7 +13,7 @@ import { FormsModule } from "@angular/forms";
         <div class="container mx-auto px-4">
           <h1 class="text-5xl font-bold mb-4">Get in Touch</h1>
           <p class="text-xl text-blue-50">
-            Have questions? We'd love to hear from you. Send us a message!
+            Nabhas is a global company with operations across India, Europe, Australia, Middle East, and beyond. Connect with us today!
           </p>
         </div>
       </section>
