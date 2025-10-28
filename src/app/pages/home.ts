@@ -8,7 +8,7 @@ import { RouterLink } from "@angular/router";
   imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
-      <!-- Zigzag Services Section -->
+      <!-- Masonry Grid Services Section -->
       <section class="py-20 px-4 bg-gray-50">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
@@ -18,128 +18,63 @@ import { RouterLink } from "@angular/router";
             Explore our comprehensive range of services tailored to meet all your business needs.
           </p>
 
-          <div class="flex flex-col gap-12 lg:gap-16">
-            <!-- Service 1: Disposables - Left -->
-            <div class="flex justify-start">
-              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
-                <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
-                  <img
-                    src="https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Eco-Friendly Disposable Products"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div class="p-6">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-3">Disposables</h3>
-                  <p class="text-gray-600 mb-4">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            <!-- Service 1: Disposables - Top Left -->
+            <div class="col-span-1">
+              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
+                <div class="p-8">
+                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Disposables</h3>
+                  <p class="text-gray-700 leading-relaxed">
                     Premium eco-friendly paper cutleries and sustainable disposable products for food service, events, and households.
                   </p>
-                  <a
-                    routerLink="/services/disposables"
-                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                  >
-                    View more
-                  </a>
                 </div>
               </div>
             </div>
 
-            <!-- Service 2: Retail - Right -->
-            <div class="flex justify-end">
-              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
-                <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
-                  <img
-                    src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Retail Supplies and Solutions"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div class="p-6">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-3">Retail</h3>
-                  <p class="text-gray-600 mb-4">
-                    Comprehensive range of eco-friendly retail solutions specifically designed for grocery stores and supermarkets.
-                  </p>
-                  <a
-                    routerLink="/services/retail"
-                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                  >
-                    View more
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 3: Automobiles - Left -->
-            <div class="flex justify-start">
-              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
-                <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
-                  <img
-                    src="https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Automobile Servicing"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div class="p-6">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-3">Automobiles</h3>
-                  <p class="text-gray-600 mb-4">
-                    Professional automotive servicing solutions for two- and four-wheel vehicles with eco-friendly practices and expertise.
-                  </p>
-                  <a
-                    routerLink="/services/automobiles"
-                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                  >
-                    View more
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 4: Technologies - Right -->
-            <div class="flex justify-end">
-              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
-                <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
-                  <img
-                    src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Web Development and Technology"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div class="p-6">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-3">Technologies</h3>
-                  <p class="text-gray-600 mb-4">
-                    Digital solutions and modern website development services powered by cutting-edge technology and innovation.
-                  </p>
-                  <a
-                    routerLink="/services/technologies"
-                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                  >
-                    View more
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Service 5: Healthcare - Left -->
-            <div class="flex justify-start">
-              <div class="zigzag-box w-full lg:w-1/2 bg-white shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105">
-                <div class="h-48 flex items-center justify-center bg-gray-100 overflow-hidden">
-                  <img
-                    src="https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Healthcare Supplies and Equipment"
-                    class="h-full w-full object-cover"
-                  />
-                </div>
-                <div class="p-6">
-                  <h3 class="text-2xl font-bold text-gray-900 mb-3">Healthcare</h3>
-                  <p class="text-gray-600 mb-4">
+            <!-- Service 2: Healthcare - Top Center -->
+            <div class="col-span-1">
+              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
+                <div class="p-8">
+                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Healthcare</h3>
+                  <p class="text-gray-700 leading-relaxed">
                     High-quality healthcare supplies and medical equipment designed to meet international safety and quality standards.
                   </p>
-                  <a
-                    routerLink="/services/healthcare"
-                    class="inline-block bg-[#1a2a5e] text-white font-semibold py-2 px-6 rounded-lg hover:bg-[#2d3f7f] transition"
-                  >
-                    View more
-                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 3: Retail - Top Right -->
+            <div class="col-span-1">
+              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
+                <div class="p-8">
+                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Retail</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Comprehensive range of eco-friendly retail solutions specifically designed for grocery stores and supermarkets.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 4: Technologies - Bottom Left -->
+            <div class="col-span-1">
+              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
+                <div class="p-8">
+                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Technologies</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Digital solutions and modern website development services powered by cutting-edge technology and innovation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 5: Automobiles - Bottom Center/Full -->
+            <div class="col-span-1 md:col-span-2">
+              <div class="zigzag-box bg-white border-2 border-gray-900 shadow-lg overflow-hidden hover:shadow-xl transition transform hover:scale-105 h-full">
+                <div class="p-8">
+                  <h3 class="text-2xl font-bold text-gray-900 mb-4">Nabhas - Automobiles</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Professional automotive servicing solutions for two- and four-wheel vehicles with eco-friendly practices and expertise.
+                  </p>
                 </div>
               </div>
             </div>
