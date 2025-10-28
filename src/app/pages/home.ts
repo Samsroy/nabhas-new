@@ -44,7 +44,7 @@ import { RouterLink } from "@angular/router";
               </div>
             </div>
 
-            <!-- Service 4: Technologies - Bottom Left -->
+            <!-- Service 3: Technologies - Second Row Left -->
             <div class="col-span-1 h-64 md:h-80">
               <div
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
