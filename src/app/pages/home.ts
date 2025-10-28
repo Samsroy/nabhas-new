@@ -1,18 +1,6 @@
-import {
-  Component,
-  OnInit,
-  OnDestroy,
-  ViewChild,
-  ElementRef,
-} from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink } from "@angular/router";
-
-interface Banner {
-  heading: string;
-  description: string;
-  imageUrl: string;
-}
 
 @Component({
   selector: "app-home",
@@ -20,135 +8,91 @@ interface Banner {
   imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
-      <!-- Sliding Banner Section -->
-      <section
-        class="text-white py-20 relative overflow-hidden bg-cover bg-center bg-no-repeat"
-        [style.backgroundImage]="'url(' + banners[currentSlide].imageUrl + ')'"
-      >
-        <!-- Dark overlay for text readability -->
-        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div class="container mx-auto px-4 relative z-10">
-          <div class="max-w-3xl">
-            <div class="mb-8 h-24 flex items-center">
+      <!-- Masonry Grid Services Section with Background Images -->
+      <section class="py-0 px-4 bg-white">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 py-20">
+            <!-- Service 1: Disposables - Top Left -->
+            <div class="col-span-1 h-64 md:h-80">
               <div
-                *ngIf="currentSlide === 0"
-                class="animate-banner-fade-in w-full"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[0].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 1"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[1].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 2"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[2].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 3"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[3].heading }}
-                </h1>
-              </div>
-              <div
-                *ngIf="currentSlide === 4"
-                class="animate-banner-fade-in w-full"
-              >
-                <h1 class="text-5xl font-bold">
-                  {{ banners[4].heading }}
-                </h1>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Disposables
+                  </h3>
+                </div>
               </div>
             </div>
-            <div class="mb-8 h-24 flex items-center">
+
+            <!-- Service 2: Healthcare - Top Center -->
+            <div class="col-span-1 h-64 md:h-80">
               <div
-                *ngIf="currentSlide === 0"
-                class="animate-banner-fade-in w-full"
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
-                <p class="text-xl text-blue-50">
-                  {{ banners[0].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 1"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[1].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 2"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[2].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 3"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[3].description }}
-                </p>
-              </div>
-              <div
-                *ngIf="currentSlide === 4"
-                class="animate-banner-fade-in w-full"
-              >
-                <p class="text-xl text-blue-50">
-                  {{ banners[4].description }}
-                </p>
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Healthcare
+                  </h3>
+                </div>
               </div>
             </div>
-            <button
-              class="bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition transform hover:scale-105"
-            >
-              Explore Our Products
-            </button>
+
+            <!-- Service 3: Retail - Top Right -->
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Retail
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 4: Technologies - Bottom Left -->
+            <div class="col-span-1 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Technologies
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 5: Automobiles - Bottom Center/Full -->
+            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+              <div
+                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                style="background-image: url('https://images.pexels.com/photos/27704022/pexels-photo-27704022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+              >
+                <div
+                  class="absolute inset-0 bg-black bg-opacity-40 hover:bg-opacity-50 transition-all duration-300 flex items-end p-6"
+                >
+                  <h3 class="text-3xl font-bold text-white drop-shadow-lg">
+                    Automobiles
+                  </h3>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <!-- Navigation Dots -->
-        <div
-          class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3 z-20"
-        >
-          <button
-            *ngFor="let i of bannerIndices"
-            (click)="goToSlide(i)"
-            [class.bg-white]="i === currentSlide"
-            [class.bg-blue-200]="i !== currentSlide"
-            class="w-3 h-3 rounded-full transition-all duration-300"
-          ></button>
-        </div>
-
-        <!-- Previous Button -->
-        <button
-          (click)="previousSlide()"
-          class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
-        >
-          &#10094;
-        </button>
-
-        <!-- Next Button -->
-        <button
-          (click)="nextSlide()"
-          class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white text-[#1a2a5e] w-12 h-12 rounded-full flex items-center justify-center hover:bg-gray-100 transition"
-        >
-          &#10095;
-        </button>
       </section>
 
       <!-- Product & Services Section -->
@@ -440,93 +384,120 @@ interface Banner {
       </section>
     </div>
   `,
-  styles: [],
+  styles: [
+    `
+      .zigzag-box {
+        position: relative;
+        clip-path: polygon(
+          0% 5%,
+          2% 0%,
+          4% 5%,
+          6% 0%,
+          8% 5%,
+          10% 0%,
+          12% 5%,
+          14% 0%,
+          16% 5%,
+          18% 0%,
+          20% 5%,
+          22% 0%,
+          24% 5%,
+          26% 0%,
+          28% 5%,
+          30% 0%,
+          32% 5%,
+          34% 0%,
+          36% 5%,
+          38% 0%,
+          40% 5%,
+          42% 0%,
+          44% 5%,
+          46% 0%,
+          48% 5%,
+          50% 0%,
+          52% 5%,
+          54% 0%,
+          56% 5%,
+          58% 0%,
+          60% 5%,
+          62% 0%,
+          64% 5%,
+          66% 0%,
+          68% 5%,
+          70% 0%,
+          72% 5%,
+          74% 0%,
+          76% 5%,
+          78% 0%,
+          80% 5%,
+          82% 0%,
+          84% 5%,
+          86% 0%,
+          88% 5%,
+          90% 0%,
+          92% 5%,
+          94% 0%,
+          96% 5%,
+          98% 0%,
+          100% 5%,
+          100% 95%,
+          98% 100%,
+          96% 95%,
+          94% 100%,
+          92% 95%,
+          90% 100%,
+          88% 95%,
+          86% 100%,
+          84% 95%,
+          82% 100%,
+          80% 95%,
+          78% 100%,
+          76% 95%,
+          74% 100%,
+          72% 95%,
+          70% 100%,
+          68% 95%,
+          66% 100%,
+          64% 95%,
+          62% 100%,
+          60% 95%,
+          58% 100%,
+          56% 95%,
+          54% 100%,
+          52% 95%,
+          50% 100%,
+          48% 95%,
+          46% 100%,
+          44% 95%,
+          42% 100%,
+          40% 95%,
+          38% 100%,
+          36% 95%,
+          34% 100%,
+          32% 95%,
+          30% 100%,
+          28% 95%,
+          26% 100%,
+          24% 95%,
+          22% 100%,
+          20% 95%,
+          18% 100%,
+          16% 95%,
+          14% 100%,
+          12% 95%,
+          10% 100%,
+          8% 95%,
+          6% 100%,
+          4% 95%,
+          2% 100%,
+          0% 95%
+        );
+      }
+    `,
+  ],
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class HomeComponent {
   @ViewChild("servicesCarousel") servicesCarousel!: ElementRef;
-
-  banners: Banner[] = [
-    {
-      heading: "Nabhas disposables – paper cutleries",
-      description:
-        "Premium sustainable disposable products designed for your everyday needs with quality and environmental responsibility.",
-      imageUrl:
-        "https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg",
-    },
-    {
-      heading: "Nabhas Retail - grocery store supplies",
-      description:
-        "Comprehensive range of eco-friendly retail solutions for grocery stores and supermarkets.",
-      imageUrl:
-        "https://images.pexels.com/photos/8422668/pexels-photo-8422668.jpeg",
-    },
-    {
-      heading: "Nabhas automobiles – two- and four-wheel servicing",
-      description:
-        "Professional automotive servicing solutions with sustainable and eco-friendly practices.",
-      imageUrl:
-        "https://images.pexels.com/photos/7019598/pexels-photo-7019598.jpeg",
-    },
-    {
-      heading: "Nabhas technologies – Website development",
-      description:
-        "Digital solutions and website development services powered by cutting-edge technology.",
-      imageUrl:
-        "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg",
-    },
-    {
-      heading: "Nabhas healthcare – supplies on stands etc.",
-      description:
-        "Healthcare supplies and medical equipment designed with quality and safety standards.",
-      imageUrl:
-        "https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg",
-    },
-  ];
-
-  currentSlide: number = 0;
-  bannerIndices: number[] = [];
-  private autoSlideInterval: any;
-
-  ngOnInit() {
-    this.bannerIndices = Array.from(
-      { length: this.banners.length },
-      (_, i) => i,
-    );
-    this.startAutoSlide();
-  }
-
-  ngOnDestroy() {
-    if (this.autoSlideInterval) {
-      clearInterval(this.autoSlideInterval);
-    }
-  }
-
-  nextSlide() {
-    this.currentSlide = (this.currentSlide + 1) % this.banners.length;
-    this.resetAutoSlide();
-  }
-
-  previousSlide() {
-    this.currentSlide =
-      (this.currentSlide - 1 + this.banners.length) % this.banners.length;
-    this.resetAutoSlide();
-  }
-
-  goToSlide(index: number) {
-    this.currentSlide = index;
-    this.resetAutoSlide();
-  }
-
-  private startAutoSlide() {
-    this.autoSlideInterval = setInterval(() => {
-      this.currentSlide = (this.currentSlide + 1) % this.banners.length;
-    }, 5000);
-  }
-
-  private resetAutoSlide() {
-    clearInterval(this.autoSlideInterval);
-    this.startAutoSlide();
-  }
 
   scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;
