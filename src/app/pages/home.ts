@@ -252,7 +252,7 @@ import { RouterLink } from "@angular/router";
               >
                 <div class="h-48 flex items-center justify-center bg-gray-100">
                   <img
-                    src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F13918ad38d264b41aad0ca99eb04892f?format=webp&width=600"
                     alt="Premium Food and Beverage Solutions"
                     class="h-full w-full object-cover"
                   />
