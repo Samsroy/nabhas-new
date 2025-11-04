@@ -48,6 +48,8 @@ import { CommonModule } from "@angular/common";
                 company, paper disposables distribution. The interest lies in
                 app development in web areas.
               </p>
+              <p class="text-lg text-gray-700">The web area has the design part of the applications like website. Employee details, production details, inventory details, returns and exchanges, wastage and rejections, etc. Lot of Nabhas clients are looking for migrating from old to newer technologies. Nabhas is looking forward to getting into application development areas like JAVA etc. Areas of interest and work today are AI and cloud. Nabhas is currently developing products in these areas. </p>
+
             </div>
             <div class="hidden lg:block">
               <img
