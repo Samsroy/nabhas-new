@@ -40,7 +40,7 @@ import { CommonModule } from "@angular/common";
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/10376368/pexels-photo-10376368.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Fe56d9915075f41b1b81ce385052547dc?format=webp&width=800"
                 alt="Eco-friendly packaging and disposable products"
                 class="rounded-lg shadow-lg h-full object-cover"
               />
