@@ -64,7 +64,7 @@ import { CommonModule } from "@angular/common";
                 <li>✓ Paper cups and lids</li>
                 <li>✓ Biodegradable containers</li>
                 <li>✓ Sustainable cutlery</li>
-                <li>��� Custom branded packaging</li>
+                <li>Custom branded packaging</li>
                 <li>✓ Napkins and serviettes</li>
               </ul>
             </div>
