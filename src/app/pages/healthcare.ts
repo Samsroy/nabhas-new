@@ -29,10 +29,18 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Healthcare
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas is currently only assisting a few healthcare stores to supply pharmaceuticals. Nabhas also does assistance in setting up these pharmacies. Nabhas wants to operate in the pharma space in this sector and open stores of their own in Navi Mumbai area.
+                Nabhas is currently only assisting a few healthcare stores to
+                supply pharmaceuticals. Nabhas also does assistance in setting
+                up these pharmacies. Nabhas wants to operate in the pharma space
+                in this sector and open stores of their own in Navi Mumbai area.
               </p>
               <p class="text-lg text-gray-700 mb-4">
-                In addition, team Nabhas would continue to aid in setting up these pharmacy stores across their office locations across the country. They will add Delhi shortly. The assistance includes interiors, suppliers and departments to choose for supplies, decor and vendor partnerships, stocks and inventory, returns and exchanges, low-cost medicines etc.
+                In addition, team Nabhas would continue to aid in setting up
+                these pharmacy stores across their office locations across the
+                country. They will add Delhi shortly. The assistance includes
+                interiors, suppliers and departments to choose for supplies,
+                decor and vendor partnerships, stocks and inventory, returns and
+                exchanges, low-cost medicines etc.
               </p>
               <p class="text-lg text-gray-700">
                 Also focus is on accessories like stands, beds, interiors etc.
