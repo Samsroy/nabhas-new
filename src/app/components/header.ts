@@ -42,9 +42,9 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
             alt="Nabhas Logo"
             class="h-12 w-12 object-contain"
           />
-          <div class="flex flex-col leading-tight">
-            <span class="text-lg font-bold text-[#1a2a5e]">Smart Partners</span>
-            <span class="text-lg font-bold text-[#1a2a5e]">Smart Future</span>
+          <div class="flex flex-col leading-none">
+            <span class="text-sm font-bold text-[#1a2a5e]">Smart Partners</span>
+            <span class="text-sm font-bold text-[#1a2a5e]">Smart Future</span>
           </div>
         </a>
 
