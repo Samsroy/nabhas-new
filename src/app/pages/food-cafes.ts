@@ -44,7 +44,7 @@ import { CommonModule } from "@angular/common";
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F23c71c1f6b09417cbf8c4cdc7505a680?format=webp&width=800"
                 alt="Modern cafe with sustainable dining setup"
                 class="rounded-lg shadow-lg h-full object-cover"
               />
