@@ -28,18 +28,16 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Retail
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Retail is your trusted partner for comprehensive grocery
-                store supplies. We provide a wide range of products and
-                solutions tailored specifically for retail businesses,
-                supermarkets, and convenience stores. From packaging materials
-                to display solutions, we have everything you need to optimize
-                your retail operations.
+                Nabhas is a leading supplier to country's reputed retailer store companies for their disposable range. Nabhas is adding new items to the supplies like ready to eat baked biscuits, ready cream-less cakes, pulses, masalas, etc to grocery stores. Also, to few reputed large supermarket stores, Nabhas is supplying apparel like shirts and kurtas etc. Door mats, dupattas, umbrellas, lamps and stands, novelties, etc. Team at Nabhas is catering to problem areas of these stores in optimizing quantities and returns.
+              </p>
+              <p class="text-lg text-gray-700 mb-4">
+                It is expected that the grocery retail market in India will be reaching approximately $1.10 trillion by the year 2030. We consider the shift and share of the organized and unorganized retail in India, the level of digitization in India, the effect of the COVID-19 pandemic, and the Indian ethos and values in purchasing behavior.
+              </p>
+              <p class="text-lg text-gray-700 mb-4">
+                In 2010, the Indian community was skeptical about the survival of kirana stores because of the emergence of supermarkets/hypermarkets. However, more than a decade later, kirana and small stores are surviving due to the service specialty involving personal touch, monthly credit and proximity to the consumers. That said, growth in e-commerce and organized retail is witnessing post-COVID-19 with preferences for a hygienic environment as well as discounts and loyalty points offered by organized retailers.
               </p>
               <p class="text-lg text-gray-700">
-                Our retail solutions are designed to enhance customer
-                experience, improve efficiency, and maintain product quality.
-                With years of experience in the retail sector, we understand the
-                unique challenges faced by modern retailers.
+                Another significant trend that has emerged is large retailers (Reliance 7-Eleven stores, Tata Fresho stores, D-Mart and many more) collaborating with local kirana stores to help manage efficient delivery and expand their networks. India's retail market contributes 10% to India's GDP and employs 8% of India's population.
               </p>
             </div>
             <div class="hidden lg:block">
