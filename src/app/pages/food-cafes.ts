@@ -29,22 +29,16 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Foods & Cafe's
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Foods & Cafe's provides comprehensive solutions for
-                cafes, restaurants, and food service establishments. Our
-                eco-friendly products and supplies are designed to enhance
-                customer experience while maintaining sustainability standards.
-              </p>
-              <p class="text-lg text-gray-700">
-                We partner with food businesses to deliver quality packaging,
-                sustainable serving solutions, and premium food service
-                products. Our commitment to environmental responsibility ensures
-                that your cafe or restaurant can thrive while making a positive
-                impact on the planet.
+                Nabhas is running a cafe business in Navi Mumbai and is
+                expanding in Delhi and Kolkata shortly. Nabhas plans to have
+                their own cafes in different places as business grows in these
+                locations. Nabhas cafe specializes in rolls and shawarmas
+                currently.
               </p>
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F23c71c1f6b09417cbf8c4cdc7505a680?format=webp&width=800"
                 alt="Modern cafe with sustainable dining setup"
                 class="rounded-lg shadow-lg h-full object-cover"
               />

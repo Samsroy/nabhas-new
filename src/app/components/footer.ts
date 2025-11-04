@@ -13,12 +13,15 @@ import { RouterLink } from "@angular/router";
           <!-- Brand Column -->
           <div>
             <div class="flex items-center gap-2 mb-4">
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800" 
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800"
                 alt="Nabhas Logo"
                 class="h-10 w-10 object-contain"
               />
-              <span class="text-xl font-bold">Nabhas</span>
+              <div class="flex flex-col leading-none">
+                <span class="text-sm font-bold">Smart Partners</span>
+                <span class="text-sm font-bold">Smart Future</span>
+              </div>
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
               Committed to delivering innovative, sustainable packaging solutions across diverse industries with a focus on environmental responsibility.
