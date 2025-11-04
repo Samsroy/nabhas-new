@@ -29,17 +29,7 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Foods & Cafe's
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Foods & Cafe's provides comprehensive solutions for
-                cafes, restaurants, and food service establishments. Our
-                eco-friendly products and supplies are designed to enhance
-                customer experience while maintaining sustainability standards.
-              </p>
-              <p class="text-lg text-gray-700">
-                We partner with food businesses to deliver quality packaging,
-                sustainable serving solutions, and premium food service
-                products. Our commitment to environmental responsibility ensures
-                that your cafe or restaurant can thrive while making a positive
-                impact on the planet.
+                Nabhas is running a cafe business in Navi Mumbai and is expanding in Delhi and Kolkata shortly. Nabhas plans to have their own cafes in different places as business grows in these locations. Nabhas cafe specializes in rolls and shawarmas currently.
               </p>
             </div>
             <div class="hidden lg:block">
@@ -74,7 +64,7 @@ import { CommonModule } from "@angular/common";
                 <li>✓ Paper cups and lids</li>
                 <li>✓ Biodegradable containers</li>
                 <li>✓ Sustainable cutlery</li>
-                <li>✓ Custom branded packaging</li>
+                <li>��� Custom branded packaging</li>
                 <li>✓ Napkins and serviettes</li>
               </ul>
             </div>
