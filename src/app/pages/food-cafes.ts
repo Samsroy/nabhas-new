@@ -29,7 +29,11 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Foods & Cafe's
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas is running a cafe business in Navi Mumbai and is expanding in Delhi and Kolkata shortly. Nabhas plans to have their own cafes in different places as business grows in these locations. Nabhas cafe specializes in rolls and shawarmas currently.
+                Nabhas is running a cafe business in Navi Mumbai and is
+                expanding in Delhi and Kolkata shortly. Nabhas plans to have
+                their own cafes in different places as business grows in these
+                locations. Nabhas cafe specializes in rolls and shawarmas
+                currently.
               </p>
             </div>
             <div class="hidden lg:block">

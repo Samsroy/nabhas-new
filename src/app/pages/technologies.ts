@@ -29,13 +29,24 @@ import { CommonModule } from "@angular/common";
                 About Nabhas Technologies
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                The motto of the company is moving with the times ahead and that is always technical advancements. The technology division has members on the ownership stack who are from technology background of close to 30 years in various Indian IT companies. This owner has experience working with industry clients across the globe.
+                The motto of the company is moving with the times ahead and that
+                is always technical advancements. The technology division has
+                members on the ownership stack who are from technology
+                background of close to 30 years in various Indian IT companies.
+                This owner has experience working with industry clients across
+                the globe.
               </p>
               <p class="text-lg text-gray-700 mb-4">
-                The company owner has worked for banking, manufacturing, telecom, and retail clients in India, Europe, USA, Canada, Australia, middle east and more. The exposure is primarily around business analysis, design, development, testing, deployment, and support.
+                The company owner has worked for banking, manufacturing,
+                telecom, and retail clients in India, Europe, USA, Canada,
+                Australia, middle east and more. The exposure is primarily
+                around business analysis, design, development, testing,
+                deployment, and support.
               </p>
               <p class="text-lg text-gray-700">
-                Nabhas has done two projects end to end in India for real estate company, paper disposables distribution. The interest lies in app development in web areas.
+                Nabhas has done two projects end to end in India for real estate
+                company, paper disposables distribution. The interest lies in
+                app development in web areas.
               </p>
             </div>
             <div class="hidden lg:block">
