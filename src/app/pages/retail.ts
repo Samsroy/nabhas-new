@@ -42,7 +42,7 @@ import { CommonModule } from "@angular/common";
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/34460655/pexels-photo-34460655.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F6df4d3b2537642758ebcf1b91aa4859f?format=webp&width=800"
                 alt="Retail grocery store with vibrant colors and fresh produce"
                 class="rounded-lg shadow-lg h-full object-cover"
               />
