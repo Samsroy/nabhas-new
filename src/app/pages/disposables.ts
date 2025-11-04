@@ -29,18 +29,13 @@ import { CommonModule } from "@angular/common";
                 About Our Disposables
               </h2>
               <p class="text-lg text-gray-700 mb-4">
-                Nabhas Disposables specializes in high-quality, eco-friendly
-                paper cutleries and disposable products designed for food
-                service, events, and household use. Our products are
-                manufactured with sustainability at their core, ensuring minimal
-                environmental impact without compromising on quality or
-                durability.
+                It includes biodegradable plates, biodegradable spoons and cutlery, high GSM kitchen rolls, higher GSM NABHAS paper range expands its product line as well as sales footprint on continuous basis with core focus on best quality, best price, and best possible customer experience. Our teams are working on launching single ply variations and combinations on paper napkins, 2 ply and 3 ply paper towels / napkins for export, single / double coated cups, toilet rolls, higher GSM M Fold Napkins and more.
+              </p>
+              <p class="text-lg text-gray-700 mb-4">
+                Nabhas disposable is supplying their products to reputed companies and intends to add more customers on a regular basis. Nabhas team is relentlessly working on a goal to be a supplier of choice for reputed stores across India. Nabhas believes to extend the best products at best prices.
               </p>
               <p class="text-lg text-gray-700">
-                From paper plates and cups to wooden cutlery, our comprehensive
-                range of disposable products serves businesses and consumers who
-                care about the environment. Each product undergoes rigorous
-                quality testing to meet international standards.
+                Disposables can be many categories, but Nabhas currently is working and distributing with their partners paper disposable items like paper plates, spoons, cups and bowls, paper napkins and tissues, paper rolls and kitchen towels, wooden spoons, wooden forks and knives etc.
               </p>
             </div>
             <div class="hidden lg:block">
