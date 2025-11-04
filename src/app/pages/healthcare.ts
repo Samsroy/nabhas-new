@@ -40,7 +40,7 @@ import { CommonModule } from "@angular/common";
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/4421490/pexels-photo-4421490.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Fc95772c769564910aa3a77f663c4419f?format=webp&width=800"
                 alt="Medical supplies and healthcare equipment organized in hospital setting"
                 class="rounded-lg shadow-lg h-full object-cover"
               />
