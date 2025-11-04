@@ -51,7 +51,7 @@ import { CommonModule } from "@angular/common";
             </div>
             <div class="hidden lg:block">
               <img
-                src="https://images.pexels.com/photos/4974922/pexels-photo-4974922.jpeg"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F02cdd2c8677c489d8a8f3fe2d3e21338?format=webp&width=800"
                 alt="Developer working on coding and web development with multiple displays"
                 class="rounded-lg shadow-lg h-full object-cover"
               />
