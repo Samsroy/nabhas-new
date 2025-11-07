@@ -35,14 +35,14 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
       >
         <a
           routerLink="/"
-          class="flex items-center gap-3 hover:opacity-80 transition"
+          class="flex flex-col items-center gap-2 hover:opacity-80 transition"
         >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Ffd385c5ca81a4c79b38d1aac723b5d66?format=webp&width=800"
             alt="Nabhas Logo"
             class="h-16 w-16 object-contain"
           />
-          <div class="flex flex-col leading-none">
+          <div class="flex flex-col leading-none items-center">
             <span class="text-sm font-bold text-[#1a2a5e]">Smart Partners</span>
             <span class="text-sm font-bold text-[#1a2a5e]">Smart Future</span>
           </div>
