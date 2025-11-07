@@ -43,7 +43,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
             class="object-contain"
           />
           <div class="flex flex-col leading-none items-center">
-            <span class="text-xs font-bold italic text-[#1a2a5e]">Smart Partners Smart Future</span>
+            <span class="text-xs font-bold italic text-[#1a2a5e]">Smart Partners Smarter Future</span>
           </div>
         </a>
 
