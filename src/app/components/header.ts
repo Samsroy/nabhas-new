@@ -41,6 +41,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
             src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800"
             alt="Nabhas Logo"
             class="object-contain"
+            style="width: 70%; height: 70%;"
           />
           <div class="flex flex-col leading-none items-center">
             <span class="text-xs font-bold italic text-[#1a2a5e]">Smart Partners Smarter Future</span>
