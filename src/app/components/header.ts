@@ -43,9 +43,6 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
             class="object-contain"
             style="width: 70%; height: 70%;"
           />
-          <div class="flex flex-col leading-none items-center">
-            <span class="text-xs font-bold italic text-[#1a2a5e]">Smart Partners Smarter Future</span>
-          </div>
         </a>
 
         <div class="flex gap-8 items-center">

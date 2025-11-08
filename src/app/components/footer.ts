@@ -19,9 +19,6 @@ import { RouterLink } from "@angular/router";
                 class="object-contain"
                 style="width: 70%; height: 70%;"
               />
-              <div class="flex flex-col leading-none items-center">
-                <span class="text-xs font-bold italic">Smart Partners Smarter Future</span>
-              </div>
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
               Committed to delivering innovative, sustainable packaging solutions across diverse industries with a focus on environmental responsibility.
