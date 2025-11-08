@@ -7,7 +7,7 @@ import { RouterLink } from "@angular/router";
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <footer class="bg-[#1a2a5e] text-white py-12">
+    <footer class="bg-[#0d235c] text-white py-12">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <!-- Brand Column -->
