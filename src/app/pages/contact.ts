@@ -34,11 +34,11 @@ import { FormsModule } from "@angular/forms";
                   </div>
                   <div>
                     <h3 class="font-bold text-gray-900 mb-3">Email</h3>
-                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">General:</span> Contact.nabhas@gmail.com</p>
-                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Dubai:</span> Dubai@nabhas.com</p>
-                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Europe:</span> Europe@nabhas.com</p>
-                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">USA:</span> Usa@nabhas.com</p>
-                    <p class="text-sm text-gray-600"><span class="font-semibold">Australia:</span> Australia@nabhas.com</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">General:</span> contact@nabhas.co.in</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Dubai:</span> dubai@nabhas.co.in</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">Europe:</span> europe@nabhas.co.in</p>
+                    <p class="text-sm text-gray-600 mb-1"><span class="font-semibold">USA:</span> usa@nabhas.co.in</p>
+                    <p class="text-sm text-gray-600"><span class="font-semibold">Australia:</span> australia@nabhas.co.in</p>
                   </div>
                 </div>
               </div>
