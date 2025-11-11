@@ -7,21 +7,18 @@ import { RouterLink } from "@angular/router";
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <footer class="bg-[#1a2a5e] text-white py-12">
+    <footer class="bg-[#0d235c] text-white py-12">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <!-- Brand Column -->
           <div>
-            <div class="flex items-center gap-2 mb-4">
+            <div class="flex flex-col items-center gap-2 mb-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F2d592ccfb0854a9bb4bef4157721ca5a?format=webp&width=800"
                 alt="Nabhas Logo"
-                class="h-10 w-10 object-contain"
+                class="object-contain"
+                style="width: 70%; height: 70%;"
               />
-              <div class="flex flex-col leading-none">
-                <span class="text-sm font-bold">Smart Partners</span>
-                <span class="text-sm font-bold">Smart Future</span>
-              </div>
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
               Committed to delivering innovative, sustainable packaging solutions across diverse industries with a focus on environmental responsibility.
@@ -58,7 +55,7 @@ import { RouterLink } from "@angular/router";
                 <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
                 </svg>
-                <span>contact@nabhas.com</span>
+                <span>contact@nabhas.co.in</span>
               </li>
               <li class="flex items-start gap-2">
                 <svg class="w-5 h-5 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">

@@ -14,8 +14,8 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
           </svg>
-          <a href="mailto:Contact.nabhas@gmail.com" class="hover:text-blue-200 transition">
-            Contact.nabhas@gmail.com
+          <a href="mailto:contact@nabhas.co.in" class="hover:text-blue-200 transition">
+            contact@nabhas.co.in
           </a>
         </div>
         <div class="flex items-center gap-2">
@@ -35,17 +35,14 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
       >
         <a
           routerLink="/"
-          class="flex items-center gap-3 hover:opacity-80 transition"
+          class="flex flex-col items-center gap-2 hover:opacity-80 transition"
         >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2Fddffe2d9decc4ddbbc69f281c2a1b6b8%2F1639b6bbdce24e2fb4b4de8d6d766bc2?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800"
             alt="Nabhas Logo"
-            class="h-12 w-12 object-contain"
+            class="object-contain"
+            style="width: 70%; height: 70%;"
           />
-          <div class="flex flex-col leading-none">
-            <span class="text-sm font-bold text-[#1a2a5e]">Smart Partners</span>
-            <span class="text-sm font-bold text-[#1a2a5e]">Smart Future</span>
-          </div>
         </a>
 
         <div class="flex gap-8 items-center">

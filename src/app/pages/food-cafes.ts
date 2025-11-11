@@ -51,7 +51,7 @@ import { CommonModule } from "@angular/common";
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Food & Cafe Solutions
+            Our Food & Cafe Business
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div
