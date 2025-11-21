@@ -635,7 +635,7 @@ import { RouterLink } from "@angular/router";
   ],
 })
 export class HomeComponent {
-  @ViewChild("servicesCarousel") servicesCarousel!: ElementRef;
+  @ViewChild("servicesCarousel") servicesCarousel?: ElementRef;
 
   scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;
