@@ -177,9 +177,18 @@ import { RouterLink } from "@angular/router";
             About Nabhas
           </h2>
 
-          <div class="max-w-4xl mx-auto space-y-4 text-gray-700 leading-relaxed">
+          <div
+            class="max-w-4xl mx-auto space-y-4 text-gray-700 leading-relaxed"
+          >
             <p class="text-base lg:text-lg">
-              M/S NABHAS is a sole proprietor firm headquartered at Mumbai, Maharashtra, India. This firm originally started from Kolkata, India by trading handicrafts like lamps etc; gift items and then expanded operations in other parts of the globe. The Founder of M/S NABHAS is a women entrepreneur and strong believer of consumer goods products distribution, food retail, digital channels, technology driven marketing tools, garments clothing and apparels, and ecommerce.
+              M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
+              Maharashtra, India. This firm originally started from Kolkata,
+              India by trading handicrafts like lamps etc; gift items and then
+              expanded operations in other parts of the globe. The Founder of
+              M/S NABHAS is a women entrepreneur and strong believer of consumer
+              goods products distribution, food retail, digital channels,
+              technology driven marketing tools, garments clothing and apparels,
+              and ecommerce.
             </p>
 
             <h3 class="text-2xl font-semibold text-gray-900 pt-2">
@@ -187,7 +196,8 @@ import { RouterLink } from "@angular/router";
             </h3>
 
             <p class="text-base lg:text-lg">
-              Nabhas is a sole proprietorship firm focusing on following businesses:
+              Nabhas is a sole proprietorship firm focusing on following
+              businesses:
             </p>
 
             <ul class="space-y-2 pl-6 list-disc">
@@ -198,7 +208,8 @@ import { RouterLink } from "@angular/router";
                 <strong>Nabhas Retail</strong> – grocery store supplies
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas automobiles</strong> – two- and four-wheel servicing
+                <strong>Nabhas automobiles</strong> – two- and four-wheel
+                servicing
               </li>
               <li class="text-base lg:text-lg">
                 <strong>Nabhas technologies</strong> – Website development
@@ -213,7 +224,11 @@ import { RouterLink } from "@angular/router";
             </h3>
 
             <p class="text-base lg:text-lg">
-              Currently M/S NABHAS disposables are promoting and trading products including Paper Napkins and Tissues, Facial tissues boxes, Paper cups, Paper Plates, Paper Kitchen Napkin rolls, Toilet tissue rolls, Wooden Cutlery items, Tissues & fittings, Gift items and more.
+              Currently M/S NABHAS disposables are promoting and trading
+              products including Paper Napkins and Tissues, Facial tissues
+              boxes, Paper cups, Paper Plates, Paper Kitchen Napkin rolls,
+              Toilet tissue rolls, Wooden Cutlery items, Tissues & fittings,
+              Gift items and more.
             </p>
           </div>
         </div>
@@ -505,7 +520,6 @@ import { RouterLink } from "@angular/router";
           </div>
         </div>
       </section>
-
     </div>
   `,
   styles: [
