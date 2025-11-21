@@ -171,15 +171,13 @@ import { RouterLink } from "@angular/router";
       </section>
 
       <!-- About Nabhas Section -->
-      <section class="bg-gray-50 py-10 px-4">
+      <section class="bg-blue-50 py-10 px-4">
         <div class="container mx-auto">
           <h2 class="text-4xl font-bold text-center mb-6 text-gray-900">
             About Nabhas
           </h2>
 
-          <div
-            class="max-w-4xl mx-auto space-y-4 text-gray-700 leading-relaxed"
-          >
+          <div class="space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
               Maharashtra, India. This firm originally started from Kolkata,
@@ -635,7 +633,7 @@ import { RouterLink } from "@angular/router";
   ],
 })
 export class HomeComponent {
-  @ViewChild("servicesCarousel") servicesCarousel!: ElementRef;
+  @ViewChild("servicesCarousel") servicesCarousel?: ElementRef;
 
   scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;
