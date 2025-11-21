@@ -219,6 +219,25 @@ import { RouterLink } from "@angular/router";
         </div>
       </section>
 
+      <!-- CTA Section -->
+      <section
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
+      >
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
+          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
+            Join thousands of businesses and consumers who are transforming
+            their operations with Nabhas products and services.
+          </p>
+          <a
+            routerLink="/contact"
+            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get in Touch
+          </a>
+        </div>
+      </section>
+
       <!-- Product & Services Section -->
       <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
@@ -487,24 +506,6 @@ import { RouterLink } from "@angular/router";
         </div>
       </section>
 
-      <!-- CTA Section -->
-      <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
-      >
-        <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
-          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses and consumers who are transforming
-            their operations with Nabhas products and services.
-          </p>
-          <a
-            routerLink="/contact"
-            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
-          >
-            Get in Touch
-          </a>
-        </div>
-      </section>
     </div>
   `,
   styles: [
