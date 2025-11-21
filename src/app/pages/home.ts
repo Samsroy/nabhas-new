@@ -177,9 +177,7 @@ import { RouterLink } from "@angular/router";
             About Nabhas
           </h2>
 
-          <div
-            class="space-y-4 text-gray-700 leading-relaxed"
-          >
+          <div class="space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
               Maharashtra, India. This firm originally started from Kolkata,
