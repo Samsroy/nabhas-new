@@ -171,13 +171,13 @@ import { RouterLink } from "@angular/router";
       </section>
 
       <!-- About Nabhas Section -->
-      <section class="bg-white py-16 px-4">
+      <section class="bg-gray-50 py-10 px-4">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-8 text-gray-900">
+          <h2 class="text-4xl font-bold text-center mb-6 text-gray-900">
             About Nabhas
           </h2>
 
-          <div class="max-w-4xl mx-auto space-y-6 text-gray-700 leading-relaxed">
+          <div class="max-w-4xl mx-auto space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietor firm headquartered at Mumbai, Maharashtra, India. This firm originally started from Kolkata, India by trading handicrafts like lamps etc; gift items and then expanded operations in other parts of the globe. The Founder of M/S NABHAS is a women entrepreneur and strong believer of consumer goods products distribution, food retail, digital channels, technology driven marketing tools, garments clothing and apparels, and ecommerce.
             </p>
