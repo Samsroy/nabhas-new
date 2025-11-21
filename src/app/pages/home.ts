@@ -170,6 +170,89 @@ import { RouterLink } from "@angular/router";
         </div>
       </section>
 
+      <!-- About Nabhas Section -->
+      <section class="bg-gray-50 py-10 px-4">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-6 text-gray-900">
+            About Nabhas
+          </h2>
+
+          <div
+            class="max-w-4xl mx-auto space-y-4 text-gray-700 leading-relaxed"
+          >
+            <p class="text-base lg:text-lg">
+              M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
+              Maharashtra, India. This firm originally started from Kolkata,
+              India by trading handicrafts like lamps etc; gift items and then
+              expanded operations in other parts of the globe. The Founder of
+              M/S NABHAS is a women entrepreneur and strong believer of consumer
+              goods products distribution, food retail, digital channels,
+              technology driven marketing tools, garments clothing and apparels,
+              and ecommerce.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
+              Our Business Focus
+            </h3>
+
+            <p class="text-base lg:text-lg">
+              Nabhas is a sole proprietorship firm focusing on following
+              businesses:
+            </p>
+
+            <ul class="space-y-2 pl-6 list-disc">
+              <li class="text-base lg:text-lg">
+                <strong>Nabhas disposables</strong> – paper cutleries
+              </li>
+              <li class="text-base lg:text-lg">
+                <strong>Nabhas Retail</strong> – grocery store supplies
+              </li>
+              <li class="text-base lg:text-lg">
+                <strong>Nabhas automobiles</strong> – two- and four-wheel
+                servicing
+              </li>
+              <li class="text-base lg:text-lg">
+                <strong>Nabhas technologies</strong> – Website development
+              </li>
+              <li class="text-base lg:text-lg">
+                <strong>Nabhas healthcare</strong> – supplies on stands etc.
+              </li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
+              Our Product Range
+            </h3>
+
+            <p class="text-base lg:text-lg">
+              Currently M/S NABHAS disposables are promoting and trading
+              products including Paper Napkins and Tissues, Facial tissues
+              boxes, Paper cups, Paper Plates, Paper Kitchen Napkin rolls,
+              Toilet tissue rolls, Wooden Cutlery items, Tissues & fittings,
+              Gift items and more.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
+      >
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
+          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
+            Join thousands of businesses and consumers who are transforming
+            their operations with Nabhas products and services.
+          </p>
+          <a
+            routerLink="/contact"
+            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+          >
+            Get in Touch
+          </a>
+        </div>
+      </section>
+
       <!-- Product & Services Section -->
       <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
@@ -435,25 +518,6 @@ import { RouterLink } from "@angular/router";
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- CTA Section -->
-      <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
-      >
-        <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
-          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses and consumers who are transforming
-            their operations with Nabhas products and services.
-          </p>
-          <a
-            routerLink="/contact"
-            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
-          >
-            Get in Touch
-          </a>
         </div>
       </section>
     </div>
