@@ -179,55 +179,38 @@ import { RouterLink } from "@angular/router";
 
           <div class="space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
-              M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
-              Maharashtra, India. This firm originally started from Kolkata,
-              India by trading handicrafts like lamps etc; gift items and then
-              expanded operations in other parts of the globe. The Founder of
-              M/S NABHAS is a women entrepreneur and strong believer of consumer
-              goods products distribution, food retail, digital channels,
-              technology driven marketing tools, garments clothing and apparels,
-              and ecommerce.
+              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai, Mahashtra, India. The company originally started in Kolkata, India, trading in handicrafts decorative lamps and gift items before expanding operations across the globe.
             </p>
-
-            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
-              Our Business Focus
-            </h3>
 
             <p class="text-base lg:text-lg">
-              Nabhas is a sole proprietorship firm focusing on following
-              businesses:
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on a strong foundation of paper disposables, food items basically confectionaries, restaurants / cafes, technology like application development and support, retail mainly grocery supplies, e-commerce set up including digital commerce and supplies, Pharma supplies and distribution in healthcare division.
             </p>
+
+            <p class="text-base lg:text-lg">
+              Today, Nabhas operates across primary business segments, each designed to meet diverse market needs while maintaining our core commitment to quality, sustainability, and customer satisfaction. Nabhas wants to expand their operations globally directly and through dealers and distribution channel networks into various cities within India and other countries like Middle east, Far East, Australia, Africa, Europe and USA.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-gray-900 pt-4">
+              Our Business Divisions
+            </h3>
 
             <ul class="space-y-2 pl-6 list-disc">
               <li class="text-base lg:text-lg">
-                <strong>Nabhas disposables</strong> – paper cutleries
+                <strong>Nabhas Disposables</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas Retail</strong> – grocery store supplies
+                <strong>Nabhas Retail</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas automobiles</strong> – two- and four-wheel
-                servicing
+                <strong>Nabhas Technology</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas technologies</strong> – Website development
+                <strong>Nabhas Foods &amp; Cafes</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas healthcare</strong> – supplies on stands etc.
+                <strong>Nabhas Healthcare</strong>
               </li>
             </ul>
-
-            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
-              Our Product Range
-            </h3>
-
-            <p class="text-base lg:text-lg">
-              Currently M/S NABHAS disposables are promoting and trading
-              products including Paper Napkins and Tissues, Facial tissues
-              boxes, Paper cups, Paper Plates, Paper Kitchen Napkin rolls,
-              Toilet tissue rolls, Wooden Cutlery items, Tissues & fittings,
-              Gift items and more.
-            </p>
           </div>
         </div>
       </section>
