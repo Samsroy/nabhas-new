@@ -43,7 +43,7 @@ import { CommonModule } from "@angular/common";
                 around business analysis, design, development, testing,
                 deployment, and support.
               </p>
-              <p class="text-lg text-gray-700">
+              <p class="text-lg text-gray-700 mb-4">
                 Nabhas has done two projects end to end in India for real estate
                 company, paper disposables distribution. The interest lies in
                 app development in web areas.
