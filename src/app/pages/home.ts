@@ -8,6 +8,9 @@ import { RouterLink } from "@angular/router";
   imports: [CommonModule, RouterLink],
   template: `
     <div class="bg-gray-50">
+      <!-- Main H1 Heading (SEO) -->
+      <h1 class="sr-only">Nabhas - Premium Disposables, Retail, Foods, Technology and Healthcare Solutions</h1>
+
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
