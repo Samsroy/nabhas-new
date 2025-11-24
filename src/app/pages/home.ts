@@ -222,18 +222,32 @@ import { RouterLink } from "@angular/router";
       <section
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
-        <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
-          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses and consumers who are transforming
-            their operations with Nabhas products and services.
-          </p>
-          <a
-            routerLink="/contact"
-            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
-          >
-            Get in Touch
-          </a>
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <!-- Left Column: Text Content -->
+            <div class="text-left md:text-left">
+              <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
+              <p class="text-xl text-blue-50 mb-8">
+                Join thousands of businesses and consumers who are transforming
+                their operations with Nabhas products and services.
+              </p>
+              <a
+                routerLink="/contact"
+                class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+              >
+                Get in Touch
+              </a>
+            </div>
+
+            <!-- Right Column: Product Image -->
+            <div class="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0ace7cea988c4697be5b1314314921f5?format=webp&width=800"
+                alt="Nabhas Disposable Products"
+                class="max-w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
