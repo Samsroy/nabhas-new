@@ -1,11 +1,13 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-contact",
   standalone: true,
   imports: [CommonModule, FormsModule],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Hero Section -->
@@ -315,8 +317,20 @@ import { FormsModule } from "@angular/forms";
   `,
   styles: [],
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit {
   formSubmitted = false;
+
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Contact Nabhas | Get in Touch with Us",
+      description: "Connect with Nabhas across India, Europe, Australia, Middle East, and USA. Find our contact information and send us a message.",
+      keywords: "contact Nabhas, get in touch, Nabhas contact information, customer support, business inquiries",
+      ogTitle: "Contact Nabhas | Connect with Our Team",
+      ogDescription: "Reach out to Nabhas today. We have teams across multiple countries ready to assist you.",
+    });
+  }
 
   formData = {
     firstName: "",
