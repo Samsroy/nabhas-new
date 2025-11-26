@@ -634,8 +634,21 @@ import { SeoService } from "../services/seo.service";
     `,
   ],
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   @ViewChild("servicesCarousel") servicesCarousel?: ElementRef;
+
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Nabhas | Premium Disposables, Retail, Foods, Technology & Healthcare Solutions",
+      description: "Nabhas offers innovative solutions in paper disposables, retail, foods & cafes, technology, and healthcare. A global firm with operations across India, Europe, Australia, Middle East, and USA.",
+      keywords: "Nabhas, disposables, retail, food cafe solutions, technology solutions, healthcare solutions, sustainable products, global business",
+      ogTitle: "Nabhas | Smart Partners Smart Future",
+      ogDescription: "Discover premium solutions in disposables, retail, foods, technology, and healthcare from Nabhas.",
+      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
 
   scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;
