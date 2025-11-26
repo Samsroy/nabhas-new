@@ -180,11 +180,15 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.seoService.setMetaTags({
       title: "Our Products | Nabhas - Paper & Sustainable Solutions",
-      description: "Browse Nabhas products - premium paper products, tissues, wooden items, and sustainable solutions for your business needs.",
-      keywords: "Nabhas products, paper products, tissues, wooden products, disposables, sustainable products",
+      description:
+        "Browse Nabhas products - premium paper products, tissues, wooden items, and sustainable solutions for your business needs.",
+      keywords:
+        "Nabhas products, paper products, tissues, wooden products, disposables, sustainable products",
       ogTitle: "Nabhas Products | Quality Paper & Sustainable Solutions",
-      ogDescription: "Explore our wide range of quality products for businesses and consumers.",
-      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+      ogDescription:
+        "Explore our wide range of quality products for businesses and consumers.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
     });
   }
 

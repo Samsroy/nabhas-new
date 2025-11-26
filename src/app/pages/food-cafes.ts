@@ -231,11 +231,15 @@ export class FoodCafesComponent implements OnInit {
   ngOnInit(): void {
     this.seoService.setMetaTags({
       title: "Nabhas Foods & Cafes | Sustainable Food Service Solutions",
-      description: "Experience Nabhas Foods & Cafes - premium sustainable food and beverage solutions designed for cafes, restaurants, and food service businesses.",
-      keywords: "Nabhas Foods, cafe solutions, restaurant supplies, sustainable food service, beverage solutions, food packaging",
+      description:
+        "Experience Nabhas Foods & Cafes - premium sustainable food and beverage solutions designed for cafes, restaurants, and food service businesses.",
+      keywords:
+        "Nabhas Foods, cafe solutions, restaurant supplies, sustainable food service, beverage solutions, food packaging",
       ogTitle: "Nabhas Foods & Cafes | Premium Food Service Solutions",
-      ogDescription: "Sustainable and premium food and beverage solutions for your cafe or restaurant.",
-      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+      ogDescription:
+        "Sustainable and premium food and beverage solutions for your cafe or restaurant.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
     });
   }
 }

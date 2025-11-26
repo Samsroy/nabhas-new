@@ -250,11 +250,15 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
     this.seoService.setMetaTags({
       title: "About Nabhas | Our Story and Mission",
-      description: "Learn about M/S Nabhas, a leading sole proprietorship firm offering innovative solutions in disposables, retail, foods, technology, and healthcare sectors.",
-      keywords: "About Nabhas, company history, sustainable solutions, business divisions, Nabhas company",
+      description:
+        "Learn about M/S Nabhas, a leading sole proprietorship firm offering innovative solutions in disposables, retail, foods, technology, and healthcare sectors.",
+      keywords:
+        "About Nabhas, company history, sustainable solutions, business divisions, Nabhas company",
       ogTitle: "About Nabhas | Innovative Business Solutions",
-      ogDescription: "Discover the story behind Nabhas and our commitment to quality, sustainability, and customer satisfaction.",
-      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+      ogDescription:
+        "Discover the story behind Nabhas and our commitment to quality, sustainability, and customer satisfaction.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
     });
   }
 }

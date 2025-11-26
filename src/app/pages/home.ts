@@ -11,7 +11,10 @@ import { SeoService } from "../services/seo.service";
   template: `
     <div class="bg-gray-50">
       <!-- Main H1 Heading (SEO) -->
-      <h1 class="sr-only">Nabhas - Premium Disposables, Retail, Foods, Technology and Healthcare Solutions</h1>
+      <h1 class="sr-only">
+        Nabhas - Premium Disposables, Retail, Foods, Technology and Healthcare
+        Solutions
+      </h1>
 
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
@@ -184,15 +187,29 @@ import { SeoService } from "../services/seo.service";
 
           <div class="space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
-              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai, Mahashtra, India. The company originally started in Kolkata, India, trading in handicrafts decorative lamps and gift items before expanding operations across the globe.
+              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
+              Mahashtra, India. The company originally started in Kolkata,
+              India, trading in handicrafts decorative lamps and gift items
+              before expanding operations across the globe.
             </p>
 
             <p class="text-base lg:text-lg">
-              Founded by a visionary women entrepreneur, M/S NABHAS is built on a strong foundation of paper disposables, food items basically confectionaries, restaurants / cafes, technology like application development and support, retail mainly grocery supplies, e-commerce set up including digital commerce and supplies, Pharma supplies and distribution in healthcare division.
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on
+              a strong foundation of paper disposables, food items basically
+              confectionaries, restaurants / cafes, technology like application
+              development and support, retail mainly grocery supplies,
+              e-commerce set up including digital commerce and supplies, Pharma
+              supplies and distribution in healthcare division.
             </p>
 
             <p class="text-base lg:text-lg">
-              Today, Nabhas operates across primary business segments, each designed to meet diverse market needs while maintaining our core commitment to quality, sustainability, and customer satisfaction. Nabhas wants to expand their operations globally directly and through dealers and distribution channel networks into various cities within India and other countries like Middle east, Far East, Australia, Africa, Europe and USA.
+              Today, Nabhas operates across primary business segments, each
+              designed to meet diverse market needs while maintaining our core
+              commitment to quality, sustainability, and customer satisfaction.
+              Nabhas wants to expand their operations globally directly and
+              through dealers and distribution channel networks into various
+              cities within India and other countries like Middle east, Far
+              East, Australia, Africa, Europe and USA.
             </p>
 
             <h3 class="text-2xl font-semibold text-gray-900 pt-4">
@@ -228,7 +245,9 @@ import { SeoService } from "../services/seo.service";
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <!-- Left Column: Text Content -->
             <div class="text-left md:text-left">
-              <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
+              <h2 class="text-4xl font-bold mb-4">
+                Transform Your Business Today
+              </h2>
               <p class="text-xl text-blue-50 mb-8">
                 Join thousands of businesses and consumers who are transforming
                 their operations with Nabhas products and services.
@@ -641,12 +660,17 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.setMetaTags({
-      title: "Nabhas | Premium Disposables, Retail, Foods, Technology & Healthcare Solutions",
-      description: "Nabhas offers innovative solutions in paper disposables, retail, foods & cafes, technology, and healthcare. A global firm with operations across India, Europe, Australia, Middle East, and USA.",
-      keywords: "Nabhas, disposables, retail, food cafe solutions, technology solutions, healthcare solutions, sustainable products, global business",
+      title:
+        "Nabhas | Premium Disposables, Retail, Foods, Technology & Healthcare Solutions",
+      description:
+        "Nabhas offers innovative solutions in paper disposables, retail, foods & cafes, technology, and healthcare. A global firm with operations across India, Europe, Australia, Middle East, and USA.",
+      keywords:
+        "Nabhas, disposables, retail, food cafe solutions, technology solutions, healthcare solutions, sustainable products, global business",
       ogTitle: "Nabhas | Smart Partners Smart Future",
-      ogDescription: "Discover premium solutions in disposables, retail, foods, technology, and healthcare from Nabhas.",
-      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+      ogDescription:
+        "Discover premium solutions in disposables, retail, foods, technology, and healthcare from Nabhas.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
     });
   }
 
