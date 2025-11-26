@@ -6,6 +6,7 @@ import { RouterLink } from "@angular/router";
   selector: "app-home",
   standalone: true,
   imports: [CommonModule, RouterLink],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Main H1 Heading (SEO) -->
