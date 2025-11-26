@@ -1,6 +1,7 @@
-import { Component, ViewChild, ElementRef } from "@angular/core";
+import { Component, ViewChild, ElementRef, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink } from "@angular/router";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-home",
