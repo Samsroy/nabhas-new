@@ -1,13 +1,21 @@
-import { Component, ViewChild, ElementRef } from "@angular/core";
+import { Component, ViewChild, ElementRef, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink } from "@angular/router";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-home",
   standalone: true,
   imports: [CommonModule, RouterLink],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
+      <!-- Main H1 Heading (SEO) -->
+      <h1 class="sr-only">
+        Nabhas - Premium Disposables, Retail, Foods, Technology and Healthcare
+        Solutions
+      </h1>
+
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
@@ -179,55 +187,52 @@ import { RouterLink } from "@angular/router";
 
           <div class="space-y-4 text-gray-700 leading-relaxed">
             <p class="text-base lg:text-lg">
-              M/S NABHAS is a sole proprietor firm headquartered at Mumbai,
-              Maharashtra, India. This firm originally started from Kolkata,
-              India by trading handicrafts like lamps etc; gift items and then
-              expanded operations in other parts of the globe. The Founder of
-              M/S NABHAS is a women entrepreneur and strong believer of consumer
-              goods products distribution, food retail, digital channels,
-              technology driven marketing tools, garments clothing and apparels,
-              and ecommerce.
+              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
+              Mahashtra, India. The company originally started in Kolkata,
+              India, trading in handicrafts decorative lamps and gift items
+              before expanding operations across the globe.
             </p>
-
-            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
-              Our Business Focus
-            </h3>
 
             <p class="text-base lg:text-lg">
-              Nabhas is a sole proprietorship firm focusing on following
-              businesses:
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on
+              a strong foundation of paper disposables, food items basically
+              confectionaries, restaurants / cafes, technology like application
+              development and support, retail mainly grocery supplies,
+              e-commerce set up including digital commerce and supplies, Pharma
+              supplies and distribution in healthcare division.
             </p>
+
+            <p class="text-base lg:text-lg">
+              Today, Nabhas operates across primary business segments, each
+              designed to meet diverse market needs while maintaining our core
+              commitment to quality, sustainability, and customer satisfaction.
+              Nabhas wants to expand their operations globally directly and
+              through dealers and distribution channel networks into various
+              cities within India and other countries like Middle east, Far
+              East, Australia, Africa, Europe and USA.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-gray-900 pt-4">
+              Our Business Divisions
+            </h3>
 
             <ul class="space-y-2 pl-6 list-disc">
               <li class="text-base lg:text-lg">
-                <strong>Nabhas disposables</strong> – paper cutleries
+                <strong>Nabhas Disposables</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas Retail</strong> – grocery store supplies
+                <strong>Nabhas Retail</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas automobiles</strong> – two- and four-wheel
-                servicing
+                <strong>Nabhas Technology</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas technologies</strong> – Website development
+                <strong>Nabhas Foods &amp; Cafes</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas healthcare</strong> – supplies on stands etc.
+                <strong>Nabhas Healthcare</strong>
               </li>
             </ul>
-
-            <h3 class="text-2xl font-semibold text-gray-900 pt-2">
-              Our Product Range
-            </h3>
-
-            <p class="text-base lg:text-lg">
-              Currently M/S NABHAS disposables are promoting and trading
-              products including Paper Napkins and Tissues, Facial tissues
-              boxes, Paper cups, Paper Plates, Paper Kitchen Napkin rolls,
-              Toilet tissue rolls, Wooden Cutlery items, Tissues & fittings,
-              Gift items and more.
-            </p>
           </div>
         </div>
       </section>
@@ -236,18 +241,34 @@ import { RouterLink } from "@angular/router";
       <section
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
-        <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Transform Your Business Today</h2>
-          <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses and consumers who are transforming
-            their operations with Nabhas products and services.
-          </p>
-          <a
-            routerLink="/contact"
-            class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
-          >
-            Get in Touch
-          </a>
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <!-- Left Column: Text Content -->
+            <div class="text-left md:text-left">
+              <h2 class="text-4xl font-bold mb-4">
+                Transform Your Business Today
+              </h2>
+              <p class="text-xl text-blue-50 mb-8">
+                Join thousands of businesses and consumers who are transforming
+                their operations with Nabhas products and services.
+              </p>
+              <a
+                routerLink="/contact"
+                class="inline-block bg-white text-[#1a2a5e] font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition"
+              >
+                Get in Touch
+              </a>
+            </div>
+
+            <!-- Right Column: Product Image -->
+            <div class="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0ace7cea988c4697be5b1314314921f5?format=webp&width=800"
+                alt="Nabhas Disposable Products"
+                class="max-w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -632,8 +653,26 @@ import { RouterLink } from "@angular/router";
     `,
   ],
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   @ViewChild("servicesCarousel") servicesCarousel?: ElementRef;
+
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title:
+        "Nabhas | Premium Disposables, Retail, Foods, Technology & Healthcare Solutions",
+      description:
+        "Nabhas offers innovative solutions in paper disposables, retail, foods & cafes, technology, and healthcare. A global firm with operations across India, Europe, Australia, Middle East, and USA.",
+      keywords:
+        "Nabhas, disposables, retail, food cafe solutions, technology solutions, healthcare solutions, sustainable products, global business",
+      ogTitle: "Nabhas | Smart Partners Smart Future",
+      ogDescription:
+        "Discover premium solutions in disposables, retail, foods, technology, and healthcare from Nabhas.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
 
   scrollCarousel(direction: "next" | "prev") {
     const carousel = this.servicesCarousel?.nativeElement;

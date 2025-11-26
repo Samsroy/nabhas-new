@@ -1,10 +1,12 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-automobiles",
   standalone: true,
   imports: [CommonModule],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Hero Section -->
@@ -230,4 +232,21 @@ import { CommonModule } from "@angular/common";
   `,
   styles: [],
 })
-export class AutomobilesComponent {}
+export class AutomobilesComponent implements OnInit {
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Nabhas Automobiles | Professional Vehicle Servicing Solutions",
+      description:
+        "Nabhas Automobiles - professional two and four-wheel vehicle servicing, maintenance, and support services with quality standards.",
+      keywords:
+        "Nabhas Automobiles, vehicle servicing, two-wheeler service, four-wheeler service, maintenance, automobile solutions",
+      ogTitle: "Nabhas Automobiles | Professional Vehicle Services",
+      ogDescription:
+        "Quality automobile servicing and maintenance for two and four-wheelers.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
+}

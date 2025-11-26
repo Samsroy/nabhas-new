@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ssr": "ng build && ng build --configuration production --server",
+    "serve:ssr": "node dist/server/server.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev": "ng serve --poll=2000"

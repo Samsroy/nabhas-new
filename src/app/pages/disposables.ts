@@ -1,10 +1,12 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-disposables",
   standalone: true,
   imports: [CommonModule],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Hero Section -->
@@ -286,4 +288,22 @@ import { CommonModule } from "@angular/common";
   `,
   styles: [],
 })
-export class DisposablesComponent {}
+export class DisposablesComponent implements OnInit {
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title:
+        "Nabhas Disposables | Premium Paper Cutleries & Sustainable Solutions",
+      description:
+        "Explore Nabhas Disposables - premium paper cutleries, napkins, cups, and sustainable disposable products for food service, events, and households.",
+      keywords:
+        "Nabhas Disposables, paper cutleries, napkins, tissues, paper cups, paper plates, sustainable disposables, eco-friendly products",
+      ogTitle: "Nabhas Disposables | Premium Paper Products",
+      ogDescription:
+        "High-quality, sustainable paper disposable products for your business needs.",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0ace7cea988c4697be5b1314314921f5?format=webp&width=800",
+    });
+  }
+}
