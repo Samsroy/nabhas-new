@@ -298,4 +298,17 @@ import { SeoService } from "../services/seo.service";
   `,
   styles: [],
 })
-export class TechnologiesComponent {}
+export class TechnologiesComponent implements OnInit {
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Nabhas Technologies | Website Development & Digital Solutions",
+      description: "Explore Nabhas Technologies - cutting-edge website development, e-commerce solutions, web applications, and digital marketing services.",
+      keywords: "Nabhas Technologies, website development, e-commerce solutions, web applications, UI/UX design, digital marketing, application development",
+      ogTitle: "Nabhas Technologies | Digital Solutions",
+      ogDescription: "Professional website development and digital solutions powered by cutting-edge technology.",
+      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
+}
