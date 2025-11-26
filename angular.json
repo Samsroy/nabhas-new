@@ -42,7 +42,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "server": "src/main.server.ts"
             },
             "development": {
               "optimization": false,
@@ -51,6 +52,20 @@
             }
           },
           "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@angular/build:dev-server",
+          "options": {
+            "buildTarget": "fusion-angular-tailwind-starter:build"
+          },
+          "configurations": {
+            "development": {
+              "buildTarget": "fusion-angular-tailwind-starter:build:development"
+            },
+            "production": {
+              "buildTarget": "fusion-angular-tailwind-starter:build:production"
+            }
+          }
         },
         "serve": {
           "builder": "@angular/build:dev-server",
