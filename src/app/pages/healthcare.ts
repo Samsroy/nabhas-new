@@ -308,4 +308,17 @@ import { SeoService } from "../services/seo.service";
   `,
   styles: [],
 })
-export class HealthcareComponent {}
+export class HealthcareComponent implements OnInit {
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Nabhas Healthcare | Medical Supplies & Equipment",
+      description: "Discover Nabhas Healthcare - high-quality healthcare supplies and medical equipment designed to meet international safety and quality standards.",
+      keywords: "Nabhas Healthcare, medical supplies, healthcare equipment, medical products, health services, pharmaceutical supplies",
+      ogTitle: "Nabhas Healthcare | Quality Medical Solutions",
+      ogDescription: "Premium healthcare supplies and medical equipment meeting international quality standards.",
+      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
+}
