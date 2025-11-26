@@ -1,10 +1,12 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { SeoService } from "../services/seo.service";
 
 @Component({
   selector: "app-retail",
   standalone: true,
   imports: [CommonModule],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Hero Section -->
@@ -114,7 +116,7 @@ import { CommonModule } from "@angular/common";
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Shelf displays</li>
-                <li>✓ Point-of-sale materials</li>
+                <li>��� Point-of-sale materials</li>
                 <li>✓ Signage solutions</li>
                 <li>✓ Custom branding</li>
               </ul>
