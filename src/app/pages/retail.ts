@@ -116,7 +116,7 @@ import { SeoService } from "../services/seo.service";
               </p>
               <ul class="text-gray-700 space-y-2">
                 <li>✓ Shelf displays</li>
-                <li>��� Point-of-sale materials</li>
+                <li>✓ Point-of-sale materials</li>
                 <li>✓ Signage solutions</li>
                 <li>✓ Custom branding</li>
               </ul>
@@ -250,4 +250,17 @@ import { SeoService } from "../services/seo.service";
   `,
   styles: [],
 })
-export class RetailComponent {}
+export class RetailComponent implements OnInit {
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit(): void {
+    this.seoService.setMetaTags({
+      title: "Nabhas Retail | Comprehensive Grocery Store Supplies",
+      description: "Discover Nabhas Retail solutions - comprehensive grocery store supplies, retail products, and supermarket essentials for your business.",
+      keywords: "Nabhas Retail, grocery supplies, retail products, supermarket supplies, food retail, business supplies",
+      ogTitle: "Nabhas Retail | Premium Retail Solutions",
+      ogDescription: "Quality grocery and retail supplies for supermarkets and retailers.",
+      ogImage: "https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800",
+    });
+  }
+}
