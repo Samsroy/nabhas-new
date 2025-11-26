@@ -1,5 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { SeoService } from "../services/seo.service";
 
 interface Product {
   id: number;
@@ -15,6 +16,7 @@ interface Product {
   selector: "app-products",
   standalone: true,
   imports: [CommonModule],
+  providers: [SeoService],
   template: `
     <div class="bg-gray-50">
       <!-- Hero Section -->
