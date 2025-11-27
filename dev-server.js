@@ -1,43 +1,36 @@
 const express = require('express');
 const { spawn } = require('child_process');
 const path = require('path');
+const fs = require('fs');
 
 const app = express();
 const PORT = 4200;
 
 // Start ng serve on port 4201
+console.log('Starting ng serve on port 4201...');
 const ngServe = spawn('ng', ['serve', '--poll=2000', '--port=4201'], {
   stdio: 'inherit',
   shell: true
 });
 
-// Wait for the dev server to start, then set up the proxy
+// Wait for ng serve to start
 setTimeout(() => {
   const httpProxy = require('http-proxy');
+  
   const proxy = httpProxy.createProxyServer({
     target: 'http://localhost:4201',
     changeOrigin: true,
-    ws: true
-  });
-
-  // Middleware to handle SPA routing
-  app.use((req, res, next) => {
-    // Check if the request is for a file with an extension
-    if (path.extname(req.path) === '') {
-      // No file extension - rewrite to index.html for SPA routing
-      req.url = '/index.html' + (req.url === '/' ? '' : '?_spa_route=' + req.url);
-      req.url = '/index.html';
+    ws: true,
+    pathRewrite: {
+      '^(?!.*\\.)': '/index.html'
     }
-    next();
   });
 
-  // Proxy all requests to ng serve
+  // Proxy all requests
   app.use((req, res) => {
     proxy.web(req, res, (err) => {
       if (err) {
         console.error('Proxy error:', err);
-        res.writeHead(500, { 'Content-Type': 'text/plain' });
-        res.end('Internal Server Error');
       }
     });
   });
@@ -49,17 +42,19 @@ setTimeout(() => {
   });
 
   app.listen(PORT, () => {
-    console.log(`Development server running on http://localhost:${PORT}`);
+    console.log(`Dev server proxy running on http://localhost:${PORT}`);
   });
-}, 3000);
+}, 5000);
 
-// Handle process termination
+// Handle graceful shutdown
 process.on('SIGTERM', () => {
+  console.log('Shutting down...');
   ngServe.kill();
   process.exit();
 });
 
 process.on('SIGINT', () => {
+  console.log('Shutting down...');
   ngServe.kill();
   process.exit();
 });
