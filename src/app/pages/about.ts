@@ -22,7 +22,7 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- About the Name Section -->
-      <section class="py-2 px-4">
+      <section class="py-10 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
             <p class="text-lg text-gray-700 mb-4">
