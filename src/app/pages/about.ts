@@ -22,12 +22,9 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- About the Name Section -->
-      <section class="py-16 px-4">
+      <section class="py-2 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
-              The Meaning of Nabhas
-            </h2>
             <p class="text-lg text-gray-700 mb-4">
               Nabhas holds significant meaning across multiple ancient cultures
               and philosophies. The term appears in Buddhism, Pali, Hinduism,
@@ -48,7 +45,7 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Our Company Section -->
-      <section class="bg-white py-16 px-4">
+      <section class="bg-white py-2 px-4">
         <div class="container mx-auto">
           <div class="max-w-3xl">
             <h2 class="text-4xl font-bold mb-6 text-gray-900">
