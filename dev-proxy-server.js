@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
     proxy.web(req, res);
   } else {
     // SPA route - serve index.html directly without proxying through Vite
-    const indexPath = path.join(__dirname, '.angular/cache/20.1.2/fusion-angular-tailwind-starter/0c849ac27a1f1daaf3f06fec6d4f56c6f4e08f6d/index.html');
+    const indexPath = path.join(__dirname, 'src/index.html');
 
     fs.readFile(indexPath, 'utf8', (err, data) => {
       if (err) {
