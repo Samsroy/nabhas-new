@@ -9,7 +9,7 @@
     "serve:ssr": "node dist/server/server.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev": "ng serve --poll=2000 --serve-path=/"
+    "dev": "node dev-proxy-server.js"
   },
   "prettier": {
     "overrides": [
