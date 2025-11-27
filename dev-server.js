@@ -20,14 +20,19 @@ setTimeout(() => {
   const proxy = httpProxy.createProxyServer({
     target: 'http://localhost:4201',
     changeOrigin: true,
-    ws: true,
-    pathRewrite: {
-      '^(?!.*\\.)': '/index.html'
-    }
+    ws: true
   });
 
-  // Proxy all requests
-  app.use((req, res) => {
+  // SPA routing: rewrite non-file routes to /index.html
+  app.use((req, res, next) => {
+    // Check if the request path has a file extension
+    const hasFileExtension = path.extname(req.path) !== '';
+
+    if (!hasFileExtension && !req.path.startsWith('/api')) {
+      // Rewrite to index.html for SPA routing
+      req.url = '/index.html';
+    }
+
     proxy.web(req, res, (err) => {
       if (err) {
         console.error('Proxy error:', err);
