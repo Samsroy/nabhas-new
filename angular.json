@@ -65,6 +65,9 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "middleware": ["./src/middleware.ts"]
+          },
           "configurations": {
             "production": {
               "buildTarget": "fusion-angular-tailwind-starter:build:production"
