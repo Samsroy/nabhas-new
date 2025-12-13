@@ -52,13 +52,27 @@ import { SeoService } from "../services/seo.service";
               About M/S NABHAS
             </h2>
             <p class="text-lg text-gray-700 mb-4">
-              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai, Mahashtra, India. The company originally started in Kolkata, India, trading in handicrafts decorative lamps and gift items before expanding operations across the globe.
+              M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
+              Mahashtra, India. The company originally started in Kolkata,
+              India, trading in handicrafts decorative lamps and gift items
+              before expanding operations across the globe.
             </p>
             <p class="text-lg text-gray-700 mb-4">
-              Founded by a visionary women entrepreneur, M/S NABHAS is built on a strong foundation of paper disposables, food items basically confectionaries, restaurants / cafes, technology like application development and support, retail mainly grocery supplies, e-commerce set up including digital commerce and supplies, Pharma supplies and distribution in healthcare division.
+              Founded by a visionary women entrepreneur, M/S NABHAS is built on
+              a strong foundation of paper disposables, food items basically
+              confectionaries, restaurants / cafes, technology like application
+              development and support, retail mainly grocery supplies,
+              e-commerce set up including digital commerce and supplies, Pharma
+              supplies and distribution in healthcare division.
             </p>
             <p class="text-lg text-gray-700">
-              Today, Nabhas operates across primary business segments, each designed to meet diverse market needs while maintaining our core commitment to quality, sustainability, and customer satisfaction. Nabhas wants to expand their operations globally directly and through dealers and distribution channel networks into various cities within India and other countries like Middle east, Far East, Australia, Africa, Europe and USA.
+              Today, Nabhas operates across primary business segments, each
+              designed to meet diverse market needs while maintaining our core
+              commitment to quality, sustainability, and customer satisfaction.
+              Nabhas wants to expand their operations globally directly and
+              through dealers and distribution channel networks into various
+              cities within India and other countries like Middle east, Far
+              East, Australia, Africa, Europe and USA.
             </p>
           </div>
         </div>
