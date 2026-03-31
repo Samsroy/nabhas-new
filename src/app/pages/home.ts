@@ -147,7 +147,7 @@ import { SeoService } from "../services/seo.service";
             <!-- Service 5: HR Manpower Services - 3 columns -->
             <div class="col-span-1 md:col-span-3 h-64 md:h-80">
               <a
-                routerLink="/services/healthcare"
+                routerLink="/services/manpower"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
                 style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F7a216e05fe2349aca08db813b7d3c5e2?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
