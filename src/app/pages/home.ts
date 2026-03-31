@@ -229,7 +229,7 @@ import { SeoService } from "../services/seo.service";
                 <strong>Nabhas Foods &amp; Cafes</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas Healthcare</strong>
+                <strong>Nabhas HR Manpower Services</strong>
               </li>
             </ul>
           </div>
