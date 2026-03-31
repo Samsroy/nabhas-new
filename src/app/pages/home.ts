@@ -143,27 +143,26 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Row 3: Healthcare - 3 columns (full width) -->
-            <!-- Service 5: Healthcare - 3 columns -->
+            <!-- Row 3: HR Manpower Services - 3 columns (full width) -->
+            <!-- Service 5: HR Manpower Services - 3 columns -->
             <div class="col-span-1 md:col-span-3 h-64 md:h-80">
               <a
                 routerLink="/services/healthcare"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F326a83f735f248a594be09cab20a9f5e?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-pink-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Healthcare
+                      Nabhas - HR Manpower Services
                     </h3>
                     <p
-                      class="text-pink-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      High-quality healthcare supplies and medical equipment
-                      designed to meet international safety and quality
-                      standards.
+                      Comprehensive human resources and manpower solutions
+                      including recruitment, training, and talent management services.
                     </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
