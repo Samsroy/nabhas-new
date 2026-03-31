@@ -16,28 +16,42 @@ const ngServe = spawn('ng', ['serve', '--poll=2000', '--port=4201'], {
 // Wait for ng serve to start
 setTimeout(() => {
   const httpProxy = require('http-proxy');
-  
+
   const proxy = httpProxy.createProxyServer({
     target: 'http://localhost:4201',
     changeOrigin: true,
     ws: true
   });
 
-  // SPA routing: rewrite non-file routes to /index.html
+  // Middleware for SPA routing and asset handling
   app.use((req, res, next) => {
-    // Check if the request path has a file extension
+    // Check if the request is for a file (has extension) or is an API call
     const hasFileExtension = path.extname(req.path) !== '';
 
-    if (!hasFileExtension && !req.path.startsWith('/api')) {
-      // Rewrite to index.html for SPA routing
-      req.url = '/index.html';
+    if (hasFileExtension || req.path.startsWith('/api')) {
+      // File request or API - proxy directly
+      proxy.web(req, res, (err) => {
+        if (err) {
+          console.error('Proxy error:', err);
+        }
+      });
+    } else {
+      // SPA route - serve index.html directly from disk
+      const indexPath = path.join(__dirname, 'src', 'index.html');
+      fs.readFile(indexPath, 'utf8', (err, data) => {
+        if (err) {
+          // Fallback to proxying if file doesn't exist
+          proxy.web(req, res, (err) => {
+            if (err) {
+              console.error('Proxy error:', err);
+            }
+          });
+        } else {
+          res.writeHead(200, { 'Content-Type': 'text/html' });
+          res.end(data);
+        }
+      });
     }
-
-    proxy.web(req, res, (err) => {
-      if (err) {
-        console.error('Proxy error:', err);
-      }
-    });
   });
 
   proxy.on('error', (err, req, res) => {
