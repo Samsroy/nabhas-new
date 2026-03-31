@@ -94,7 +94,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
                 routerLink="/services/healthcare"
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
               >
-                Nabhas Healthcare
+                Nabhas HR Manpower Services
               </a>
             </div>
           </div>
