@@ -29,7 +29,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -60,7 +60,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -91,7 +91,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F106431ca66b441e2827769fdc12734c7?format=webp&width=800'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -121,7 +121,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -152,7 +152,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F326a83f735f248a594be09cab20a9f5e?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
                     >
