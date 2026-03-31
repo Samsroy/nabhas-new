@@ -137,11 +137,10 @@ import { SeoService } from "../services/seo.service";
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e] md:col-span-2"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Healthcare
+                Nabhas HR Manpower Services
               </h3>
               <p class="text-gray-700 text-lg">
-                Healthcare supplies and medical equipment designed with quality
-                and safety standards at the forefront.
+                Comprehensive human resources and manpower solutions including recruitment, training, workforce development, and talent management services.
               </p>
             </div>
           </div>
