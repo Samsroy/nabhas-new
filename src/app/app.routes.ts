@@ -8,6 +8,7 @@ import { RetailComponent } from "./pages/retail";
 import { FoodCafesComponent } from "./pages/food-cafes";
 import { TechnologiesComponent } from "./pages/technologies";
 import { HealthcareComponent } from "./pages/healthcare";
+import { ManpowerComponent } from "./pages/manpower";
 
 export const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -19,4 +20,5 @@ export const routes: Routes = [
   { path: "services/food-cafes", component: FoodCafesComponent },
   { path: "services/technologies", component: TechnologiesComponent },
   { path: "services/healthcare", component: HealthcareComponent },
+  { path: "services/manpower", component: ManpowerComponent },
 ];

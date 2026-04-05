@@ -29,7 +29,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -60,7 +60,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -91,7 +91,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F106431ca66b441e2827769fdc12734c7?format=webp&width=800'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -121,7 +121,7 @@ import { SeoService } from "../services/seo.service";
                 style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
@@ -143,27 +143,26 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Row 3: Healthcare - 3 columns (full width) -->
-            <!-- Service 5: Healthcare - 3 columns -->
+            <!-- Row 3: HR Manpower Services - 3 columns (full width) -->
+            <!-- Service 5: HR Manpower Services - 3 columns -->
             <div class="col-span-1 md:col-span-3 h-64 md:h-80">
               <a
-                routerLink="/services/healthcare"
+                routerLink="/services/manpower"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/7469494/pexels-photo-7469494.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F7a216e05fe2349aca08db813b7d3c5e2?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
+                  <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-pink-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Healthcare
+                      Nabhas - HR Manpower Services
                     </h3>
                     <p
-                      class="text-pink-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      High-quality healthcare supplies and medical equipment
-                      designed to meet international safety and quality
-                      standards.
+                      Comprehensive human resources and manpower solutions
+                      including recruitment, training, and talent management services.
                     </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -230,7 +229,7 @@ import { SeoService } from "../services/seo.service";
                 <strong>Nabhas Foods &amp; Cafes</strong>
               </li>
               <li class="text-base lg:text-lg">
-                <strong>Nabhas Healthcare</strong>
+                <strong>Nabhas HR Manpower Services</strong>
               </li>
             </ul>
           </div>
