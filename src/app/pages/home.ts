@@ -19,10 +19,11 @@ import { SeoService } from "../services/seo.service";
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0 auto-rows-max" style="grid-template-rows: auto auto;">
-            <!-- Row 1: Disposables (2 columns, spans 2 rows) and HR Manpower (1 column) -->
-            <!-- Service 1: Disposables - 2 columns, 2 rows -->
-            <div class="col-span-1 md:col-span-2 md:row-span-2 h-64 md:h-[26rem]">
+          <div class="grid grid-cols-1 gap-0 py-0" style="grid-template-columns: repeat(6, 1fr);">
+            <!-- Using 6-column grid: top row items span 3 cols each (50%), bottom row items span 2 cols each (33%) -->
+            <!-- Row 1: Disposables (50%) and HR Manpower (50%) -->
+            <!-- Service 1: Disposables - spans 3 of 6 columns (50%) -->
+            <div class="h-64 md:h-80" style="grid-column: span 3;">
               <a
                 routerLink="/services/disposables"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -52,8 +53,8 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 2: HR Manpower - 1 column, top right -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Service 2: HR Manpower - spans 3 of 6 columns (50%) -->
+            <div class="h-64 md:h-80" style="grid-column: span 3;">
               <a
                 routerLink="/services/manpower"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -82,9 +83,9 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Row 2: Foods & Cafe's (1 column) -->
-            <!-- Service 3: Foods & Cafe's - 1 column -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Row 2: Foods & Cafe's (33%), Technology (33%), Retail (33%) -->
+            <!-- Service 3: Foods & Cafe's - spans 2 of 6 columns (33%) -->
+            <div class="h-64 md:h-80" style="grid-column: span 2;">
               <a
                 routerLink="/services/food-cafes"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -113,8 +114,8 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 4: Technologies - 1 column -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Service 4: Technologies - spans 2 of 6 columns (33%) -->
+            <div class="h-64 md:h-80" style="grid-column: span 2;">
               <a
                 routerLink="/services/technologies"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -143,8 +144,8 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 5: Retail - 1 column -->
-            <div class="col-span-1 h-64 md:h-80">
+            <!-- Service 5: Retail - spans 2 of 6 columns (33%) -->
+            <div class="h-64 md:h-80" style="grid-column: span 2;">
               <a
                 routerLink="/services/retail"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
