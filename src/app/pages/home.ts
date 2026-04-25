@@ -34,7 +34,7 @@ import { SeoService } from "../services/seo.service";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Disposables
+                      Disposables
                     </h3>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -83,7 +83,7 @@ import { SeoService } from "../services/seo.service";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Foods & Cafe's
+                      Foods & Cafe's
                     </h3>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -107,7 +107,7 @@ import { SeoService } from "../services/seo.service";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Technology
+                      Technology
                     </h3>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -131,7 +131,7 @@ import { SeoService } from "../services/seo.service";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Retail
+                      Retail
                     </h3>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
