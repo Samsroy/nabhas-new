@@ -36,13 +36,6 @@ import { SeoService } from "../services/seo.service";
                     >
                       Nabhas - Disposables
                     </h3>
-                    <p
-                      class="text-yellow-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Premium eco-friendly paper cutleries and sustainable
-                      disposable products for food service, events, and
-                      households.
-                    </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
                     >
@@ -67,12 +60,6 @@ import { SeoService } from "../services/seo.service";
                     >
                       HR Manpower
                     </h3>
-                    <p
-                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Comprehensive human resources and manpower solutions
-                      including recruitment, training, and talent management services.
-                    </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
                     >
@@ -98,12 +85,6 @@ import { SeoService } from "../services/seo.service";
                     >
                       Nabhas - Foods & Cafe's
                     </h3>
-                    <p
-                      class="text-orange-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Premium sustainable food and beverage solutions for cafes
-                      and restaurants with eco-friendly practices.
-                    </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
                     >
@@ -128,12 +109,6 @@ import { SeoService } from "../services/seo.service";
                     >
                       Nabhas - Technology
                     </h3>
-                    <p
-                      class="text-cyan-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Digital solutions and modern website development services
-                      powered by cutting-edge technology and innovation.
-                    </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
                     >
@@ -158,12 +133,6 @@ import { SeoService } from "../services/seo.service";
                     >
                       Nabhas - Retail
                     </h3>
-                    <p
-                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Comprehensive range of eco-friendly retail solutions
-                      specifically designed for grocery stores and supermarkets.
-                    </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
                     >
