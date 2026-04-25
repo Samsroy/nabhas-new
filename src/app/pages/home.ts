@@ -32,7 +32,7 @@ import { SeoService } from "../services/seo.service";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
                     >
                       Disposables
                     </h3>
@@ -56,7 +56,7 @@ import { SeoService } from "../services/seo.service";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
                     >
                       HR Manpower
                     </h3>
@@ -81,7 +81,7 @@ import { SeoService } from "../services/seo.service";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
                     >
                       Foods & Cafe's
                     </h3>
@@ -105,7 +105,7 @@ import { SeoService } from "../services/seo.service";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
                     >
                       Technology
                     </h3>
@@ -129,7 +129,7 @@ import { SeoService } from "../services/seo.service";
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
                     >
                       Retail
                     </h3>
