@@ -149,7 +149,7 @@ import { SeoService } from "../services/seo.service";
       <!-- About Nabhas Section -->
       <section class="bg-blue-50 py-10 px-4">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-6 text-gray-900">
+          <h2 class="font-bold text-center mb-6" style="font-size: 1.875rem; color: #fff;">
             About Nabhas
           </h2>
 
@@ -213,7 +213,7 @@ import { SeoService } from "../services/seo.service";
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <!-- Left Column: Text Content -->
             <div class="text-left md:text-left">
-              <h2 class="text-4xl font-bold mb-4">
+              <h2 class="font-bold mb-4" style="font-size: 1.875rem; color: #fff;">
                 Transform Your Business Today
               </h2>
               <p class="text-xl text-blue-50 mb-8">
@@ -243,7 +243,7 @@ import { SeoService } from "../services/seo.service";
       <!-- Product & Services Section -->
       <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #fff;">
             Our Product & Services
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
@@ -425,7 +425,7 @@ import { SeoService } from "../services/seo.service";
       <!-- Features Section -->
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #fff;">
             Why Choose Nabhas?
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto text-lg">
