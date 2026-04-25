@@ -19,10 +19,10 @@ import { SeoService } from "../services/seo.service";
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0">
-            <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
-            <!-- Service 1: Disposables - 2 columns -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0 auto-rows-max" style="grid-template-rows: auto auto;">
+            <!-- Row 1: Disposables (2 columns, spans 2 rows) and HR Manpower (1 column) -->
+            <!-- Service 1: Disposables - 2 columns, 2 rows -->
+            <div class="col-span-1 md:col-span-2 md:row-span-2 h-64 md:h-[26rem]">
               <a
                 routerLink="/services/disposables"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -52,25 +52,25 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 2: Retail - 1 column -->
+            <!-- Service 2: HR Manpower - 1 column, top right -->
             <div class="col-span-1 h-64 md:h-80">
               <a
-                routerLink="/services/retail"
+                routerLink="/services/manpower"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F7a216e05fe2349aca08db813b7d3c5e2?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Retail
+                      HR Manpower
                     </h3>
                     <p
-                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      Comprehensive range of eco-friendly retail solutions
-                      specifically designed for grocery stores and supermarkets.
+                      Comprehensive human resources and manpower solutions
+                      including recruitment, training, and talent management services.
                     </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
@@ -82,7 +82,7 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Row 2: Foods & Cafe's (1 column) and Technologies (2 columns) -->
+            <!-- Row 2: Foods & Cafe's (1 column) -->
             <!-- Service 3: Foods & Cafe's - 1 column -->
             <div class="col-span-1 h-64 md:h-80">
               <a
@@ -113,8 +113,8 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 4: Technologies - 2 columns -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+            <!-- Service 4: Technologies - 1 column -->
+            <div class="col-span-1 h-64 md:h-80">
               <a
                 routerLink="/services/technologies"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -125,7 +125,7 @@ import { SeoService } from "../services/seo.service";
                     <h3
                       class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - Technologies
+                      Nabhas - Technology
                     </h3>
                     <p
                       class="text-cyan-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
@@ -143,26 +143,25 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Row 3: HR Manpower Services - 3 columns (full width) -->
-            <!-- Service 5: HR Manpower Services - 3 columns -->
-            <div class="col-span-1 md:col-span-3 h-64 md:h-80">
+            <!-- Service 5: Retail - 1 column -->
+            <div class="col-span-1 h-64 md:h-80">
               <a
-                routerLink="/services/manpower"
+                routerLink="/services/retail"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F7a216e05fe2349aca08db813b7d3c5e2?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
+                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-70 p-6">
                     <h3
-                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
+                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
                     >
-                      Nabhas - HR Manpower Services
+                      Nabhas - Retail
                     </h3>
                     <p
-                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
+                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
                     >
-                      Comprehensive human resources and manpower solutions
-                      including recruitment, training, and talent management services.
+                      Comprehensive range of eco-friendly retail solutions
+                      specifically designed for grocery stores and supermarkets.
                     </p>
                     <button
                       class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
