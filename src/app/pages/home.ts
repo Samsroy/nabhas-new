@@ -231,8 +231,8 @@ import { SeoService } from "../services/seo.service";
             <!-- Right Column: Product Image -->
             <div class="flex justify-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fd2d97f6fb9d64712a81a9c931a30b827?format=webp&width=800&height=1200"
-                alt="Nabhas Human Resources"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Ff5c47bc0f15f4309ba39f74a45c475fd?format=webp&width=800&height=1200"
+                alt="Nabhas Disposable Products"
                 class="max-w-full h-auto rounded-lg shadow-lg"
               />
             </div>
