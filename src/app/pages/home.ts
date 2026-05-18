@@ -149,7 +149,7 @@ import { SeoService } from "../services/seo.service";
       <!-- About Nabhas Section -->
       <section class="bg-blue-50 py-10 px-4">
         <div class="container mx-auto">
-          <h2 class="font-bold text-center mb-6" style="font-size: 1.875rem; color: #fff;">
+          <h2 class="font-bold text-center mb-6" style="font-size: 1.875rem; color: #000;">
             About Nabhas
           </h2>
 
