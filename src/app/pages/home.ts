@@ -153,7 +153,7 @@ import { SeoService } from "../services/seo.service";
             About Nabhas
           </h2>
 
-          <div class="space-y-4 text-gray-700 leading-relaxed">
+          <div class="space-y-4 text-black leading-relaxed">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
               Mahashtra, India. The company originally started in Kolkata,
