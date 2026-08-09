@@ -90,18 +90,6 @@ import { SeoService } from "../services/seo.service";
               <li class="text-base lg:text-lg">
                 <strong>Nabhas Disposables</strong>
               </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Retail</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Technology</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Foods &amp; Cafes</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas HR Manpower Services</strong>
-              </li>
             </ul>
           </div>
         </div>

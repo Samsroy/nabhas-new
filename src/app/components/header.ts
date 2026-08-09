@@ -72,30 +72,6 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
               >
                 Nabhas Disposables
               </a>
-              <a
-                routerLink="/services/retail"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Retail
-              </a>
-              <a
-                routerLink="/services/food-cafes"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Foods & Cafe's
-              </a>
-              <a
-                routerLink="/services/technologies"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Technologies
-              </a>
-              <a
-                routerLink="/services/manpower"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas HR Manpower Services
-              </a>
             </div>
           </div>
 
