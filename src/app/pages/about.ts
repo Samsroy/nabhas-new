@@ -11,20 +11,23 @@ import { SeoService } from "../services/seo.service";
     <div class="bg-gray-50">
       <!-- Hero Section -->
       <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16"
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] py-20 text-white"
       >
-        <div class="container mx-auto px-4">
-          <h1 class="text-5xl font-bold mb-4">About Nabhas</h1>
-          <p class="text-xl text-blue-50">
+        <div class="container mx-auto max-w-4xl px-4 text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-200">
+            Our story
+          </p>
+          <h1 class="mb-5 text-4xl font-bold md:text-6xl">About Nabhas</h1>
+          <p class="mx-auto max-w-2xl text-lg leading-relaxed text-blue-50 md:text-xl">
             Committed to sustainability and quality in every product we make.
           </p>
         </div>
       </section>
 
       <!-- About the Name Section -->
-      <section class="py-10 px-4">
+      <section class="bg-slate-50 px-4 py-16">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
+          <div class="max-w-3xl rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-10">
             <p class="text-lg text-gray-700 mb-4">
               Nabhas holds significant meaning across multiple ancient cultures
               and philosophies. The term appears in Buddhism, Pali, Hinduism,
@@ -45,10 +48,10 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Our Company Section -->
-      <section class="bg-white py-2 px-4">
+      <section class="bg-white px-4 py-16">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+          <div class="max-w-4xl">
+            <h2 class="mb-6 border-l-4 border-[#1a2a5e] pl-4 text-3xl font-bold text-[#1a2a5e] md:text-4xl">
               About M/S NABHAS
             </h2>
             <p class="text-lg text-gray-700 mb-4">
@@ -79,9 +82,9 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Business Divisions Section -->
-      <section class="py-16 px-4">
+      <section class="bg-slate-50 px-4 py-16">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+          <h2 class="mb-12 text-center text-3xl font-bold text-[#1a2a5e] md:text-4xl">
             Our Business Divisions
           </h2>
           <div class="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
@@ -102,9 +105,9 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Why We Do This Section -->
-      <section class="py-16 px-4">
-        <div class="container mx-auto max-w-3xl">
-          <h2 class="text-4xl font-bold mb-8 text-gray-900">Why We Do This</h2>
+      <section class="bg-white px-4 py-16">
+        <div class="container mx-auto max-w-4xl">
+          <h2 class="mb-10 text-3xl font-bold text-[#1a2a5e] md:text-4xl">Why We Do This</h2>
           <div class="space-y-6">
             <div class="flex gap-6">
               <div class="text-4xl text-[#1a2a5e] font-bold flex-shrink-0">
