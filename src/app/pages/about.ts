@@ -84,7 +84,7 @@ import { SeoService } from "../services/seo.service";
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
             Our Business Divisions
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
             <div
               class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
             >
@@ -97,52 +97,6 @@ import { SeoService } from "../services/seo.service";
               </p>
             </div>
 
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Retail
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Comprehensive grocery store supplies catering to retail
-                businesses and supermarkets.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Foods & Cafe's
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Premium sustainable food and beverage solutions for cafes and
-                restaurants.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Technologies
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Website development and digital solutions powered by
-                cutting-edge technology.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e] md:col-span-2"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas HR Manpower Services
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Comprehensive human resources and manpower solutions including recruitment, training, workforce development, and talent management services.
-              </p>
-            </div>
           </div>
         </div>
       </section>
