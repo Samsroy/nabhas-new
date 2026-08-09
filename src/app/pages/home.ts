@@ -17,7 +17,7 @@ import { SeoService } from "../services/seo.service";
       </h1>
 
       <!-- Masonry Grid Services Section with Background Images -->
-      <section class="py-0 px-0 bg-white w-full">
+      <section class="pt-4 pb-0 px-0 bg-white w-full">
         <div class="w-full">
           <div class="grid grid-cols-1 gap-0 py-0">
             <!-- Promotional banner: Disposables -->
