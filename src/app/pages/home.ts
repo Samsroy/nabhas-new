@@ -40,13 +40,13 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- About Nabhas Section -->
-      <section class="bg-blue-50 py-10 px-4">
-        <div class="container mx-auto">
-          <h2 class="font-bold text-center mb-6" style="font-size: 1.875rem; color: #000;">
+      <section class="bg-slate-50 py-12 px-4 md:py-16">
+        <div class="container mx-auto max-w-5xl rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-10">
+          <h2 class="mb-8 border-l-4 border-[#1a2a5e] pl-4 text-left font-bold text-[#1a2a5e]" style="font-size: 1.875rem;">
             About Nabhas
           </h2>
 
-          <div class="space-y-4 text-black leading-relaxed">
+          <div class="max-w-4xl space-y-6 text-black leading-8">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
               Mahashtra, India. The company originally started in Kolkata,
@@ -73,15 +73,17 @@ import { SeoService } from "../services/seo.service";
               East, Australia, Africa, Europe and USA.
             </p>
 
-            <h3 class="text-2xl font-semibold text-gray-900 pt-4">
-              Our Business Divisions
-            </h3>
+            <div class="border-t border-slate-200 pt-6">
+              <h3 class="mb-4 text-xl font-semibold text-[#1a2a5e]">
+                Our Business Divisions
+              </h3>
 
-            <ul class="space-y-2 pl-6 list-disc">
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Disposables</strong>
-              </li>
-            </ul>
+              <ul class="list-disc space-y-2 pl-6 text-base lg:text-lg">
+                <li>
+                  <strong>Nabhas Disposables</strong>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
