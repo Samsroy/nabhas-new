@@ -308,7 +308,7 @@ import { SeoService } from "../services/seo.service";
       <!-- Features Section -->
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #fff;">
+          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #1a2a5e;">
             Why Choose Nabhas?
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto text-lg">
