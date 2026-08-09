@@ -21,13 +21,18 @@ import { SeoService } from "../services/seo.service";
         <div class="w-full">
           <div class="grid grid-cols-1 gap-0 py-0">
             <!-- Promotional banner: Disposables -->
-            <div class="h-64 md:h-80">
+            <div>
               <a
                 routerLink="/services/disposables"
                 aria-label="Disposables"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fe3cd580e20ad4dc0a63045137f80540e?format=webp&width=800&height=1200'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff;"
-              ></a>
+                class="service-card block w-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              >
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F86219022edcc484f95ed67c3cac25a88?format=webp&width=800&height=1200"
+                  alt="Nabhas sustainable disposable products"
+                  class="block w-full h-auto"
+                />
+              </a>
             </div>
 
           </div>
