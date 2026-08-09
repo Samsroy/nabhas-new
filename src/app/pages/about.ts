@@ -13,7 +13,7 @@ import { SeoService } from "../services/seo.service";
       <section
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] py-20 text-white"
       >
-        <div class="container mx-auto max-w-4xl px-4 text-center">
+        <div class="w-full px-4 text-center">
           <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-200">
             Our story
           </p>
@@ -26,8 +26,8 @@ import { SeoService } from "../services/seo.service";
 
       <!-- About the Name Section -->
       <section class="bg-slate-50 px-4 py-16">
-        <div class="container mx-auto">
-          <div class="mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white p-6 shadow-md md:p-10">
+        <div class="w-full">
+          <div class="w-full border-y border-slate-200 bg-white px-6 py-8 shadow-md md:px-12 md:py-10">
             <p class="mb-4 text-lg leading-8 text-slate-700">
               Nabhas holds significant meaning across multiple ancient cultures
               and philosophies. The term appears in Buddhism, Pali, Hinduism,
