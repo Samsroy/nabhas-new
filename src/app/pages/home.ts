@@ -25,7 +25,7 @@ import { SeoService } from "../services/seo.service";
               <a
                 routerLink="/services/disposables"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fe3cd580e20ad4dc0a63045137f80540e?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
               >
                 <div class="absolute inset-0 flex flex-col justify-end">
                   <div class="bg-black bg-opacity-50 p-6">
