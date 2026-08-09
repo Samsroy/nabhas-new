@@ -24,24 +24,10 @@ import { SeoService } from "../services/seo.service";
             <div class="h-64 md:h-80">
               <a
                 routerLink="/services/disposables"
+                aria-label="Disposables"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fe3cd580e20ad4dc0a63045137f80540e?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
-                    <h3
-                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
-                    >
-                      Disposables
-                    </h3>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
+                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fe3cd580e20ad4dc0a63045137f80540e?format=webp&width=800&height=1200'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff;"
+              ></a>
             </div>
 
           </div>
