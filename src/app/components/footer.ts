@@ -40,10 +40,6 @@ import { RouterLink } from "@angular/router";
             <h4 class="font-bold text-lg mb-4">Pages</h4>
             <ul class="space-y-2">
               <li><a routerLink="/services/disposables" class="text-blue-200 hover:text-white transition">Disposables</a></li>
-              <li><a routerLink="/services/retail" class="text-blue-200 hover:text-white transition">Retail</a></li>
-              <li><a routerLink="/services/food-cafes" class="text-blue-200 hover:text-white transition">Foods & Cafe's</a></li>
-              <li><a routerLink="/services/manpower" class="text-blue-200 hover:text-white transition">HR Manpower Services</a></li>
-              <li><a routerLink="/services/technologies" class="text-blue-200 hover:text-white transition">Technologies</a></li>
             </ul>
           </div>
 
