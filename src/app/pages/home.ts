@@ -28,9 +28,9 @@ import { SeoService } from "../services/seo.service";
                 class="service-card block w-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               >
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F86219022edcc484f95ed67c3cac25a88?format=webp&width=800&height=1200"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F14fdd6168338461a95c78c4cc4405cac?format=webp&width=800&height=1200"
                   alt="Nabhas sustainable disposable products"
-                  class="block w-full h-auto"
+                  class="block w-full h-auto object-contain"
                 />
               </a>
             </div>
