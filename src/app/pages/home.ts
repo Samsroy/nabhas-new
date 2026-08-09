@@ -19,11 +19,9 @@ import { SeoService } from "../services/seo.service";
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
-          <div class="grid grid-cols-1 gap-0 py-0" style="grid-template-columns: repeat(6, 1fr);">
-            <!-- Using 6-column grid: top row items span 3 cols each (50%), bottom row items span 2 cols each (33%) -->
-            <!-- Row 1: Disposables (50%) and HR Manpower (50%) -->
-            <!-- Service 1: Disposables - spans 3 of 6 columns (50%) -->
-            <div class="h-64 md:h-80" style="grid-column: span 3;">
+          <div class="grid grid-cols-1 gap-0 py-0">
+            <!-- Promotional banner: Disposables -->
+            <div class="h-64 md:h-80">
               <a
                 routerLink="/services/disposables"
                 class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
@@ -46,102 +44,6 @@ import { SeoService } from "../services/seo.service";
               </a>
             </div>
 
-            <!-- Service 2: HR Manpower - spans 3 of 6 columns (50%) -->
-            <div class="h-64 md:h-80" style="grid-column: span 3;">
-              <a
-                routerLink="/services/manpower"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F9ac0e63ba8e34f49901c2f7dc407b397?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
-                    <h3
-                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
-                    >
-                      HR Manpower
-                    </h3>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Row 2: Foods & Cafe's (33%), Technology (33%), Retail (33%) -->
-            <!-- Service 3: Foods & Cafe's - spans 2 of 6 columns (33%) -->
-            <div class="h-64 md:h-80" style="grid-column: span 2;">
-              <a
-                routerLink="/services/food-cafes"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F106431ca66b441e2827769fdc12734c7?format=webp&width=800'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
-                    <h3
-                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
-                    >
-                      Foods & Cafe's
-                    </h3>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Service 4: Technologies - spans 2 of 6 columns (33%) -->
-            <div class="h-64 md:h-80" style="grid-column: span 2;">
-              <a
-                routerLink="/services/technologies"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
-                    <h3
-                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
-                    >
-                      Technology
-                    </h3>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Service 5: Retail - spans 2 of 6 columns (33%) -->
-            <div class="h-64 md:h-80" style="grid-column: span 2;">
-              <a
-                routerLink="/services/retail"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-50 p-6">
-                    <h3
-                      class="text-3xl lg:text-4xl font-bold text-white drop-shadow-lg mb-3 tracking-wide leading-tight"
-                    >
-                      Retail
-                    </h3>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </section>
