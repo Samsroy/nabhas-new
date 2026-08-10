@@ -41,7 +41,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
             src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0d4efbd6224840dea4502849634b68c5?format=webp&width=800&height=1200"
             alt="Nabhas Logo"
             class="object-contain"
-            style="width: 70%; height: 70%;"
+            style="width: 100%; height: 100%;"
           />
         </a>
 
