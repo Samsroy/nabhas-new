@@ -14,7 +14,7 @@ import { RouterLink } from "@angular/router";
           <div>
             <div class="flex flex-col items-center gap-2 mb-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F2d592ccfb0854a9bb4bef4157721ca5a?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fdfac2dbf8ee7459691bbcd468ff63376?format=webp&width=800&height=1200"
                 alt="Nabhas Logo"
                 class="object-contain"
                 style="width: 100%; height: 100%;"
