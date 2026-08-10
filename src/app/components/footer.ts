@@ -16,8 +16,7 @@ import { RouterLink } from "@angular/router";
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fdfac2dbf8ee7459691bbcd468ff63376?format=webp&width=800&height=1200"
                 alt="Nabhas Logo"
-                class="object-contain"
-                style="width: 100%; height: 100%;"
+                class="h-auto w-auto max-w-full object-contain"
               />
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
