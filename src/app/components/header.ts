@@ -38,10 +38,9 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
           class="flex flex-col items-center gap-2 hover:opacity-80 transition"
         >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2Feb865ee565824990893cb3aeabaaa7a2?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0d4efbd6224840dea4502849634b68c5?format=webp&width=800&height=1200"
             alt="Nabhas Logo"
-            class="object-contain"
-            style="width: 70%; height: 70%;"
+            class="h-auto w-auto max-w-full object-contain"
           />
         </a>
 
@@ -71,30 +70,6 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
               >
                 Nabhas Disposables
-              </a>
-              <a
-                routerLink="/services/retail"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Retail
-              </a>
-              <a
-                routerLink="/services/food-cafes"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Foods & Cafe's
-              </a>
-              <a
-                routerLink="/services/technologies"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas Technologies
-              </a>
-              <a
-                routerLink="/services/manpower"
-                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#1a2a5e] transition font-medium"
-              >
-                Nabhas HR Manpower Services
               </a>
             </div>
           </div>

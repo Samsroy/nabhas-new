@@ -11,21 +11,24 @@ import { SeoService } from "../services/seo.service";
     <div class="bg-gray-50">
       <!-- Hero Section -->
       <section
-        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16"
+        class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] py-20 text-white"
       >
-        <div class="container mx-auto px-4">
-          <h1 class="text-5xl font-bold mb-4">About Nabhas</h1>
-          <p class="text-xl text-blue-50">
+        <div class="w-full px-4 text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-200">
+            Our story
+          </p>
+          <h1 class="mb-5 text-4xl font-bold md:text-6xl">About Nabhas</h1>
+          <p class="mx-auto max-w-2xl text-lg leading-relaxed text-blue-50 md:text-xl">
             Committed to sustainability and quality in every product we make.
           </p>
         </div>
       </section>
 
       <!-- About the Name Section -->
-      <section class="py-10 px-4">
-        <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <p class="text-lg text-gray-700 mb-4">
+      <section class="bg-slate-50 px-4 py-16">
+        <div class="w-full">
+          <div class="w-full border-y border-slate-200 bg-white px-6 py-8 shadow-md md:px-12 md:py-10">
+            <p class="mb-4 text-lg leading-8 text-slate-700">
               Nabhas holds significant meaning across multiple ancient cultures
               and philosophies. The term appears in Buddhism, Pali, Hinduism,
               Sanskrit, Jainism, and Prakrit traditions. In Jainism, Nabhas
@@ -34,7 +37,7 @@ import { SeoService } from "../services/seo.service";
               ancient wisdom, the cosmos is envisioned as the shape of a palm
               tree filled with the three worlds, surrounded by the three winds.
             </p>
-            <p class="text-lg text-gray-700 mb-4">
+            <p class="mb-4 text-lg leading-8 text-slate-700">
               This profound meaning—encompassing the atmosphere and the
               cosmos—reflects our commitment to environmental stewardship and
               global responsibility. Our name embodies the essence of
@@ -45,19 +48,19 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Our Company Section -->
-      <section class="bg-white py-2 px-4">
+      <section class="bg-white px-4 py-16">
         <div class="container mx-auto">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl font-bold mb-6 text-gray-900">
+          <div class="mx-auto max-w-4xl rounded-2xl bg-slate-50 p-6 md:p-10">
+            <h2 class="mb-6 border-l-4 border-[#1a2a5e] pl-4 text-3xl font-bold text-[#1a2a5e] md:text-4xl">
               About M/S NABHAS
             </h2>
-            <p class="text-lg text-gray-700 mb-4">
+            <p class="mb-4 text-lg leading-8 text-slate-700">
               M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
               Mahashtra, India. The company originally started in Kolkata,
               India, trading in handicrafts decorative lamps and gift items
               before expanding operations across the globe.
             </p>
-            <p class="text-lg text-gray-700 mb-4">
+            <p class="mb-4 text-lg leading-8 text-slate-700">
               Founded by a visionary women entrepreneur, M/S NABHAS is built on
               a strong foundation of paper disposables, food items basically
               confectionaries, restaurants / cafes, technology like application
@@ -65,7 +68,7 @@ import { SeoService } from "../services/seo.service";
               e-commerce set up including digital commerce and supplies, Pharma
               supplies and distribution in healthcare division.
             </p>
-            <p class="text-lg text-gray-700">
+            <p class="text-lg leading-8 text-slate-700">
               Today, Nabhas operates across primary business segments, each
               designed to meet diverse market needs while maintaining our core
               commitment to quality, sustainability, and customer satisfaction.
@@ -79,14 +82,14 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Business Divisions Section -->
-      <section class="py-16 px-4">
+      <section class="bg-slate-50 px-4 py-16">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+          <h2 class="mb-12 text-center text-3xl font-bold text-[#1a2a5e] md:text-4xl">
             Our Business Divisions
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
             <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
+              class="rounded-xl border border-blue-100 border-l-4 border-l-[#1a2a5e] bg-gradient-to-br from-white to-blue-50 p-8 shadow-sm"
             >
               <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
                 Nabhas Disposables
@@ -97,63 +100,17 @@ import { SeoService } from "../services/seo.service";
               </p>
             </div>
 
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Retail
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Comprehensive grocery store supplies catering to retail
-                businesses and supermarkets.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Foods & Cafe's
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Premium sustainable food and beverage solutions for cafes and
-                restaurants.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e]"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas Technologies
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Website development and digital solutions powered by
-                cutting-edge technology.
-              </p>
-            </div>
-
-            <div
-              class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-l-4 border-[#1a2a5e] md:col-span-2"
-            >
-              <h3 class="text-2xl font-bold text-[#1a2a5e] mb-3">
-                Nabhas HR Manpower Services
-              </h3>
-              <p class="text-gray-700 text-lg">
-                Comprehensive human resources and manpower solutions including recruitment, training, workforce development, and talent management services.
-              </p>
-            </div>
           </div>
         </div>
       </section>
 
       <!-- Why We Do This Section -->
-      <section class="py-16 px-4">
-        <div class="container mx-auto max-w-3xl">
-          <h2 class="text-4xl font-bold mb-8 text-gray-900">Why We Do This</h2>
-          <div class="space-y-6">
-            <div class="flex gap-6">
-              <div class="text-4xl text-[#1a2a5e] font-bold flex-shrink-0">
+      <section class="bg-white px-4 py-16">
+        <div class="container mx-auto max-w-4xl">
+          <h2 class="mb-10 text-3xl font-bold text-[#1a2a5e] md:text-4xl">Why We Do This</h2>
+          <div class="grid gap-5 md:grid-cols-3">
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+              <div class="mb-4 text-4xl font-bold text-[#1a2a5e]">
                 01
               </div>
               <div>
@@ -167,8 +124,8 @@ import { SeoService } from "../services/seo.service";
                 </p>
               </div>
             </div>
-            <div class="flex gap-6">
-              <div class="text-4xl text-[#1a2a5e] font-bold flex-shrink-0">
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+              <div class="mb-4 text-4xl font-bold text-[#1a2a5e]">
                 02
               </div>
               <div>
@@ -182,8 +139,8 @@ import { SeoService } from "../services/seo.service";
                 </p>
               </div>
             </div>
-            <div class="flex gap-6">
-              <div class="text-4xl text-[#1a2a5e] font-bold flex-shrink-0">
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+              <div class="mb-4 text-4xl font-bold text-[#1a2a5e]">
                 03
               </div>
               <div>
@@ -202,9 +159,9 @@ import { SeoService } from "../services/seo.service";
       </section>
 
       <!-- Team Section -->
-      <section class="bg-white py-16 px-4">
-        <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+      <section class="bg-slate-50 px-4 py-16">
+        <div class="container mx-auto max-w-5xl">
+          <h2 class="mb-4 text-center text-3xl font-bold text-[#1a2a5e] md:text-4xl">
             Dedicated to Excellence
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
@@ -213,7 +170,7 @@ import { SeoService } from "../services/seo.service";
             making a positive impact.
           </p>
           <div
-            class="bg-gradient-to-r from-green-50 to-blue-50 p-12 rounded-lg text-center"
+            class="rounded-2xl border border-blue-100 bg-gradient-to-r from-green-50 to-blue-50 p-8 text-center shadow-sm md:p-12"
           >
             <p class="text-lg text-gray-700 font-semibold">
               Every member of the Nabhas team is committed to innovation,
@@ -228,8 +185,9 @@ import { SeoService } from "../services/seo.service";
       <section
         class="bg-gradient-to-r from-[#1a2a5e] to-[#2d3f7f] text-white py-16 px-4"
       >
-        <div class="container mx-auto text-center">
-          <h2 class="text-4xl font-bold mb-4">Get in Touch</h2>
+        <div class="container mx-auto max-w-4xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-200">Connect with us</p>
+          <h2 class="mb-4 text-3xl font-bold md:text-4xl">Get in Touch</h2>
           <p class="text-xl text-blue-50 mb-8 max-w-2xl mx-auto">
             Have questions about our products or want to learn more about
             Nabhas? We'd love to hear from you!

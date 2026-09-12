@@ -14,10 +14,9 @@ import { RouterLink } from "@angular/router";
           <div>
             <div class="flex flex-col items-center gap-2 mb-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F2d592ccfb0854a9bb4bef4157721ca5a?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Fdfac2dbf8ee7459691bbcd468ff63376?format=webp&width=800&height=1200"
                 alt="Nabhas Logo"
-                class="object-contain"
-                style="width: 70%; height: 70%;"
+                class="h-auto w-auto max-w-full object-contain"
               />
             </div>
             <p class="text-blue-200 text-sm leading-relaxed">
@@ -40,10 +39,6 @@ import { RouterLink } from "@angular/router";
             <h4 class="font-bold text-lg mb-4">Pages</h4>
             <ul class="space-y-2">
               <li><a routerLink="/services/disposables" class="text-blue-200 hover:text-white transition">Disposables</a></li>
-              <li><a routerLink="/services/retail" class="text-blue-200 hover:text-white transition">Retail</a></li>
-              <li><a routerLink="/services/food-cafes" class="text-blue-200 hover:text-white transition">Foods & Cafe's</a></li>
-              <li><a routerLink="/services/manpower" class="text-blue-200 hover:text-white transition">HR Manpower Services</a></li>
-              <li><a routerLink="/services/technologies" class="text-blue-200 hover:text-white transition">Technologies</a></li>
             </ul>
           </div>
 

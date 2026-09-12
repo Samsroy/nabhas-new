@@ -19,172 +19,34 @@ import { SeoService } from "../services/seo.service";
       <!-- Masonry Grid Services Section with Background Images -->
       <section class="py-0 px-0 bg-white w-full">
         <div class="w-full">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-0 py-0">
-            <!-- Row 1: Disposables (2 columns) and Retail (1 column) -->
-            <!-- Service 1: Disposables - 2 columns -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
+          <div class="grid grid-cols-1 gap-0 py-0">
+            <!-- Promotional banner: Disposables -->
+            <div>
               <a
                 routerLink="/services/disposables"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/6990484/pexels-photo-6990484.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
+                aria-label="Disposables"
+                class="service-card block w-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-70 p-6">
-                    <h3
-                      class="text-4xl lg:text-5xl font-bold text-yellow-300 drop-shadow-lg mb-3 tracking-wide"
-                    >
-                      Nabhas - Disposables
-                    </h3>
-                    <p
-                      class="text-yellow-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Premium eco-friendly paper cutleries and sustainable
-                      disposable products for food service, events, and
-                      households.
-                    </p>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F55f2bb0da9764706a11d9c2ba0e019c5?format=webp&width=800&height=1200"
+                  alt="Nabhas sustainable disposable products"
+                  class="block w-full h-auto object-contain"
+                />
               </a>
             </div>
 
-            <!-- Service 2: Retail - 1 column -->
-            <div class="col-span-1 h-64 md:h-80">
-              <a
-                routerLink="/services/retail"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/3962283/pexels-photo-3962283.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-70 p-6">
-                    <h3
-                      class="text-4xl lg:text-5xl font-bold text-green-300 drop-shadow-lg mb-3 tracking-wide"
-                    >
-                      Nabhas - Retail
-                    </h3>
-                    <p
-                      class="text-green-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Comprehensive range of eco-friendly retail solutions
-                      specifically designed for grocery stores and supermarkets.
-                    </p>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Row 2: Foods & Cafe's (1 column) and Technologies (2 columns) -->
-            <!-- Service 3: Foods & Cafe's - 1 column -->
-            <div class="col-span-1 h-64 md:h-80">
-              <a
-                routerLink="/services/food-cafes"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2F7915a4368506448c8f5915d2ed37a144%2F106431ca66b441e2827769fdc12734c7?format=webp&width=800'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-70 p-6">
-                    <h3
-                      class="text-4xl lg:text-5xl font-bold text-orange-300 drop-shadow-lg mb-3 tracking-wide"
-                    >
-                      Nabhas - Foods & Cafe's
-                    </h3>
-                    <p
-                      class="text-orange-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Premium sustainable food and beverage solutions for cafes
-                      and restaurants with eco-friendly practices.
-                    </p>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Service 4: Technologies - 2 columns -->
-            <div class="col-span-1 md:col-span-2 h-64 md:h-80">
-              <a
-                routerLink="/services/technologies"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800&h=600'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-70 p-6">
-                    <h3
-                      class="text-4xl lg:text-5xl font-bold text-cyan-300 drop-shadow-lg mb-3 tracking-wide"
-                    >
-                      Nabhas - Technologies
-                    </h3>
-                    <p
-                      class="text-cyan-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Digital solutions and modern website development services
-                      powered by cutting-edge technology and innovation.
-                    </p>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <!-- Row 3: HR Manpower Services - 3 columns (full width) -->
-            <!-- Service 5: HR Manpower Services - 3 columns -->
-            <div class="col-span-1 md:col-span-3 h-64 md:h-80">
-              <a
-                routerLink="/services/manpower"
-                class="service-card relative w-full h-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 block"
-                style="background-image: url('https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F7a216e05fe2349aca08db813b7d3c5e2?format=webp&width=800&height=1200'); background-size: cover; background-position: center;"
-              >
-                <div class="absolute inset-0 flex flex-col justify-end">
-                  <div class="bg-black bg-opacity-70 p-6">
-                    <h3
-                      class="text-4xl lg:text-5xl font-bold text-blue-300 drop-shadow-lg mb-3 tracking-wide"
-                    >
-                      Nabhas - HR Manpower Services
-                    </h3>
-                    <p
-                      class="text-blue-100 text-base lg:text-lg drop-shadow-lg line-clamp-3 leading-relaxed font-medium"
-                    >
-                      Comprehensive human resources and manpower solutions
-                      including recruitment, training, and talent management services.
-                    </p>
-                    <button
-                      class="mt-4 inline-block bg-white text-[#1a2a5e] font-semibold py-2 px-6 rounded-lg hover:bg-gray-100 transition"
-                    >
-                      View more
-                    </button>
-                  </div>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </section>
 
       <!-- About Nabhas Section -->
-      <section class="bg-blue-50 py-10 px-4">
-        <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-6 text-gray-900">
+      <section class="bg-slate-50 py-12 px-4 md:py-16">
+        <div class="container mx-auto max-w-5xl rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:p-10">
+          <h2 class="mb-8 border-l-4 border-[#1a2a5e] pl-4 text-left font-bold text-[#1a2a5e]" style="font-size: 1.875rem;">
             About Nabhas
           </h2>
 
-          <div class="space-y-4 text-gray-700 leading-relaxed">
+          <div class="max-w-4xl space-y-6 text-black leading-8">
             <p class="text-base lg:text-lg">
               M/S NABHAS is a sole proprietorship firm headquartered in Mumbai,
               Mahashtra, India. The company originally started in Kolkata,
@@ -211,27 +73,17 @@ import { SeoService } from "../services/seo.service";
               East, Australia, Africa, Europe and USA.
             </p>
 
-            <h3 class="text-2xl font-semibold text-gray-900 pt-4">
-              Our Business Divisions
-            </h3>
+            <div class="border-t border-slate-200 pt-6">
+              <h3 class="mb-4 text-xl font-semibold text-[#1a2a5e]">
+                Our Business Divisions
+              </h3>
 
-            <ul class="space-y-2 pl-6 list-disc">
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Disposables</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Retail</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Technology</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas Foods &amp; Cafes</strong>
-              </li>
-              <li class="text-base lg:text-lg">
-                <strong>Nabhas HR Manpower Services</strong>
-              </li>
-            </ul>
+              <ul class="list-disc space-y-2 pl-6 text-base lg:text-lg">
+                <li>
+                  <strong>Nabhas Disposables</strong>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -244,7 +96,7 @@ import { SeoService } from "../services/seo.service";
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <!-- Left Column: Text Content -->
             <div class="text-left md:text-left">
-              <h2 class="text-4xl font-bold mb-4">
+              <h2 class="font-bold mb-4" style="font-size: 1.875rem; color: #fff;">
                 Transform Your Business Today
               </h2>
               <p class="text-xl text-blue-50 mb-8">
@@ -262,9 +114,9 @@ import { SeoService } from "../services/seo.service";
             <!-- Right Column: Product Image -->
             <div class="flex justify-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2F0ace7cea988c4697be5b1314314921f5?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fa0382a6a2faa4215b0813cf9e2786086%2Ff5c47bc0f15f4309ba39f74a45c475fd?format=webp&width=800&height=1200"
                 alt="Nabhas Disposable Products"
-                class="max-w-full h-auto rounded-lg shadow-lg"
+                class="relative top-4 max-w-full h-auto rounded-lg shadow-lg"
               />
             </div>
           </div>
@@ -274,7 +126,7 @@ import { SeoService } from "../services/seo.service";
       <!-- Product & Services Section -->
       <section class="py-16 px-4 hidden">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #fff;">
             Our Product & Services
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
@@ -456,7 +308,7 @@ import { SeoService } from "../services/seo.service";
       <!-- Features Section -->
       <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">
+          <h2 class="font-bold text-center mb-4" style="font-size: 1.875rem; color: #1a2a5e;">
             Why Choose Nabhas?
           </h2>
           <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto text-lg">
